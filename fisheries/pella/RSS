@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns="http://purl.org/rss/1.0/">
+
+
+
+<channel rdf:about="http://www.admb-project.org/examples/fisheries/pella/RSS">
+  <title>Pella-Tomlinson basic model</title>
+  <link>http://www.admb-project.org/examples/fisheries/pella</link>
+  <description>Pella-Tomlinson by Arni Magnusson with user interface and formatted MCMC output. Repeats and extends the analysis of Polacheck et al. (1993).</description>
+  <image rdf:resource="http://www.admb-project.org/logo.png"/>
+
+  <items>
+    <rdf:Seq>
+      
+        <rdf:li rdf:resource="http://www.admb-project.org/examples/fisheries/pella/pella.pdf"/>
+      
+      
+        <rdf:li rdf:resource="http://www.admb-project.org/examples/fisheries/pella/pella.tpl"/>
+      
+      
+        <rdf:li rdf:resource="http://www.admb-project.org/examples/fisheries/pella/modelruns.zip"/>
+      
+    </rdf:Seq>
+  </items>
+
+</channel>
+
+
+  <item rdf:about="http://www.admb-project.org/examples/fisheries/pella/pella.pdf">
+    <title>pella.pdf</title>
+    <link>http://www.admb-project.org/examples/fisheries/pella/pella.pdf</link>
+    <description>Model description and results</description>
+    
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2014-01-13T18:38:03Z</dc:date>
+    <dc:type>Link</dc:type>
+  </item>
+
+
+  <item rdf:about="http://www.admb-project.org/examples/fisheries/pella/pella.tpl">
+    <title>pella.tpl</title>
+    <link>http://www.admb-project.org/examples/fisheries/pella/pella.tpl</link>
+    <description>ADMB source code</description>
+    
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2014-01-13T18:38:04Z</dc:date>
+    <dc:type>Link</dc:type>
+  </item>
+
+
+  <item rdf:about="http://www.admb-project.org/examples/fisheries/pella/modelruns.zip">
+    <title>modelruns.zip</title>
+    <link>http://www.admb-project.org/examples/fisheries/pella/modelruns.zip</link>
+    <description>Input data (alb, hake, rocklob) and model output</description>
+    
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2014-01-13T18:38:04Z</dc:date>
+    <dc:type>Link</dc:type>
+  </item>
+
+
+
+</rdf:RDF>

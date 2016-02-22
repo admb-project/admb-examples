@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="atom.css" type="text/css"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="http://www.admb-project.org/examples/differential-equations" xml:lang="en">
+  <link rel="self" href="http://www.admb-project.org/examples/differential-equations/atom.xml"/>
+  <title type="html">Differential equations</title>
+  <subtitle></subtitle>
+  <updated>2011-01-12T00:07:33-08:00</updated>
+  <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/differential-equations"/>
+  <id>urn:syndication:2b90ea726a277cb31905cb8f1662f61d</id>
+  <logo>http://www.admb-project.org/logo.png</logo>
+  <icon>http://www.admb-project.org/favicon.ico</icon>
+  <generator uri="http://www.plone.org" version="1.0">plone</generator>
+  
+  <author>
+    <name>Hans J. Skaug</name>
+    <email>Hans.Skaug@math.uib.no</email>
+  </author>
+
+  
+    <entry>
+      <title>Mineralization of terbuthylazine</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/differential-equations/mineralization-of-terbuthylazine"/>
+      
+      <id>urn:syndication:cd8a9bd1-92f2-457f-85b6-a9174c52fd21</id>
+      <summary>A simple nonlinear least-squares problem, with normally distributed residuals and no random effects or latent variables. Example from the NCEAS non-linear modelling working group. 
+</summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2013-01-21T16:20:00-08:00</published>
+
+      <updated>2013-01-23T12:03:31-08:00</updated>
+
+
+    </entry>
+
+  
+  
+    <entry>
+      <title>PK/DK </title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/differential-equations/pk-dk"/>
+      
+      <id>urn:syndication:7fce24f9-cfc1-4f77-997f-f46c31df310e</id>
+      <summary>Pharmacokinetics (PK) &amp; Pharmacodynamics(DK)</summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2012-12-01T07:48:17-08:00</published>
+
+      <updated>2012-12-01T07:48:17-08:00</updated>
+
+
+    </entry>
+
+  
+
+</feed>

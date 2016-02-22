@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns="http://purl.org/rss/1.0/">
+
+
+
+<channel rdf:about="http://www.admb-project.org/examples/text-books/bolker-2008-ecological-models-and-data-in-r/RSS">
+  <title>Bolker (2008) Ecological Models and Data in R</title>
+  <link>http://www.admb-project.org/examples/text-books/bolker-2008-ecological-models-and-data-in-r</link>
+  <description></description>
+  <image rdf:resource="http://www.admb-project.org/logo.png"/>
+
+  <items>
+    <rdf:Seq>
+      
+        <rdf:li rdf:resource="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-fir-fecundity-1/description-1/view"/>
+      
+      
+        <rdf:li rdf:resource="http://www.admb-project.org/examples/r-stuff/gamma-distributed-myxomatosis-using-r2admb"/>
+      
+      
+        <rdf:li rdf:resource="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-fir-fecundity-1"/>
+      
+    </rdf:Seq>
+  </items>
+
+</channel>
+
+
+  <item rdf:about="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-fir-fecundity-1/description-1/view">
+    <title>fir.pdf</title>
+    <link>http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-fir-fecundity-1/description-1/view</link>
+    <description></description>
+    
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    
+      <dc:subject>Bolker (2008)</dc:subject>
+    
+    <dc:date>2014-02-11T09:54:37Z</dc:date>
+    <dc:type>File</dc:type>
+  </item>
+
+
+  <item rdf:about="http://www.admb-project.org/examples/r-stuff/gamma-distributed-myxomatosis-using-r2admb">
+    <title>Gamma distributed myxomatosis using R2admb</title>
+    <link>http://www.admb-project.org/examples/r-stuff/gamma-distributed-myxomatosis-using-r2admb</link>
+    <description></description>
+    
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    
+      <dc:subject>Bolker (2008)</dc:subject>
+    
+    <dc:date>2012-10-11T02:25:00Z</dc:date>
+    <dc:type>Folder</dc:type>
+  </item>
+
+
+  <item rdf:about="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-fir-fecundity-1">
+    <title>Negative Binomial Fir Fecundity</title>
+    <link>http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-fir-fecundity-1</link>
+    <description>
+
+</description>
+    
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    
+      <dc:subject>Bolker (2008)</dc:subject>
+    
+    <dc:date>2012-10-11T02:25:00Z</dc:date>
+    <dc:type>Folder</dc:type>
+  </item>
+
+
+
+</rdf:RDF>

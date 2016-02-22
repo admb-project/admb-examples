@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>MCMCMC</title>
+    <link>http://www.admb-project.org/examples/r-stuff/mcmcmc</link>
+    <description>This presents generalized code for conducting Metropolis Coupled MCMC using ADMB called within R</description>
+    
+    <language>en</language>
+    <copyright></copyright>
+    <generator>Plone</generator>
+    <item>
+      <title>Wrapper</title>
+      <link>http://www.admb-project.org/examples/r-stuff/mcmcmc/wrapper/view</link>
+      <description>File to conduct MCMCMC using ADMB within R</description>
+      <pubDate>2013-01-21T01:31:04Z</pubDate>
+      <guid>http://www.admb-project.org/examples/r-stuff/mcmcmc/wrapper/view</guid>
+    </item>
+    <item>
+      <title>Functions</title>
+      <link>http://www.admb-project.org/examples/r-stuff/mcmcmc/functions/view</link>
+      <description>Functions used by wrapper</description>
+      <pubDate>2013-01-21T01:31:04Z</pubDate>
+      <guid>http://www.admb-project.org/examples/r-stuff/mcmcmc/functions/view</guid>
+    </item>
+    <item>
+      <title>TPL</title>
+      <link>http://www.admb-project.org/examples/r-stuff/mcmcmc/tpl/view</link>
+      <description>TPL used for example</description>
+      <pubDate>2013-01-21T01:31:04Z</pubDate>
+      <guid>http://www.admb-project.org/examples/r-stuff/mcmcmc/tpl/view</guid>
+    </item>
+    <item>
+      <title>EXE</title>
+      <link>http://www.admb-project.org/examples/r-stuff/mcmcmc/exe/view</link>
+      <description>compiled EXE for example</description>
+      <pubDate>2013-01-21T01:31:04Z</pubDate>
+      <guid>http://www.admb-project.org/examples/r-stuff/mcmcmc/exe/view</guid>
+    </item>
+    <item>
+      <title>ADMB_MCMC</title>
+      <link>http://www.admb-project.org/examples/r-stuff/mcmcmc/admb_mcmc/view</link>
+      <description>Plot of samples using MCMC</description>
+      <pubDate>2013-01-21T01:31:04Z</pubDate>
+      <guid>http://www.admb-project.org/examples/r-stuff/mcmcmc/admb_mcmc/view</guid>
+    </item>
+    <item>
+      <title>MCMCMC</title>
+      <link>http://www.admb-project.org/examples/r-stuff/mcmcmc/mcmcmc/view</link>
+      <description>Plot of samples using Metropolis Coupled MCMC (MCMCMC)</description>
+      <pubDate>2013-01-21T01:31:04Z</pubDate>
+      <guid>http://www.admb-project.org/examples/r-stuff/mcmcmc/mcmcmc/view</guid>
+    </item>
+    <item>
+      <title>MCMCMC Trace</title>
+      <link>http://www.admb-project.org/examples/r-stuff/mcmcmc/mcmcmc-trace/view</link>
+      <description>Traceplot for MCMCMC sampling</description>
+      <pubDate>2013-01-21T01:31:04Z</pubDate>
+      <guid>http://www.admb-project.org/examples/r-stuff/mcmcmc/mcmcmc-trace/view</guid>
+    </item>
+  </channel>
+</rss>

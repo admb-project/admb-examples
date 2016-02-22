@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="atom.css" type="text/css"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="http://www.admb-project.org/examples/mark-recapture/cormack-jolly-seber-models" xml:lang="en">
+  <link rel="self" href="http://www.admb-project.org/examples/mark-recapture/cormack-jolly-seber-models/atom.xml"/>
+  <title type="html"> CJS Models</title>
+  <subtitle>Cormack-Jolly-Seber (CJS) models in different variations</subtitle>
+  <updated>2012-11-15T21:49:36-08:00</updated>
+  <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/mark-recapture/cormack-jolly-seber-models"/>
+  <id>urn:syndication:a409f651-832a-49cf-ac59-1e6d8cccf2f7</id>
+  <logo>http://www.admb-project.org/logo.png</logo>
+  <icon>http://www.admb-project.org/favicon.ico</icon>
+  <generator uri="http://www.plone.org" version="1.0">plone</generator>
+  
+  <author>
+    <name></name>
+    
+  </author>
+
+  
+    <entry>
+      <title>A standard CJS model</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/mark-recapture/cormack-jolly-seber-models/fitting-cormack-jolly-seber-models-to-capture-recapture-data-using-r2admb"/>
+      
+      <id>urn:syndication:b1e3f5df-5ab1-480b-908c-198ea230f9c1</id>
+      <summary>Fitting Cormack-Jolly-Seber (CJS) Models to Capture-Recapture Data using R2admb</summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2012-11-15T21:40:00-08:00</published>
+
+      <updated>2012-11-15T21:48:34-08:00</updated>
+
+
+    </entry>
+
+  
+  
+    <entry>
+      <title>CJS Individual Heterogeneity </title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/mark-recapture/cormack-jolly-seber-models/cjs-individual-heterogeneity-1"/>
+      
+      <id>urn:syndication:53828c33-1586-4919-bb97-b75440ae5529</id>
+      <summary>Mixed Effects Cormack-Jolly-Seber Models for Analysis of Capture-Recapture Data</summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2012-12-03T08:20:00-08:00</published>
+
+      <updated>2012-12-03T08:18:21-08:00</updated>
+
+
+    </entry>
+
+  
+
+</feed>

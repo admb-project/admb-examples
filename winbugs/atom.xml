@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="atom.css" type="text/css"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="http://www.admb-project.org/examples/winbugs" xml:lang="en">
+  <link rel="self" href="http://www.admb-project.org/examples/winbugs/atom.xml"/>
+  <title type="html">WinBUGS</title>
+  <subtitle>Comparison with the software package WinBUGS</subtitle>
+  <updated>2011-01-04T20:56:54-08:00</updated>
+  <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/winbugs"/>
+  <id>urn:syndication:09d6d90fa1746b688b25b67a1c4a29b3</id>
+  <logo>http://www.admb-project.org/logo.png</logo>
+  <icon>http://www.admb-project.org/favicon.ico</icon>
+  <generator uri="http://www.plone.org" version="1.0">plone</generator>
+  
+  <author>
+    <name>Hans J. Skaug</name>
+    <email>Hans.Skaug@math.uib.no</email>
+  </author>
+
+  
+    <entry>
+      <title>Occupancy model</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/winbugs/occupancy-model"/>
+      
+      <id>urn:syndication:4f26f95d00806235d3202f6826ea7cf7</id>
+      <summary>Comparison of ADMB and WinBUGS modelling approach for simple occupancy model. This is also a comparison of Bayesian and frequentist modelling.</summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2010-12-28T10:21:56-08:00</published>
+
+      <updated>2010-12-28T10:21:56-08:00</updated>
+
+
+    </entry>
+
+  
+
+</feed>

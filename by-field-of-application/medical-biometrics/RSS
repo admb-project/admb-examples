@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns="http://purl.org/rss/1.0/">
+
+
+
+<channel rdf:about="http://www.admb-project.org/examples/by-field-of-application/medical-biometrics/RSS">
+  <title>Medical/Biometrics</title>
+  <link>http://www.admb-project.org/examples/by-field-of-application/medical-biometrics</link>
+  <description></description>
+  <image rdf:resource="http://www.admb-project.org/logo.png"/>
+
+  <items>
+    <rdf:Seq>
+      
+        <rdf:li rdf:resource="http://www.admb-project.org/examples/state-space-models/a-discrete-valued-time-series-model"/>
+      
+      
+        <rdf:li rdf:resource="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/a-discrete-valued-time-series-model/a-discrete-valued-time-series-model-polio-data"/>
+      
+      
+        <rdf:li rdf:resource="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/a-discrete-valued-time-series-model"/>
+      
+      
+        <rdf:li rdf:resource="http://www.admb-project.org/examples/survival-analysis/weibull-regression-with-censoring"/>
+      
+    </rdf:Seq>
+  </items>
+
+</channel>
+
+
+  <item rdf:about="http://www.admb-project.org/examples/state-space-models/a-discrete-valued-time-series-model">
+    <title>A discrete valued time series model; Polio data</title>
+    <link>http://www.admb-project.org/examples/state-space-models/a-discrete-valued-time-series-model</link>
+    <description>Illustrate how a time series of count data can be modelled as a GLMM with a Poisson response</description>
+    
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    
+      <dc:subject>Random effect</dc:subject>
+    
+    
+      <dc:subject>Medical/Biometrics</dc:subject>
+    
+    <dc:date>2010-04-01T03:30:29Z</dc:date>
+    <dc:type>Folder</dc:type>
+  </item>
+
+
+  <item rdf:about="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/a-discrete-valued-time-series-model/a-discrete-valued-time-series-model-polio-data">
+    <title>A time series of Poisson counts; Polio data</title>
+    <link>http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/a-discrete-valued-time-series-model/a-discrete-valued-time-series-model-polio-data</link>
+    <description> A serially correlated time series of Poisson counts using a GLMM framework</description>
+    
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    
+      <dc:subject>State space model</dc:subject>
+    
+    
+      <dc:subject>Medical/Biometrics</dc:subject>
+    
+    
+      <dc:subject>Count data</dc:subject>
+    
+    <dc:date>2010-04-01T03:30:00Z</dc:date>
+    <dc:type>Document</dc:type>
+  </item>
+
+
+  <item rdf:about="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/a-discrete-valued-time-series-model">
+    <title>A discrete valued time series model; Polio data</title>
+    <link>http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/a-discrete-valued-time-series-model</link>
+    <description>Illustrate how a time series of count data can be modelled as a GLMM with a Poisson response</description>
+    
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    
+      <dc:subject>Random effect</dc:subject>
+    
+    
+      <dc:subject>Medical/Biometrics</dc:subject>
+    
+    <dc:date>2010-04-01T03:30:29Z</dc:date>
+    <dc:type>Folder</dc:type>
+  </item>
+
+
+  <item rdf:about="http://www.admb-project.org/examples/survival-analysis/weibull-regression-with-censoring">
+    <title>Weibull regression with censoring</title>
+    <link>http://www.admb-project.org/examples/survival-analysis/weibull-regression-with-censoring</link>
+    <description></description>
+    
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    
+      <dc:subject>Random effect</dc:subject>
+    
+    
+      <dc:subject>Medical/Biometrics</dc:subject>
+    
+    <dc:date>2010-04-01T06:00:00Z</dc:date>
+    <dc:type>Folder</dc:type>
+  </item>
+
+
+
+</rdf:RDF>

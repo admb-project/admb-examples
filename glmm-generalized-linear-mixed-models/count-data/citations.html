@@ -1,0 +1,580 @@
+
+
+
+<!DOCTYPE html PUBLIC
+  "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+  
+    
+    
+    
+    
+
+
+  <head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta name="generator" content="Plone - http://plone.org" />
+
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+      <base href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/" /><!--[if lt IE 7]></base><![endif]-->
+    
+
+    
+        <meta content="Poisson, negative binomial counts in various variants" name="description" />
+
+  
+    <link rel="stylesheet" type="text/css" media="screen" href="http://www.admb-project.org/portal_css/Plone%20Classic%20Theme/reset-cachekey-d64e97c57190745447eec68482868965.css" />
+    <style type="text/css" media="screen">@import url(http://www.admb-project.org/portal_css/Plone%20Classic%20Theme/base-cachekey-a6fa436c6a41fda7952093d7881ee663.css);</style>
+    <link rel="stylesheet" type="text/css" media="screen" href="http://www.admb-project.org/portal_css/Plone%20Classic%20Theme/resourcetinymce.stylesheetstinymce-cachekey-0cc0c7dc51feecf44a21ad7190210463.css" />
+    <style type="text/css">@import url(http://www.admb-project.org/portal_css/Plone%20Classic%20Theme/print-cachekey-72533b40995a552a32878fe67f8428ce.css);</style>
+    <link rel="stylesheet" type="text/css" media="screen" href="http://www.admb-project.org/portal_css/Plone%20Classic%20Theme/resourceplone.app.discussion.stylesheetsdiscussion-cachekey-e2e8d8b728e90bf6e40b831e9f80f05f.css" />
+    <style type="text/css" media="all">@import url(http://www.admb-project.org/portal_css/Plone%20Classic%20Theme/ploneCustom-cachekey-58135c753a27b076794372c332f25529.css);</style>
+    <style type="text/css">@import url(http://www.admb-project.org/portal_css/Plone%20Classic%20Theme/kupustyles-cachekey-37e63d9ec7e22c2a960d4462c313b4ff.css);</style>
+
+  
+  
+    <script type="text/javascript" src="http://www.admb-project.org/portal_javascripts/Plone%20Classic%20Theme/resourceplone.app.jquery-cachekey-38fad805d9c594612ca70fc683b6de50.js"></script>
+    <script type="text/javascript" src="http://www.admb-project.org/portal_javascripts/Plone%20Classic%20Theme/kupunoi18n-cachekey-323b76492cc544e495bf62f730f8f593.js"></script>
+    <script type="text/javascript" src="http://www.admb-project.org/portal_javascripts/Plone%20Classic%20Theme/kss-bbb-cachekey-3a4072cf126f870569155bfab16bb267.js"></script>
+
+
+<title>Count data &mdash; ADMB Project</title>
+
+        
+
+    <link rel="shortcut icon" type="image/x-icon" href="http://www.admb-project.org/favicon.ico" />
+    <link rel="apple-touch-icon" href="http://www.admb-project.org/touch_icon.png" />
+
+
+
+
+
+    <link rel="alternate" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/RSS" title="Count data - RSS 1.0" type="application/rss+xml" />
+
+    <link rel="alternate" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/rss.xml" title="Count data - RSS 2.0" type="application/rss+xml" />
+
+    <link rel="alternate" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/atom.xml" title="Count data - Atom" type="application/rss+xml" />
+
+
+    <link rel="search" href="http://www.admb-project.org/@@search" title="Search this site" />
+
+
+
+        <!-- Disable IE6 image toolbar -->
+        <meta http-equiv="imagetoolbar" content="no" />
+
+        
+        
+
+        
+        
+
+        
+        
+
+        
+        
+    
+
+  </head>
+
+  <body class="template-default_error_message portaltype-folder site-Plone section-examples subsection-glmm-generalized-linear-mixed-models subsection-glmm-generalized-linear-mixed-models-count-data icons-on userrole-anonymous" dir="ltr">
+    <div id="visual-portal-wrapper">
+
+      <div id="portal-top">
+        <div id="portal-header">
+    <p class="hiddenStructure">
+  <a accesskey="2" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/citations.html#content">Skip to content.</a> |
+
+  <a accesskey="6" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/citations.html#portal-globalnav">Skip to navigation</a>
+</p>
+
+<ul id="portal-siteactions">
+
+    <li id="siteaction-sitemap"><a href="http://www.admb-project.org/sitemap" accesskey="3" title="Site Map">Site Map</a></li>
+    <li id="siteaction-accessibility"><a href="http://www.admb-project.org/accessibility-info" accesskey="0" title="Accessibility">Accessibility</a></li>
+    <li id="siteaction-contact"><a href="http://www.admb-project.org/contact-info" accesskey="9" title="Contact">Contact</a></li>
+</ul>
+
+<div id="portal-searchbox" style="width: 250px; height: 100px;">
+    <form name="searchform" action="http://www.admb-project.org/search">
+
+        <label for="searchGadget" class="hiddenStructure">Search ADMB</label>
+
+        <div class="LSBox">
+        <input name="SearchableText" type="text" size="18" title="Search ADMB" accesskey="4" class="inputLabel" id="searchGadget" />
+
+        <input class="searchButton" type="submit" value="Search" />
+    
+<!--
+        <div class="searchSection">
+            <input id="searchbox_currentfolder_only" 
+                   class="noborder"
+                   type="checkbox" 
+                   name="path" 
+                   tal:attributes="value view/folder_path"
+                   />
+            <label for="searchbox_currentfolder_only" 
+                   i18n:translate="label_searchbox_currentfolder_only"
+                   style="cursor: pointer">
+                only in current section
+            </label>
+        </div>
+-->
+
+        <div class="LSResult" id="LSResult" style=""><div class="LSShadow" id="LSShadow"></div></div>
+        </div>
+    </form>
+
+    <div id="portal-advanced-search" class="hiddenStructure">
+        <a href="http://www.admb-project.org/search_form" accesskey="5">
+            Advanced Search&hellip;
+        </a>
+    </div>
+
+</div>
+<a id="portal-logo" accesskey="1" href="http://www.admb-project.org">
+<!--
+    <img src="logo.jpg" alt=""
+         tal:replace="structure view/logo_tag" /></a>
+    <img src="image/logo-20080527.jpeg" alt="ADMB Project"/></a>
+-->
+<img src="http://www.soest.hawaii.edu/Illust/admb_dev/image/admb_banner_deep.jpg" alt="ADMB Project" /></a>
+
+    <p class="hiddenStructure">Navigation</p>
+
+    <ul id="portal-globalnav"><li id="portaltab-index_html" class="plain"><a href="http://www.admb-project.org" title="">Home</a></li><li id="portaltab-downloads" class="plain"><a href="http://www.admb-project.org/downloads" title="">Downloads</a></li><li id="portaltab-documentation" class="plain"><a href="http://www.admb-project.org/documentation" title="">Documentation</a></li><li id="portaltab-examples" class="selected"><a href="http://www.admb-project.org/examples" title="Under construction">Examples</a></li><li id="portaltab-courses" class="plain"><a href="http://www.admb-project.org/courses" title="Information on ADMB related courses and potential instructors is provided as a public service.  These are not products of the ADMB project and currently our policy is to freely announce courses and instructors based on information provided to us.  If you would like to submit such information contact Jim Bence (bence@msu.edu).  ">Courses</a></li><li id="portaltab-tools" class="plain"><a
+    href="http://www.admb-project.org/tools" title="">Tools</a></li><li id="portaltab-developers" class="plain"><a href="http://www.admb-project.org/developers" title="Please contact developers@admb-project.org if you are interested in actively participating in development of ADMB.">Developers</a></li><li id="portaltab-users" class="plain"><a href="http://www.admb-project.org/users" title="This is the user's community page for ADMB. If you would like to contribute to this section, please email a request for an account to users@admb-project.org.">Users</a></li></ul>
+
+
+</div>
+
+<div id="portal-personaltools-wrapper">
+
+<h5 class="hiddenStructure">Personal tools</h5>
+
+<ul id="portal-personaltools" class="visualInline">
+    
+
+    
+        <li id="personaltools-login">
+            <a href="http://www.admb-project.org/login">Log in</a>
+        </li>
+    
+
+</ul>
+</div>
+
+
+
+<div id="portal-breadcrumbs">
+
+    <span id="breadcrumbs-you-are-here">You
+are here:</span>
+    <span id="breadcrumbs-home">
+        <a href="http://www.admb-project.org">Home</a>
+        <span class="breadcrumbSeparator">
+            &rsaquo;
+            
+        </span>
+    </span>
+    <span id="breadcrumbs-1" dir="ltr">
+        
+            <a href="http://www.admb-project.org/examples">Examples</a>
+            <span class="breadcrumbSeparator">
+                &rsaquo;
+                
+            </span>
+            
+         
+    </span>
+    <span id="breadcrumbs-2" dir="ltr">
+        
+            <a href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models">GLM/GLMM/GAM</a>
+            <span class="breadcrumbSeparator">
+                &rsaquo;
+                
+            </span>
+            
+         
+    </span>
+    <span id="breadcrumbs-3" dir="ltr">
+        
+            
+            
+            <span id="breadcrumbs-current">Count data</span>
+         
+    </span>
+
+</div>
+      </div>
+
+      <div class="visualClear" id="clear-space-before-wrapper-table"><!-- --></div>
+
+      <table id="portal-columns">
+        <tbody>
+          <tr>
+            
+                
+                
+                
+            
+
+            
+            <td id="portal-column-content">
+
+              <div id="viewlet-above-content"></div>
+
+              
+                <div class="">
+
+                    
+
+                    <span id="contentTopLeft"></span>
+                    <span id="contentTopRight"></span>
+
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+
+
+                    
+                    <div id="content">
+                      
+                      
+
+        
+
+            
+
+                
+
+                <h1 class="documentFirstHeading">
+                    This page does not seem to exist&hellip;
+                </h1>
+
+                <div id="content-core">
+                    <p>
+ 	                    We apologize for the inconvenience, but the page you were trying to access is not at this address.
+                        You can use the links below to help you find what you are looking for.
+                     </p>
+
+                    <p>
+                        If you are certain you have the correct web address but are encountering an error, please
+                        contact the <span> <a href="http://www.admb-project.org/contact-info">Site Administration</a></span>.
+                    </p>
+
+                    <p>
+                    Thank you.
+                    </p>
+
+                    <!-- Offer search results for suggestions -->
+                    
+
+                        <h3>You might have been looking for&hellip;</h3>
+
+                        <dl>
+
+                        
+                            
+                                <dt class="contenttype-folder">
+                                  
+                                   <a href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data" class="state-published">Count data</a>
+
+                                    
+
+                                </dt>
+
+                                <dd>Poisson, negative binomial counts in various variants</dd>
+
+                            
+                        
+
+                        
+                            
+                                <dt class="contenttype-folder">
+                                  
+                                   <a href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data" class="state-published">Count data</a>
+
+                                    
+
+                                </dt>
+
+                                <dd>Poisson, negative binomial counts in various variants</dd>
+
+                            
+                        
+                        
+                            
+                                <dt class="contenttype-folder">
+                                  
+                                   <a href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/a-discrete-valued-time-series-model" class="state-published">A discrete valued time series model; Polio data</a>
+
+                                    
+
+                                </dt>
+
+                                <dd>Illustrate how a time series of count data can be modelled as a GLMM with a Poisson response</dd>
+
+                            
+                        
+                        
+                            
+                                <dt class="contenttype-folder">
+                                  
+                                   <a href="http://www.admb-project.org/examples/state-space-models/a-discrete-valued-time-series-model" class="state-published">A discrete valued time series model; Polio data</a>
+
+                                    
+
+                                </dt>
+
+                                <dd>Illustrate how a time series of count data can be modelled as a GLMM with a Poisson response</dd>
+
+                            
+                        
+                        
+                            
+                                <dt class="contenttype-document">
+                                  
+                                   <a href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/a-discrete-valued-time-series-model/a-discrete-valued-time-series-model-polio-data" class="state-published">A time series of Poisson counts; Polio data</a>
+
+                                    
+
+                                </dt>
+
+                                <dd> A serially correlated time series of Poisson counts using a GLMM framework</dd>
+
+                            
+                        
+                        
+                            
+                                <dt class="contenttype-folder">
+                                  
+                                   <a href="http://www.admb-project.org/examples/spatial-models/glmm2019s-on-large-spatial-grids" class="state-published">Separable: Method explanation</a>
+
+                                    
+
+                                </dt>
+
+                                <dd>It has for a long time been possible to fit GLMMs (Generalized Linear Mixed Models) in ADMB-RE. A typical example is correlated count data with Poisson ...</dd>
+
+                            
+                        
+                        
+                            
+                                <dt class="contenttype-document">
+                                  
+                                   <a href="http://www.admb-project.org/examples/spatial-models/glmm2019s-on-large-spatial-grids/separable-covariance-function" class="state-published">Separable covariance function</a>
+
+                                    
+
+                                </dt>
+
+                                <dd>Poisson GLMM on large spatial grid</dd>
+
+                            
+                        
+                        
+                            
+                                <dt class="contenttype-document">
+                                  
+                                   <a href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-serially-correlated-counts/negative-binomial-serially-correlated-counts" class="state-published">Negative binomial serially correlated counts </a>
+
+                                    
+
+                                </dt>
+
+                                <dd></dd>
+
+                            
+                        
+                        
+                            
+                                <dt class="contenttype-document">
+                                  
+                                   <a href="http://www.admb-project.org/examples/miscellaneous/otter-reseach-collection" class="state-published">Otter Research collection</a>
+
+                                    
+
+                                </dt>
+
+                                <dd>Links to examples on the Otter Research web site. This collection contains a wide variety of random effects models, chosen from different fields of application.</dd>
+
+                            
+                        
+                        
+                            
+                                <dt class="contenttype-document">
+                                  
+                                   <a href="http://www.admb-project.org/users/bibliography/journal-papers-and-formal-publications" class="state-published">Journal papers and Formal publications</a>
+
+                                    
+
+                                </dt>
+
+                                <dd></dd>
+
+                            
+                        
+
+                        </dl>
+
+                    
+                </div>
+            
+
+        
+
+        
+        
+
+
+                    </div>
+                    
+
+                    
+
+                    <span id="contentBottomLeft"></span>
+                    <span id="contentBottomRight"></span>
+
+                </div>
+              
+
+              <div id="viewlet-below-content">
+</div>
+
+            </td>
+            
+
+            
+                
+                
+                
+            
+          </tr>
+        </tbody>
+      </table>
+      
+
+      <div class="visualClear" id="clear-space-before-footer"><!-- --></div>
+
+      
+
+        <div id="portal-footer">
+<!--
+<p>
+    <span i18n:translate="description_copyright" tal:omit-tag="">
+    The
+    <span i18n:name="plonecms" tal:omit-tag="">
+        <a href="http://plone.org" i18n:translate="label_plone_cms">Plone<sup>&reg;</sup> CMS &mdash; Open Source Content Management System</a>
+    </span>
+    is
+    <acronym title="Copyright" i18n:name="copyright" i18n:attributes="title title_copyright;">&copy;</acronym>
+    2000-<span i18n:name="current_year"
+               tal:omit-tag=""
+               tal:define="now modules/DateTime/DateTime"
+               tal:content="now/year" />
+    by the
+    <span i18n:name="plonefoundation" tal:omit-tag="">
+        <a href="http://plone.org/foundation" i18n:translate="label_plone_foundation">Plone Foundation</a></span>
+    et al.
+    </span>
+</p>
+
+<p>
+    <span i18n:translate="description_trademark" tal:omit-tag="">
+    Plone<sup>&reg;</sup> and the Plone logo are registered trademarks of the
+        <span i18n:name="plonefoundation" tal:omit-tag="">
+            <a href="http://plone.org/foundation" i18n:translate="label_plone_foundation">Plone Foundation</a></span>.
+    </span>
+
+    <span i18n:translate="description_license" tal:omit-tag="">
+    Distributed under the
+        <span i18n:name="license" tal:omit-tag="">
+            <a href="http://creativecommons.org/licenses/GPL/2.0/" i18n:translate="label_gnu_gpl_licence">GNU GPL license</a></span>.
+    </span>
+</p>
+-->
+<!--
+<p>
+    <span tal:omit-tag="">
+        <a href="http://admb-foundation.org/">ADMB Foundation</a>
+    </span>
+    <acronym title="Copyright">&copy;</acronym>
+    2007-<span tal:omit-tag=""
+               tal:define="now modules/DateTime/DateTime"
+               tal:content="now/year" /><br/>
+    <span tal:omit-tag="">See <a href="/contacts">Contacts and Support</a> for help or questions.
+    </span>
+</p>
+-->
+<!--
+<span tal:omit-tag="">
+        <a href="http://plone.org/">Powered by Plone</a>
+    </span>
+-->
+<p>The ADMB Project is supported by the <a href="http://admb-foundation.org/" target="_blank"><b>ADMB Foundation</b></a>, and a grant from <a href="http://www.noaa.gov/" target="_blank"><img src="http://www.swpc.noaa.gov/sites/all/themes/swx/noaa_logo.svg" alt="logo graphic" width="30" height="29" hspace="0" vspace="0" border="0" style="margin:0 4px 0 0;" /> <b>NOAA Fisheries</b></a> to <a href="http://www.soest.hawaii.edu/jimar/" target="_blank"><img src="http://www.soest.hawaii.edu/jimar/images/JIMAR_color.png" alt="logo graphic" width="30" height="29" hspace="0" vspace="0" border="0" style="margin:0 4px 0 0;" /><b>JIMAR</b></a>. </p>
+
+<table width="100%" cellpadding="0" cellspacing="0"> 
+<tr>
+<td align="left"><a href="http://fusioncreative.ca" target="_blank"><img src="http://www.soest.hawaii.edu/Illust/admb_dev/image/fc-gray30x29_darker.gif" alt="Fusion Creative logo graphic" width="30" height="29" hspace="0" vspace="0" border="0" style="margin:0 4px 0 0;" /></a> Graphic design by <a href="http://fusioncreative.ca" target="_blank">Fusion Creative</a>.</td>
+<td align="right"><img src="http://www.soest.hawaii.edu/Illust/admb_dev/image/white_pixel.gif" alt="white spacer gif" width="30" height="29" hspace="0" vspace="0" border="0" style="margin:0 4px 0 0;" />This web site is powered by <a href="http://plone.org/" target="_blank">Plone</a> and hosted by <a href="http://www.nceas.ucsb.edu/" target="_blank"><img src="https://www.nceas.ucsb.edu/files/logos/NCEAS/NCEAS-stacked-logo-50px.png" alt="logo graphic" width="30" height="29" hspace="0" vspace="0" border="0" style="margin:0 4px 0 0;" /><b>NCEAS</b></a>.</td>
+</tr>
+</table> 
+
+<a href="http://admb-foundation.org/">ADMB Foundation</a> <acronym title="Copyright">&copy;</acronym> 2007&ndash;2013 &nbsp;&bull;&nbsp;
+<a href="http://admb-project.org/login_form">Log in</a>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-5850320-4");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</div>
+<div id="portal-colophon">
+<div class="colophonWrapper">
+<ul>
+  <li>
+    <a href="http://plone.org" title="This site was built using the Plone Open Source CMS/WCM.">
+      Powered by Plone &amp; Python</a>
+  </li>
+</ul>
+</div>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-5850320-4");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+      
+
+      <div class="visualClear"><!-- --></div>
+    </div>
+<!--
+<div id="kss-spinner" tal:condition="not:ajax_load"><img tal:attributes="src string:${portal_url}/spinner.gif" alt="" /></div>
+-->
+</body>
+</html>
+

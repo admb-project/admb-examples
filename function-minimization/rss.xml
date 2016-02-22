@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Function minimizer</title>
+    <link>http://www.admb-project.org/examples/function-minimization</link>
+    <description>Various tricks and techniques related to the function minimizer to improve convergence</description>
+    
+    <language>en</language>
+    <copyright></copyright>
+    <generator>Plone</generator>
+    <item>
+      <title>Parameter scaling</title>
+      <link>http://www.admb-project.org/examples/function-minimization/parameter-scaling</link>
+      <description>Shows how to scale parameters so that they become of the same magnitude</description>
+      <pubDate>2013-02-06T21:56:28Z</pubDate>
+      <guid>http://www.admb-project.org/examples/function-minimization/parameter-scaling</guid>
+    </item>
+  </channel>
+</rss>

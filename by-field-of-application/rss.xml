@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>By field of application</title>
+    <link>http://www.admb-project.org/examples/by-field-of-application</link>
+    <description></description>
+    
+    <language>en</language>
+    <copyright></copyright>
+    <generator>Plone</generator>
+    <item>
+      <title>Medical/Biometrics</title>
+      <link>http://www.admb-project.org/examples/by-field-of-application/medical-biometrics</link>
+      <description></description>
+      <pubDate>2009-12-15T06:54:28Z</pubDate>
+      <guid>http://www.admb-project.org/examples/by-field-of-application/medical-biometrics</guid>
+    </item>
+    <item>
+      <title>Ecology</title>
+      <link>http://www.admb-project.org/examples/by-field-of-application/copy_of_medical-biometrics</link>
+      <description></description>
+      <pubDate>2009-12-15T06:55:00Z</pubDate>
+      <guid>http://www.admb-project.org/examples/by-field-of-application/copy_of_medical-biometrics</guid>
+    </item>
+    <item>
+      <title>Stochastic volatility collection</title>
+      <link>http://www.admb-project.org/examples/by-field-of-application/stochastic-volatility-collection</link>
+      <description></description>
+      <pubDate>2012-06-05T22:58:52Z</pubDate>
+      <guid>http://www.admb-project.org/examples/by-field-of-application/stochastic-volatility-collection</guid>
+    </item>
+  </channel>
+</rss>

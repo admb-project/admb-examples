@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="atom.css" type="text/css"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="http://www.admb-project.org/examples/admb-tricks" xml:lang="en">
+  <link rel="self" href="http://www.admb-project.org/examples/admb-tricks/atom.xml"/>
+  <title type="html">Math</title>
+  <subtitle>Various undocumented techniques and tricks useful for developing ADMB programs</subtitle>
+  <updated>2013-01-07T10:57:37-08:00</updated>
+  <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/admb-tricks"/>
+  <id>urn:syndication:27e3ea76-6562-425b-a7d7-8223f5bf6b0d</id>
+  <logo>http://www.admb-project.org/logo.png</logo>
+  <icon>http://www.admb-project.org/favicon.ico</icon>
+  <generator uri="http://www.plone.org" version="1.0">plone</generator>
+  
+  <author>
+    <name></name>
+    
+  </author>
+
+  
+    <entry>
+      <title>Splines</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/admb-tricks/splines-1"/>
+      
+      <id>urn:syndication:524f35bc-6386-4649-923d-45d971072c29</id>
+      <summary>Different aspects of spline models
+</summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2012-11-16T22:10:49-08:00</published>
+
+      <updated>2012-11-16T22:10:49-08:00</updated>
+
+
+    </entry>
+
+  
+  
+    <entry>
+      <title>Variance calculations</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/admb-tricks/variance-calculations"/>
+      
+      <id>urn:syndication:8e1ddf6f-6877-4ea1-b702-41a95acefd98</id>
+      <summary>How variance is calculated in ADMB</summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2012-11-29T15:21:06-08:00</published>
+
+      <updated>2012-11-29T15:21:06-08:00</updated>
+
+
+    </entry>
+
+  
+  
+    <entry>
+      <title>Parameterization</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/admb-tricks/parameterization"/>
+      
+      <id>urn:syndication:193db928-43b5-4570-af2d-58ef91e36fd7</id>
+      <summary>Examples of how to (and not to) parameterize mathematical functions and statistical models</summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2012-11-16T07:52:27-08:00</published>
+
+      <updated>2012-11-16T07:52:27-08:00</updated>
+
+
+    </entry>
+
+  
+  
+    <entry>
+      <title>Adjoint code</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/admb-tricks/adjoint-code-1"/>
+      
+      <id>urn:syndication:7143be5b-f228-4a06-9b0d-d8269f9a9bbc</id>
+      <summary>Why to write adjoint code and alternative approaches to do it.</summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2013-01-11T17:45:00-08:00</published>
+
+      <updated>2013-01-23T16:04:47-08:00</updated>
+
+
+    </entry>
+
+  
+  
+    <entry>
+      <title>Covariance Calculations</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/admb-tricks/covariance-calculations"/>
+      
+      <id>urn:syndication:3e3e9de7-31f6-428c-8b4b-3e72a4be7e88</id>
+      <summary>A short document with accompanying R code that details (1) the functions used to bound parameters, (2) the method for calculating a bounded covariance matrix, and (3) what is stored in the binary admodel.hes and admodel.cov files and how the user can utilize this information to gain more control over an MCMC chain.</summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2012-10-08T18:29:43-07:00</published>
+
+      <updated>2012-10-08T18:29:43-07:00</updated>
+
+
+    </entry>
+
+  
+
+</feed>

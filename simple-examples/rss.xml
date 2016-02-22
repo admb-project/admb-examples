@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Simple examples</title>
+    <link>http://www.admb-project.org/examples/simple-examples</link>
+    <description></description>
+    
+    <language>en</language>
+    <copyright></copyright>
+    <generator>Plone</generator>
+    <item>
+      <title>Tadpole mortality as a function of size</title>
+      <link>http://www.admb-project.org/examples/simple-examples/tadpole-mortality-as-a-function-of-size</link>
+      <description>A maximum likelihood estimation problem with a binomial response variable, example from the NCEAS non-linear modelling working group.
+ </description>
+      <pubDate>2013-01-22T01:20:00Z</pubDate>
+      <guid>http://www.admb-project.org/examples/simple-examples/tadpole-mortality-as-a-function-of-size</guid>
+    </item>
+  </channel>
+</rss>

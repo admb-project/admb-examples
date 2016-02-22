@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns="http://purl.org/rss/1.0/">
+
+
+
+<channel rdf:about="http://www.admb-project.org/examples/survival-analysis/RSS">
+  <title>Survival analysis</title>
+  <link>http://www.admb-project.org/examples/survival-analysis</link>
+  <description>Lifetime data and survival analysis</description>
+  <image rdf:resource="http://www.admb-project.org/logo.png"/>
+
+  <items>
+    <rdf:Seq>
+      
+        <rdf:li rdf:resource="http://www.admb-project.org/examples/survival-analysis/weibull-regression-with-censoring"/>
+      
+    </rdf:Seq>
+  </items>
+
+</channel>
+
+
+  <item rdf:about="http://www.admb-project.org/examples/survival-analysis/weibull-regression-with-censoring">
+    <title>Weibull regression with censoring</title>
+    <link>http://www.admb-project.org/examples/survival-analysis/weibull-regression-with-censoring</link>
+    <description></description>
+    
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    
+      <dc:subject>Random effect</dc:subject>
+    
+    
+      <dc:subject>Medical/Biometrics</dc:subject>
+    
+    <dc:date>2010-04-01T06:00:00Z</dc:date>
+    <dc:type>Folder</dc:type>
+  </item>
+
+
+
+</rdf:RDF>

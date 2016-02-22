@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="atom.css" type="text/css"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-fir-fecundity-1" xml:lang="en">
+  <link rel="self" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-fir-fecundity-1/atom.xml"/>
+  <title type="html">Negative Binomial Fir Fecundity</title>
+  <subtitle>
+
+</subtitle>
+  <updated>2014-02-11T02:12:17-08:00</updated>
+  <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-fir-fecundity-1"/>
+  <id>urn:syndication:eeaab863-4dc4-4cda-bda2-79b992961d41</id>
+  <logo>http://www.admb-project.org/logo.png</logo>
+  <icon>http://www.admb-project.org/favicon.ico</icon>
+  <generator uri="http://www.plone.org" version="1.0">plone</generator>
+  
+  <author>
+    <name>Mollie Brooks</name>
+    <email>mbrooks@ufl.edu</email>
+  </author>
+
+  
+    <entry>
+      <title>fir_ab.tpl</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-fir-fecundity-1/fir_ab.tpl/view"/>
+      <link rel="enclosure" length="471" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-fir-fecundity-1/fir_ab.tpl/@@download/file/%sfir_ab.tpl" type="application/octet-stream"/>
+      <id>urn:syndication:6498aac89cac451980e1671fd50093a4</id>
+      <summary></summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2014-02-10T07:51:07-08:00</published>
+
+      <updated>2014-02-10T07:51:07-08:00</updated>
+
+
+    </entry>
+
+  
+  
+    <entry>
+      <title>fir_abk.tpl</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-fir-fecundity-1/fir_abk.tpl/view"/>
+      <link rel="enclosure" length="601" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-fir-fecundity-1/fir_abk.tpl/@@download/file/%sfir_abk.tpl" type="application/octet-stream"/>
+      <id>urn:syndication:289d370cb2ea4f03b06d64f5120ccf49</id>
+      <summary></summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2014-02-10T07:52:34-08:00</published>
+
+      <updated>2014-02-10T07:52:34-08:00</updated>
+
+
+    </entry>
+
+  
+  
+    <entry>
+      <title>fir0.tpl</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-fir-fecundity-1/fir0.tpl/view"/>
+      <link rel="enclosure" length="318" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-fir-fecundity-1/fir0.tpl/@@download/file/%sfir0.tpl" type="application/octet-stream"/>
+      <id>urn:syndication:86beada9363a4f1bb06e8d9aa3715da2</id>
+      <summary></summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2014-02-10T07:53:13-08:00</published>
+
+      <updated>2014-02-10T07:53:13-08:00</updated>
+
+
+    </entry>
+
+  
+  
+    <entry>
+      <title>fir.pdf</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-fir-fecundity-1/description-1/view"/>
+      <link rel="enclosure" length="183465" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-fir-fecundity-1/description-1/@@download/file/%sfir.pdf" type="application/pdf"/>
+      <id>urn:syndication:d9ba0754d0e34d748f85fe62e0f2679f</id>
+      <summary></summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2014-02-11T01:54:37-08:00</published>
+
+      <updated>2014-02-11T01:54:37-08:00</updated>
+
+      
+        <category term="Bolker (2008)"/>
+      
+
+    </entry>
+
+  
+  
+    <entry>
+      <title>fir.R</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-fir-fecundity-1/fir.R/view"/>
+      <link rel="enclosure" length="1528" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-fir-fecundity-1/fir.R/@@download/file/%sfir.R" type="application/octet-stream"/>
+      <id>urn:syndication:797006da-7546-4a41-bbf3-278d220814a8</id>
+      <summary></summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2012-12-02T09:36:07-08:00</published>
+
+      <updated>2012-12-02T09:36:07-08:00</updated>
+
+
+    </entry>
+
+  
+
+</feed>

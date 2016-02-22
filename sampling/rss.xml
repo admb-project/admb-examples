@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Sampling</title>
+    <link>http://www.admb-project.org/examples/sampling</link>
+    <description>Survey sampling related examples</description>
+    
+    <language>en</language>
+    <copyright></copyright>
+    <generator>Plone</generator>
+    <item>
+      <title>Line transect methods</title>
+      <link>http://www.admb-project.org/examples/sampling/line-transect-methods</link>
+      <description>Line transect methods are commonly used to estimate animal abundance, and is a special case of distance sampling.</description>
+      <pubDate>2012-11-15T18:25:00Z</pubDate>
+      <guid>http://www.admb-project.org/examples/sampling/line-transect-methods</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="atom.css" type="text/css"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="http://www.admb-project.org/examples/by-field-of-application" xml:lang="en">
+  <link rel="self" href="http://www.admb-project.org/examples/by-field-of-application/atom.xml"/>
+  <title type="html">By field of application</title>
+  <subtitle></subtitle>
+  <updated>2013-01-09T11:21:38-08:00</updated>
+  <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/by-field-of-application"/>
+  <id>urn:syndication:a8ae66a193dbf195cc74672940f9632c</id>
+  <logo>http://www.admb-project.org/logo.png</logo>
+  <icon>http://www.admb-project.org/favicon.ico</icon>
+  <generator uri="http://www.plone.org" version="1.0">plone</generator>
+  
+  <author>
+    <name>Hans J. Skaug</name>
+    <email>Hans.Skaug@math.uib.no</email>
+  </author>
+
+  
+    <entry>
+      <title>Medical/Biometrics</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/by-field-of-application/medical-biometrics"/>
+      
+      <id>urn:syndication:f436e2ef26491581f511d7149941d189</id>
+      <summary></summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2009-12-14T22:54:28-08:00</published>
+
+      <updated>2009-12-14T22:54:28-08:00</updated>
+
+
+    </entry>
+
+  
+  
+    <entry>
+      <title>Ecology</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/by-field-of-application/copy_of_medical-biometrics"/>
+      
+      <id>urn:syndication:64442474-308d-40c6-8120-31fcdecc09ea</id>
+      <summary></summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2009-12-14T22:55:00-08:00</published>
+
+      <updated>2012-11-15T10:43:40-08:00</updated>
+
+
+    </entry>
+
+  
+  
+    <entry>
+      <title>Stochastic volatility collection</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/by-field-of-application/stochastic-volatility-collection"/>
+      
+      <id>urn:syndication:ef26b330-70ac-47d3-8b52-48a7ee143125</id>
+      <summary></summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2012-06-05T15:58:52-07:00</published>
+
+      <updated>2012-06-05T15:58:52-07:00</updated>
+
+
+    </entry>
+
+  
+
+</feed>

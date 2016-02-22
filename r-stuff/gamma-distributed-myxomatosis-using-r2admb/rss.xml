@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Gamma distributed myxomatosis using R2admb</title>
+    <link>http://www.admb-project.org/examples/r-stuff/gamma-distributed-myxomatosis-using-r2admb</link>
+    <description></description>
+    
+    <language>en</language>
+    <copyright></copyright>
+    <generator>Plone</generator>
+    <item>
+      <title>Description</title>
+      <link>http://www.admb-project.org/examples/r-stuff/gamma-distributed-myxomatosis-using-r2admb/description-1/view</link>
+      <description></description>
+      <pubDate>2012-10-11T05:25:00Z</pubDate>
+      <guid>http://www.admb-project.org/examples/r-stuff/gamma-distributed-myxomatosis-using-r2admb/description-1/view</guid>
+    </item>
+    <item>
+      <title>myxomatosis.R</title>
+      <link>http://www.admb-project.org/examples/r-stuff/gamma-distributed-myxomatosis-using-r2admb/myxomatosis.R/view</link>
+      <description></description>
+      <pubDate>2012-09-18T22:27:09Z</pubDate>
+      <guid>http://www.admb-project.org/examples/r-stuff/gamma-distributed-myxomatosis-using-r2admb/myxomatosis.R/view</guid>
+    </item>
+    <item>
+      <title>myxomatosis.tpl</title>
+      <link>http://www.admb-project.org/examples/r-stuff/gamma-distributed-myxomatosis-using-r2admb/myxomatosis.tpl/view</link>
+      <description></description>
+      <pubDate>2012-09-18T22:27:58Z</pubDate>
+      <guid>http://www.admb-project.org/examples/r-stuff/gamma-distributed-myxomatosis-using-r2admb/myxomatosis.tpl/view</guid>
+    </item>
+    <item>
+      <title>myxomatosis.dat</title>
+      <link>http://www.admb-project.org/examples/r-stuff/gamma-distributed-myxomatosis-using-r2admb/myxomatosis.dat/view</link>
+      <description></description>
+      <pubDate>2012-09-18T22:28:33Z</pubDate>
+      <guid>http://www.admb-project.org/examples/r-stuff/gamma-distributed-myxomatosis-using-r2admb/myxomatosis.dat/view</guid>
+    </item>
+  </channel>
+</rss>

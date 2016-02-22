@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="atom.css" type="text/css"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/flexible-negative-binomial-model" xml:lang="en">
+  <link rel="self" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/flexible-negative-binomial-model/atom.xml"/>
+  <title type="html">Flexible negative binomial</title>
+  <subtitle>Explores non-standard relationships between mean and variance in the NB model</subtitle>
+  <updated>2012-12-02T09:43:13-08:00</updated>
+  <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/flexible-negative-binomial-model"/>
+  <id>urn:syndication:ba0de2ea-95dd-4d1b-bfe2-72d0d1f1bb2b</id>
+  <logo>http://www.admb-project.org/logo.png</logo>
+  <icon>http://www.admb-project.org/favicon.ico</icon>
+  <generator uri="http://www.plone.org" version="1.0">plone</generator>
+  
+  <author>
+    <name></name>
+    
+  </author>
+
+  
+    <entry>
+      <title>Flexible negative binomial</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/flexible-negative-binomial-model/flexible-negative-binomial"/>
+      
+      <id>urn:syndication:950df79c-9b19-47b2-a20b-e229517c20bd</id>
+      <summary>Explores non-standard relationships between mean and variance in the NB model</summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2012-12-02T09:42:55-08:00</published>
+
+      <updated>2012-12-02T09:42:55-08:00</updated>
+
+
+    </entry>
+
+  
+
+</feed>

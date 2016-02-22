@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Splines I</title>
+    <link>http://www.admb-project.org/examples/admb-tricks/splines-1/splines</link>
+    <description>notes and examples related to cubic splines</description>
+    
+    <language>en</language>
+    <copyright></copyright>
+    <generator>Plone</generator>
+    <item>
+      <title>splines.tpl</title>
+      <link>http://www.admb-project.org/examples/admb-tricks/splines-1/splines/splines.tpl/view</link>
+      <description>ADMB code with a spline (very rough)</description>
+      <pubDate>2012-11-17T06:11:14Z</pubDate>
+      <guid>http://www.admb-project.org/examples/admb-tricks/splines-1/splines/splines.tpl/view</guid>
+    </item>
+    <item>
+      <title>Example results</title>
+      <link>http://www.admb-project.org/examples/admb-tricks/splines-1/splines/spline_example.pdf/view</link>
+      <description>notes: grey lines are from MCMC samples,
+third derivative looks rough only because of numerical precision</description>
+      <pubDate>2012-11-17T06:11:14Z</pubDate>
+      <guid>http://www.admb-project.org/examples/admb-tricks/splines-1/splines/spline_example.pdf/view</guid>
+    </item>
+    <item>
+      <title>splines.dat</title>
+      <link>http://www.admb-project.org/examples/admb-tricks/splines-1/splines/splines.dat/view</link>
+      <description>data file to go with the model in splines.tpl</description>
+      <pubDate>2012-11-17T06:11:14Z</pubDate>
+      <guid>http://www.admb-project.org/examples/admb-tricks/splines-1/splines/splines.dat/view</guid>
+    </item>
+    <item>
+      <title>R code</title>
+      <link>http://www.admb-project.org/examples/admb-tricks/splines-1/splines/splines_code.R/view</link>
+      <description>read output from splines model and plot results shown in spline_example.pdf</description>
+      <pubDate>2012-11-17T06:11:14Z</pubDate>
+      <guid>http://www.admb-project.org/examples/admb-tricks/splines-1/splines/splines_code.R/view</guid>
+    </item>
+  </channel>
+</rss>

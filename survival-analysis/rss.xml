@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Survival analysis</title>
+    <link>http://www.admb-project.org/examples/survival-analysis</link>
+    <description>Lifetime data and survival analysis</description>
+    
+    <language>en</language>
+    <copyright></copyright>
+    <generator>Plone</generator>
+    <item>
+      <title>Weibull regression with censoring</title>
+      <link>http://www.admb-project.org/examples/survival-analysis/weibull-regression-with-censoring</link>
+      <description></description>
+      <pubDate>2010-04-01T06:00:00Z</pubDate>
+      <guid>http://www.admb-project.org/examples/survival-analysis/weibull-regression-with-censoring</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns="http://purl.org/rss/1.0/">
+
+
+
+<channel rdf:about="http://www.admb-project.org/examples/categorical-data/RSS">
+  <title>Categorical data</title>
+  <link>http://www.admb-project.org/examples/categorical-data</link>
+  <description></description>
+  <image rdf:resource="http://www.admb-project.org/logo.png"/>
+
+  <items>
+    <rdf:Seq>
+      
+        <rdf:li rdf:resource="http://www.admb-project.org/examples/categorical-data/item-response-theory-irt-and-the-multilevel-rasch-model-1"/>
+      
+      
+        <rdf:li rdf:resource="http://www.admb-project.org/examples/categorical-data/ordered-categorical-responses"/>
+      
+    </rdf:Seq>
+  </items>
+
+</channel>
+
+
+  <item rdf:about="http://www.admb-project.org/examples/categorical-data/item-response-theory-irt-and-the-multilevel-rasch-model-1">
+    <title>Item response theory</title>
+    <link>http://www.admb-project.org/examples/categorical-data/item-response-theory-irt-and-the-multilevel-rasch-model-1</link>
+    <description>The multilevel Rasch model can be implented using random effects in ADMB. As an example we use data on the responses of 2042 soldiers to a total of 19 items (questions), taken from Doran et al (2007). This illustrates the use of crossed random effects in ADMB. Further, it is shown how the model easily can be generalized in ADMB. These more general models cannot be fitted with standard GLMM software such as "lmer" in R.</description>
+    
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2009-03-12T13:10:00Z</dc:date>
+    <dc:type>Folder</dc:type>
+  </item>
+
+
+  <item rdf:about="http://www.admb-project.org/examples/categorical-data/ordered-categorical-responses">
+    <title>Ordered categorical responses</title>
+    <link>http://www.admb-project.org/examples/categorical-data/ordered-categorical-responses</link>
+    <description> Ordered categorical responses with application to SOCATT data</description>
+    
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2012-12-01T05:46:04Z</dc:date>
+    <dc:type>Folder</dc:type>
+  </item>
+
+
+
+</rdf:RDF>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="atom.css" type="text/css"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="http://www.admb-project.org/examples/r-stuff" xml:lang="en">
+  <link rel="self" href="http://www.admb-project.org/examples/r-stuff/atom.xml"/>
+  <title type="html">R stuff</title>
+  <subtitle></subtitle>
+  <updated>2010-03-31T00:14:15-07:00</updated>
+  <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/r-stuff"/>
+  <id>urn:syndication:220ff6e124dfab08645cb922648c66c7</id>
+  <logo>http://www.admb-project.org/logo.png</logo>
+  <icon>http://www.admb-project.org/favicon.ico</icon>
+  <generator uri="http://www.plone.org" version="1.0">plone</generator>
+  
+  <author>
+    <name>Hans J. Skaug</name>
+    <email>Hans.Skaug@math.uib.no</email>
+  </author>
+
+  
+    <entry>
+      <title>MCMCMC</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/r-stuff/mcmcmc"/>
+      
+      <id>urn:syndication:95772f3d-30d8-4aab-986b-490819cf202f</id>
+      <summary>This presents generalized code for conducting Metropolis Coupled MCMC using ADMB called within R</summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2012-05-25T12:06:29-07:00</published>
+
+      <updated>2013-01-20T17:31:20-08:00</updated>
+
+
+    </entry>
+
+  
+  
+    <entry>
+      <title>lmer() comparison</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/r-stuff/lmer-comparison"/>
+      
+      <id>urn:syndication:4ffe6bccac5d4481a271e4cc4d1654f0</id>
+      <summary>Application of ADMB to the simulated datasets in Zhang et al. (2011) with emphasis on comparison to the R function lmer()</summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2011-11-07T08:24:01-08:00</published>
+
+      <updated>2011-11-07T08:24:01-08:00</updated>
+
+
+    </entry>
+
+  
+  
+    <entry>
+      <title>glmmADMB</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/r-stuff/glmmadmb"/>
+      
+      <id>urn:syndication:02f47c7e6eafe75a7fe39f275be25eea</id>
+      <summary></summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2010-03-31T00:14:27-07:00</published>
+
+      <updated>2010-03-31T00:14:27-07:00</updated>
+
+
+    </entry>
+
+  
+  
+    <entry>
+      <title>Gamma distributed myxomatosis using R2admb</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/r-stuff/gamma-distributed-myxomatosis-using-r2admb"/>
+      
+      <id>urn:syndication:f0ab7d1e-3e15-48cc-ab76-56de5d0f6aac</id>
+      <summary></summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2012-10-10T19:25:00-07:00</published>
+
+      <updated>2012-11-15T22:16:35-08:00</updated>
+
+      
+        <category term="Bolker (2008)"/>
+      
+
+    </entry>
+
+  
+  
+    <entry>
+      <title>R - ADMB interface for mixed models</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/r-stuff/a-general-r-admb-interface-for-mixed-models"/>
+      
+      <id>urn:syndication:f3fbd225-54ed-4303-9e2e-1b574406da37</id>
+      <summary>Explains how to set up a general mixed model  interface between R and ADMB used for instance in glmmADMB</summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2013-01-23T16:00:47-08:00</published>
+
+      <updated>2013-01-23T16:04:26-08:00</updated>
+
+
+    </entry>
+
+  
+
+</feed>

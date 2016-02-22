@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns="http://purl.org/rss/1.0/">
+
+
+
+<channel rdf:about="http://www.admb-project.org/examples/fisheries/pella-t/RSS">
+  <title>Pella-Tomlinson from ADMB manual</title>
+  <link>http://www.admb-project.org/examples/fisheries/pella-t</link>
+  <description>Pella-Tomlinson example by Dave Fournier from the ADMB manual. Demonstrates several innovative modelling approaches: 6 month time step, time-varying K and q.</description>
+  <image rdf:resource="http://www.admb-project.org/logo.png"/>
+
+  <items>
+    <rdf:Seq>
+      
+        <rdf:li rdf:resource="http://www.admb-project.org/examples/fisheries/pella-t/pella-t.pdf/view"/>
+      
+      
+        <rdf:li rdf:resource="http://www.admb-project.org/examples/fisheries/pella-t/directory"/>
+      
+    </rdf:Seq>
+  </items>
+
+</channel>
+
+
+  <item rdf:about="http://www.admb-project.org/examples/fisheries/pella-t/pella-t.pdf/view">
+    <title>pella-t.pdf</title>
+    <link>http://www.admb-project.org/examples/fisheries/pella-t/pella-t.pdf/view</link>
+    <description></description>
+    
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2013-01-15T03:19:40Z</dc:date>
+    <dc:type>File</dc:type>
+  </item>
+
+
+  <item rdf:about="http://www.admb-project.org/examples/fisheries/pella-t/directory">
+    <title>Model and data files</title>
+    <link>http://www.admb-project.org/examples/fisheries/pella-t/directory</link>
+    <description></description>
+    
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2014-01-13T18:28:48Z</dc:date>
+    <dc:type>Link</dc:type>
+  </item>
+
+
+
+</rdf:RDF>

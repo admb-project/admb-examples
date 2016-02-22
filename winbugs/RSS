@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns="http://purl.org/rss/1.0/">
+
+
+
+<channel rdf:about="http://www.admb-project.org/examples/winbugs/RSS">
+  <title>WinBUGS</title>
+  <link>http://www.admb-project.org/examples/winbugs</link>
+  <description>Comparison with the software package WinBUGS</description>
+  <image rdf:resource="http://www.admb-project.org/logo.png"/>
+
+  <items>
+    <rdf:Seq>
+      
+        <rdf:li rdf:resource="http://www.admb-project.org/examples/winbugs/occupancy-model"/>
+      
+    </rdf:Seq>
+  </items>
+
+</channel>
+
+
+  <item rdf:about="http://www.admb-project.org/examples/winbugs/occupancy-model">
+    <title>Occupancy model</title>
+    <link>http://www.admb-project.org/examples/winbugs/occupancy-model</link>
+    <description>Comparison of ADMB and WinBUGS modelling approach for simple occupancy model. This is also a comparison of Bayesian and frequentist modelling.</description>
+    
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2010-12-28T18:21:56Z</dc:date>
+    <dc:type>Folder</dc:type>
+  </item>
+
+
+
+</rdf:RDF>

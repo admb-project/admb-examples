@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Line transect methods</title>
+    <link>http://www.admb-project.org/examples/sampling/line-transect-methods</link>
+    <description>Line transect methods are commonly used to estimate animal abundance, and is a special case of distance sampling.</description>
+    
+    <language>en</language>
+    <copyright></copyright>
+    <generator>Plone</generator>
+    <item>
+      <title>Estimation of detection function </title>
+      <link>http://www.admb-project.org/examples/sampling/line-transect-methods/estimation-of-detection-function</link>
+      <description>Illustrates the likelihood based estimation of the detection function (perpendicular distance)</description>
+      <pubDate>2012-11-15T18:25:00Z</pubDate>
+      <guid>http://www.admb-project.org/examples/sampling/line-transect-methods/estimation-of-detection-function</guid>
+    </item>
+    <item>
+      <title>Random scale</title>
+      <link>http://www.admb-project.org/examples/sampling/line-transect-methods/random-scale</link>
+      <description>Distance Sampling with Random Scale Detection Function</description>
+      <pubDate>2012-12-03T03:47:50Z</pubDate>
+      <guid>http://www.admb-project.org/examples/sampling/line-transect-methods/random-scale</guid>
+    </item>
+  </channel>
+</rss>

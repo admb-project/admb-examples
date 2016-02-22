@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="atom.css" type="text/css"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="http://www.admb-project.org/examples/simple-examples" xml:lang="en">
+  <link rel="self" href="http://www.admb-project.org/examples/simple-examples/atom.xml"/>
+  <title type="html">Simple examples</title>
+  <subtitle></subtitle>
+  <updated>2009-12-14T22:54:27-08:00</updated>
+  <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/simple-examples"/>
+  <id>urn:syndication:2bcb5d4f413602fcfb7b4963620298c8</id>
+  <logo>http://www.admb-project.org/logo.png</logo>
+  <icon>http://www.admb-project.org/favicon.ico</icon>
+  <generator uri="http://www.plone.org" version="1.0">plone</generator>
+  
+  <author>
+    <name>Hans J. Skaug</name>
+    <email>Hans.Skaug@math.uib.no</email>
+  </author>
+
+  
+    <entry>
+      <title>Tadpole mortality as a function of size</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/simple-examples/tadpole-mortality-as-a-function-of-size"/>
+      
+      <id>urn:syndication:e7108a7f-399d-4f89-b18a-03e6bf314d31</id>
+      <summary>A maximum likelihood estimation problem with a binomial response variable, example from the NCEAS non-linear modelling working group.
+ </summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2013-01-21T17:20:00-08:00</published>
+
+      <updated>2013-01-23T11:57:06-08:00</updated>
+
+
+    </entry>
+
+  
+
+</feed>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="atom.css" type="text/css"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/mixed-response" xml:lang="en">
+  <link rel="self" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/mixed-response/atom.xml"/>
+  <title type="html">Mixed response</title>
+  <subtitle>Models with responses of different types</subtitle>
+  <updated>2012-12-29T20:46:13-08:00</updated>
+  <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/mixed-response"/>
+  <id>urn:syndication:51161360-1c6b-4db1-83f0-9f085245eb54</id>
+  <logo>http://www.admb-project.org/logo.png</logo>
+  <icon>http://www.admb-project.org/favicon.ico</icon>
+  <generator uri="http://www.plone.org" version="1.0">plone</generator>
+  
+  <author>
+    <name>Hans J. Skaug</name>
+    <email>Hans.Skaug@math.uib.no</email>
+  </author>
+
+  
+    <entry>
+      <title>Diet and heart disease</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/mixed-response/diet-and-heart-disease"/>
+      
+      <id>urn:syndication:e93e59e5-e5ce-4c4d-84d1-1c6fe8b60052</id>
+      <summary>Continuous and discrete observation sharing being influenced by a latent random variable</summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2012-12-29T20:50:08-08:00</published>
+
+      <updated>2012-12-29T20:52:27-08:00</updated>
+
+
+    </entry>
+
+  
+
+</feed>

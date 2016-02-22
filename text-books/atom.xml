@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="atom.css" type="text/css"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="http://www.admb-project.org/examples/text-books" xml:lang="en">
+  <link rel="self" href="http://www.admb-project.org/examples/text-books/atom.xml"/>
+  <title type="html">Text books</title>
+  <subtitle>Collections of examples taken from text books</subtitle>
+  <updated>2012-11-15T22:10:42-08:00</updated>
+  <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/text-books"/>
+  <id>urn:syndication:6fd2501b-d11e-4150-9377-afcdc7d43fd0</id>
+  <logo>http://www.admb-project.org/logo.png</logo>
+  <icon>http://www.admb-project.org/favicon.ico</icon>
+  <generator uri="http://www.plone.org" version="1.0">plone</generator>
+  
+  <author>
+    <name></name>
+    <email>johnoel@admb-project.org</email>
+  </author>
+
+  
+    <entry>
+      <title>"Maximum likelihood estimation and inference" by Russell Millar</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/text-books/maximum-likelihood-estimation-and-inference-by-russell-millar"/>
+      
+      <id>urn:syndication:a731237cc97c4401b74e9e5bdf1d9c36</id>
+      <summary></summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2013-11-21T07:51:23-08:00</published>
+
+      <updated>2013-11-21T07:51:23-08:00</updated>
+
+
+    </entry>
+
+  
+  
+    <entry>
+      <title>Bolker (2008) Ecological Models and Data in R</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/text-books/bolker-2008-ecological-models-and-data-in-r"/>
+      
+      <id>urn:syndication:680205b5-c27e-482d-9b01-c509314946c0</id>
+      <summary></summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2012-11-15T22:15:00-08:00</published>
+
+      <updated>2012-11-15T22:15:37-08:00</updated>
+
+
+    </entry>
+
+  
+
+</feed>

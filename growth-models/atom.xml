@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="atom.css" type="text/css"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="http://www.admb-project.org/examples/growth-models" xml:lang="en">
+  <link rel="self" href="http://www.admb-project.org/examples/growth-models/atom.xml"/>
+  <title type="html">Growth models</title>
+  <subtitle></subtitle>
+  <updated>2009-12-14T22:54:27-08:00</updated>
+  <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/growth-models"/>
+  <id>urn:syndication:c9e0cbda4a0bb248d21b3e57d99c83eb</id>
+  <logo>http://www.admb-project.org/logo.png</logo>
+  <icon>http://www.admb-project.org/favicon.ico</icon>
+  <generator uri="http://www.plone.org" version="1.0">plone</generator>
+  
+  <author>
+    <name>Hans J. Skaug</name>
+    <email>Hans.Skaug@math.uib.no</email>
+  </author>
+
+  
+    <entry>
+      <title>Orange trees</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/growth-models/orange-trees"/>
+      
+      <id>urn:syndication:ed0deb1f3155d0a5c2d0f32385e3fa96</id>
+      <summary></summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2010-03-31T01:15:41-07:00</published>
+
+      <updated>2010-03-31T01:15:41-07:00</updated>
+
+
+    </entry>
+
+  
+
+</feed>

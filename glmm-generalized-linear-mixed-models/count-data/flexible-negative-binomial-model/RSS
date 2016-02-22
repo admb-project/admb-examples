@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns="http://purl.org/rss/1.0/">
+
+
+
+<channel rdf:about="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/flexible-negative-binomial-model/RSS">
+  <title>Flexible negative binomial</title>
+  <link>http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/flexible-negative-binomial-model</link>
+  <description>Explores non-standard relationships between mean and variance in the NB model</description>
+  <image rdf:resource="http://www.admb-project.org/logo.png"/>
+
+  <items>
+    <rdf:Seq>
+      
+        <rdf:li rdf:resource="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/flexible-negative-binomial-model/flexible-negative-binomial"/>
+      
+    </rdf:Seq>
+  </items>
+
+</channel>
+
+
+  <item rdf:about="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/flexible-negative-binomial-model/flexible-negative-binomial">
+    <title>Flexible negative binomial</title>
+    <link>http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/flexible-negative-binomial-model/flexible-negative-binomial</link>
+    <description>Explores non-standard relationships between mean and variance in the NB model</description>
+    
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2012-12-02T17:42:55Z</dc:date>
+    <dc:type>Document</dc:type>
+  </item>
+
+
+
+</rdf:RDF>

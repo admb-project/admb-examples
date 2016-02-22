@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns="http://purl.org/rss/1.0/">
+
+
+
+<channel rdf:about="http://www.admb-project.org/examples/differential-equations/RSS">
+  <title>Differential equations</title>
+  <link>http://www.admb-project.org/examples/differential-equations</link>
+  <description></description>
+  <image rdf:resource="http://www.admb-project.org/logo.png"/>
+
+  <items>
+    <rdf:Seq>
+      
+        <rdf:li rdf:resource="http://www.admb-project.org/examples/differential-equations/mineralization-of-terbuthylazine"/>
+      
+      
+        <rdf:li rdf:resource="http://www.admb-project.org/examples/differential-equations/pk-dk"/>
+      
+    </rdf:Seq>
+  </items>
+
+</channel>
+
+
+  <item rdf:about="http://www.admb-project.org/examples/differential-equations/mineralization-of-terbuthylazine">
+    <title>Mineralization of terbuthylazine</title>
+    <link>http://www.admb-project.org/examples/differential-equations/mineralization-of-terbuthylazine</link>
+    <description>A simple nonlinear least-squares problem, with normally distributed residuals and no random effects or latent variables. Example from the NCEAS non-linear modelling working group. 
+</description>
+    
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2013-01-22T00:20:00Z</dc:date>
+    <dc:type>Folder</dc:type>
+  </item>
+
+
+  <item rdf:about="http://www.admb-project.org/examples/differential-equations/pk-dk">
+    <title>PK/DK </title>
+    <link>http://www.admb-project.org/examples/differential-equations/pk-dk</link>
+    <description>Pharmacokinetics (PK) &amp; Pharmacodynamics(DK)</description>
+    
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2012-12-01T15:48:17Z</dc:date>
+    <dc:type>Folder</dc:type>
+  </item>
+
+
+
+</rdf:RDF>

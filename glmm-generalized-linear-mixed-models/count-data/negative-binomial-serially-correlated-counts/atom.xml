@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="atom.css" type="text/css"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-serially-correlated-counts" xml:lang="en">
+  <link rel="self" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-serially-correlated-counts/atom.xml"/>
+  <title type="html">Negative binomial serially correlated counts</title>
+  <subtitle>Compares a negative binomial response to Poisson responses for the polio data</subtitle>
+  <updated>2012-11-16T22:47:49-08:00</updated>
+  <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-serially-correlated-counts"/>
+  <id>urn:syndication:7351c840-cf96-4649-b935-15a8746200e2</id>
+  <logo>http://www.admb-project.org/logo.png</logo>
+  <icon>http://www.admb-project.org/favicon.ico</icon>
+  <generator uri="http://www.plone.org" version="1.0">plone</generator>
+  
+  <author>
+    <name>Hans J. Skaug</name>
+    <email>Hans.Skaug@math.uib.no</email>
+  </author>
+
+  
+    <entry>
+      <title>polio.dat</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-serially-correlated-counts/polio.dat/view"/>
+      <link rel="enclosure" length="367" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-serially-correlated-counts/polio.dat/@@download/file/%spolio.dat" type="chemical/x-mopac-input"/>
+      <id>urn:syndication:efd3e0e1-b0ca-4a27-8f39-5ef71dd80884</id>
+      <summary></summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2012-11-16T22:41:52-08:00</published>
+
+      <updated>2012-11-16T22:41:52-08:00</updated>
+
+
+    </entry>
+
+  
+  
+    <entry>
+      <title>polio2.tpl</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-serially-correlated-counts/polio2.tpl/view"/>
+      <link rel="enclosure" length="1197" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-serially-correlated-counts/polio2.tpl/@@download/file/%spolio2.tpl" type="application/octet-stream"/>
+      <id>urn:syndication:101f7101-1fc1-456f-90f0-6349704ecb72</id>
+      <summary></summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2012-11-16T22:41:52-08:00</published>
+
+      <updated>2012-11-16T22:41:52-08:00</updated>
+
+
+    </entry>
+
+  
+  
+    <entry>
+      <title>polio2s.tpl</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-serially-correlated-counts/polio2s.tpl/view"/>
+      <link rel="enclosure" length="2038" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-serially-correlated-counts/polio2s.tpl/@@download/file/%spolio2s.tpl" type="application/octet-stream"/>
+      <id>urn:syndication:ce8c44b7-137c-4163-bffd-4873ed27ce48</id>
+      <summary></summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2012-11-16T22:41:52-08:00</published>
+
+      <updated>2012-11-16T22:41:52-08:00</updated>
+
+
+    </entry>
+
+  
+  
+    <entry>
+      <title>polio3.tpl</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-serially-correlated-counts/polio3.tpl/view"/>
+      <link rel="enclosure" length="1195" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-serially-correlated-counts/polio3.tpl/@@download/file/%spolio3.tpl" type="application/octet-stream"/>
+      <id>urn:syndication:10748050-4a51-4e0c-8a90-36df007c2985</id>
+      <summary></summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2012-11-16T22:41:52-08:00</published>
+
+      <updated>2012-11-16T22:41:52-08:00</updated>
+
+
+    </entry>
+
+  
+  
+    <entry>
+      <title>polio3s.tpl</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-serially-correlated-counts/polio3s.tpl/view"/>
+      <link rel="enclosure" length="1695" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-serially-correlated-counts/polio3s.tpl/@@download/file/%spolio3s.tpl" type="application/octet-stream"/>
+      <id>urn:syndication:8fee6ab5-3b2b-4fa0-9379-e9ac39cc246f</id>
+      <summary></summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2012-11-16T22:41:52-08:00</published>
+
+      <updated>2012-11-16T22:41:52-08:00</updated>
+
+
+    </entry>
+
+  
+  
+    <entry>
+      <title>Negative binomial serially correlated counts </title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-serially-correlated-counts/negative-binomial-serially-correlated-counts"/>
+      
+      <id>urn:syndication:76b667f8-6f3f-4451-863c-6e20fca0721e</id>
+      <summary></summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2010-11-23T19:15:00-08:00</published>
+
+      <updated>2012-11-16T22:47:49-08:00</updated>
+
+      
+        <category term="State space model"/>
+      
+      
+        <category term="Count data"/>
+      
+
+    </entry>
+
+  
+  
+    <entry>
+      <title>polio_plot.png</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/negative-binomial-serially-correlated-counts/polio_plot.png/view"/>
+      
+      <id>urn:syndication:e98a710f-ac29-4fd2-9d14-4199a14c4e57</id>
+      <summary></summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2012-11-16T22:41:52-08:00</published>
+
+      <updated>2012-11-16T22:41:52-08:00</updated>
+
+
+    </entry>
+
+  
+
+</feed>

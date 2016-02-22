@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="atom.css" type="text/css"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/non-gaussian-random-effects" xml:lang="en">
+  <link rel="self" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/non-gaussian-random-effects/atom.xml"/>
+  <title type="html">Non Gaussian random effects</title>
+  <subtitle>ADMB allows non-Gaussian random effects via transformation of a normal variate</subtitle>
+  <updated>2012-11-15T21:16:48-08:00</updated>
+  <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/non-gaussian-random-effects"/>
+  <id>urn:syndication:6c22ac79-a58b-4f3c-aeb1-8eba3b95e3d2</id>
+  <logo>http://www.admb-project.org/logo.png</logo>
+  <icon>http://www.admb-project.org/favicon.ico</icon>
+  <generator uri="http://www.plone.org" version="1.0">plone</generator>
+  
+  <author>
+    <name></name>
+    <email>johnoel@admb-project.org</email>
+  </author>
+
+  
+    <entry>
+      <title>Beta-binomial model</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/non-gaussian-random-effects/beta-binomial-model"/>
+      
+      <id>urn:syndication:5cde7ef1-2c2d-42f6-9a35-a3c091fa0ae6</id>
+      <summary>Binomial response with random effects having beta distribution. Comparison to Winbugs and h-GLM</summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2012-11-15T21:05:00-08:00</published>
+
+      <updated>2012-11-21T13:57:48-08:00</updated>
+
+      
+        <category term="Winbugs"/>
+      
+      
+        <category term="Random effect"/>
+      
+      
+        <category term="-gh (Gauss Hermite integration)"/>
+      
+      
+        <category term="h-GLM"/>
+      
+
+    </entry>
+
+  
+  
+    <entry>
+      <title>Wildflowers</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/non-gaussian-random-effects/wildflowers"/>
+      
+      <id>urn:syndication:3b8ca6ca-5367-4dc3-b8fa-a3eca4cd2841</id>
+      <summary>A binomial generalized linear mixed model example from the NCEAS non-linear modelling working group.
+</summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2013-01-21T17:40:00-08:00</published>
+
+      <updated>2013-01-23T11:54:53-08:00</updated>
+
+
+    </entry>
+
+  
+
+</feed>

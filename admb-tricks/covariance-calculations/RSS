@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns="http://purl.org/rss/1.0/">
+
+
+
+<channel rdf:about="http://www.admb-project.org/examples/admb-tricks/covariance-calculations/RSS">
+  <title>Covariance Calculations</title>
+  <link>http://www.admb-project.org/examples/admb-tricks/covariance-calculations</link>
+  <description>A short document with accompanying R code that details (1) the functions used to bound parameters, (2) the method for calculating a bounded covariance matrix, and (3) what is stored in the binary admodel.hes and admodel.cov files and how the user can utilize this information to gain more control over an MCMC chain.</description>
+  <image rdf:resource="http://www.admb-project.org/logo.png"/>
+
+  <items>
+    <rdf:Seq>
+      
+        <rdf:li rdf:resource="http://www.admb-project.org/examples/admb-tricks/covariance-calculations/covariance-calculations/view"/>
+      
+      
+        <rdf:li rdf:resource="http://www.admb-project.org/examples/admb-tricks/covariance-calculations/r-code-to-interact-with-admodel.cov/view"/>
+      
+    </rdf:Seq>
+  </items>
+
+</channel>
+
+
+  <item rdf:about="http://www.admb-project.org/examples/admb-tricks/covariance-calculations/covariance-calculations/view">
+    <title>Covariance Calculations</title>
+    <link>http://www.admb-project.org/examples/admb-tricks/covariance-calculations/covariance-calculations/view</link>
+    <description>A document detailing the calculations used internally for calculating the covariance matrix with bounded parameters.</description>
+    
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2012-10-09T01:25:19Z</dc:date>
+    <dc:type>File</dc:type>
+  </item>
+
+
+  <item rdf:about="http://www.admb-project.org/examples/admb-tricks/covariance-calculations/r-code-to-interact-with-admodel.cov/view">
+    <title>R code to interact with admodel.cov</title>
+    <link>http://www.admb-project.org/examples/admb-tricks/covariance-calculations/r-code-to-interact-with-admodel.cov/view</link>
+    <description>R code for reproducing the covariance calculations and manipulating the admodel.cov file.</description>
+    
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2012-10-09T01:28:26Z</dc:date>
+    <dc:type>File</dc:type>
+  </item>
+
+
+
+</rdf:RDF>

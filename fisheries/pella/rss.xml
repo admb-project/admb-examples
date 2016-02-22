@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Pella-Tomlinson basic model</title>
+    <link>http://www.admb-project.org/examples/fisheries/pella</link>
+    <description>Pella-Tomlinson by Arni Magnusson with user interface and formatted MCMC output. Repeats and extends the analysis of Polacheck et al. (1993).</description>
+    
+    <language>en</language>
+    <copyright></copyright>
+    <generator>Plone</generator>
+    <item>
+      <title>pella.pdf</title>
+      <link>http://www.admb-project.org/examples/fisheries/pella/pella.pdf</link>
+      <description>Model description and results</description>
+      <pubDate>2014-01-13T18:38:03Z</pubDate>
+      <guid>http://www.admb-project.org/examples/fisheries/pella/pella.pdf</guid>
+    </item>
+    <item>
+      <title>pella.tpl</title>
+      <link>http://www.admb-project.org/examples/fisheries/pella/pella.tpl</link>
+      <description>ADMB source code</description>
+      <pubDate>2014-01-13T18:38:04Z</pubDate>
+      <guid>http://www.admb-project.org/examples/fisheries/pella/pella.tpl</guid>
+    </item>
+    <item>
+      <title>modelruns.zip</title>
+      <link>http://www.admb-project.org/examples/fisheries/pella/modelruns.zip</link>
+      <description>Input data (alb, hake, rocklob) and model output</description>
+      <pubDate>2014-01-13T18:38:04Z</pubDate>
+      <guid>http://www.admb-project.org/examples/fisheries/pella/modelruns.zip</guid>
+    </item>
+  </channel>
+</rss>

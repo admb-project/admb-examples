@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="atom.css" type="text/css"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="http://www.admb-project.org/examples/admb-tricks/splines-1" xml:lang="en">
+  <link rel="self" href="http://www.admb-project.org/examples/admb-tricks/splines-1/atom.xml"/>
+  <title type="html">Splines</title>
+  <subtitle>Different aspects of spline models
+</subtitle>
+  <updated>2012-11-16T22:10:49-08:00</updated>
+  <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/admb-tricks/splines-1"/>
+  <id>urn:syndication:524f35bc-6386-4649-923d-45d971072c29</id>
+  <logo>http://www.admb-project.org/logo.png</logo>
+  <icon>http://www.admb-project.org/favicon.ico</icon>
+  <generator uri="http://www.plone.org" version="1.0">plone</generator>
+  
+  <author>
+    <name>Hans J. Skaug</name>
+    <email>Hans.Skaug@math.uib.no</email>
+  </author>
+
+  
+    <entry>
+      <title>Splines I</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/admb-tricks/splines-1/splines"/>
+      
+      <id>urn:syndication:a6565769-adc4-414d-90b6-9eaea8073b8b</id>
+      <summary>notes and examples related to cubic splines</summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2010-10-09T03:50:00-07:00</published>
+
+      <updated>2012-11-16T22:13:21-08:00</updated>
+
+      
+        <category term="Splines"/>
+      
+
+    </entry>
+
+  
+
+</feed>

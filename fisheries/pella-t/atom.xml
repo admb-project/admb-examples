@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="atom.css" type="text/css"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="http://www.admb-project.org/examples/fisheries/pella-t" xml:lang="en">
+  <link rel="self" href="http://www.admb-project.org/examples/fisheries/pella-t/atom.xml"/>
+  <title type="html">Pella-Tomlinson from ADMB manual</title>
+  <subtitle>Pella-Tomlinson example by Dave Fournier from the ADMB manual. Demonstrates several innovative modelling approaches: 6 month time step, time-varying K and q.</subtitle>
+  <updated>2014-01-13T10:39:24-08:00</updated>
+  <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/fisheries/pella-t"/>
+  <id>urn:syndication:d14dba80-fdf2-4cb5-8215-bbec0971219e</id>
+  <logo>http://www.admb-project.org/logo.png</logo>
+  <icon>http://www.admb-project.org/favicon.ico</icon>
+  <generator uri="http://www.plone.org" version="1.0">plone</generator>
+  
+  <author>
+    <name>Juan Valero</name>
+    <email>juan@uw.edu</email>
+  </author>
+
+  
+    <entry>
+      <title>pella-t.pdf</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/fisheries/pella-t/pella-t.pdf/view"/>
+      <link rel="enclosure" length="98724" href="http://www.admb-project.org/examples/fisheries/pella-t/pella-t.pdf/@@download/file/%sSchaeffer-Pella-Tomlinson.pdf" type="application/pdf"/>
+      <id>urn:syndication:a5a09eb6-efcf-45ea-a6b6-018a661fe3cf</id>
+      <summary></summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2013-01-14T19:19:40-08:00</published>
+
+      <updated>2013-01-14T19:19:40-08:00</updated>
+
+
+    </entry>
+
+  
+  
+    <entry>
+      <title>Model and data files</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/fisheries/pella-t/directory"/>
+      
+      <id>urn:syndication:d416f6ac91234cfb926616e5e1e16f28</id>
+      <summary></summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2014-01-13T10:28:48-08:00</published>
+
+      <updated>2014-01-13T10:28:48-08:00</updated>
+
+
+    </entry>
+
+  
+
+</feed>

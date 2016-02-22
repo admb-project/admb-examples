@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="atom.css" type="text/css"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="http://www.admb-project.org/examples/fisheries/pella" xml:lang="en">
+  <link rel="self" href="http://www.admb-project.org/examples/fisheries/pella/atom.xml"/>
+  <title type="html">Pella-Tomlinson basic model</title>
+  <subtitle>Pella-Tomlinson by Arni Magnusson with user interface and formatted MCMC output. Repeats and extends the analysis of Polacheck et al. (1993).</subtitle>
+  <updated>2014-01-13T11:34:43-08:00</updated>
+  <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/fisheries/pella"/>
+  <id>urn:syndication:3466f052e62f41198f749722480b2a6e</id>
+  <logo>http://www.admb-project.org/logo.png</logo>
+  <icon>http://www.admb-project.org/favicon.ico</icon>
+  <generator uri="http://www.plone.org" version="1.0">plone</generator>
+  
+  <author>
+    <name>Arni Magnusson</name>
+    <email>arnima@hafro.is</email>
+  </author>
+
+  
+    <entry>
+      <title>pella.pdf</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/fisheries/pella/pella.pdf"/>
+      
+      <id>urn:syndication:e4714550f7874f74802b6bd949caebe2</id>
+      <summary>Model description and results</summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2014-01-13T10:38:03-08:00</published>
+
+      <updated>2014-01-13T10:38:03-08:00</updated>
+
+
+    </entry>
+
+  
+  
+    <entry>
+      <title>pella.tpl</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/fisheries/pella/pella.tpl"/>
+      
+      <id>urn:syndication:41fe921cda9f4e678979deedf9842a0c</id>
+      <summary>ADMB source code</summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2014-01-13T10:38:04-08:00</published>
+
+      <updated>2014-01-13T10:38:04-08:00</updated>
+
+
+    </entry>
+
+  
+  
+    <entry>
+      <title>modelruns.zip</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/fisheries/pella/modelruns.zip"/>
+      
+      <id>urn:syndication:6fb37e1bbabf44fda16208b7c5abaee8</id>
+      <summary>Input data (alb, hake, rocklob) and model output</summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2014-01-13T10:38:04-08:00</published>
+
+      <updated>2014-01-13T10:38:04-08:00</updated>
+
+
+    </entry>
+
+  
+
+</feed>

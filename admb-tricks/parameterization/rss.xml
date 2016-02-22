@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Parameterization</title>
+    <link>http://www.admb-project.org/examples/admb-tricks/parameterization</link>
+    <description>Examples of how to (and not to) parameterize mathematical functions and statistical models</description>
+    
+    <language>en</language>
+    <copyright></copyright>
+    <generator>Plone</generator>
+    <item>
+      <title>Covariance matrices</title>
+      <link>http://www.admb-project.org/examples/admb-tricks/parameterization/covariance-matrices</link>
+      <description>How to parameterize a covariance matrix</description>
+      <pubDate>2012-11-23T10:30:00Z</pubDate>
+      <guid>http://www.admb-project.org/examples/admb-tricks/parameterization/covariance-matrices</guid>
+    </item>
+  </channel>
+</rss>

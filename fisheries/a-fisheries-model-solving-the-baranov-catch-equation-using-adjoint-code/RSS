@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns="http://purl.org/rss/1.0/">
+
+
+
+<channel rdf:about="http://www.admb-project.org/examples/fisheries/a-fisheries-model-solving-the-baranov-catch-equation-using-adjoint-code/RSS">
+  <title>Baranov catch equation</title>
+  <link>http://www.admb-project.org/examples/fisheries/a-fisheries-model-solving-the-baranov-catch-equation-using-adjoint-code</link>
+  <description>Example by Steven Martell of writing adjoint code in ADMB to numerically solve the Baranov catch equation. A simple simulation model is used to generate simulated catch and relative abundance data with observation error only. The assessment model is then conditioned on the simulated catch data. </description>
+  <image rdf:resource="http://www.admb-project.org/logo.png"/>
+
+  <items>
+    <rdf:Seq>
+      
+        <rdf:li rdf:resource="http://www.admb-project.org/examples/fisheries/a-fisheries-model-solving-the-baranov-catch-equation-using-adjoint-code/baranov-catch-equation"/>
+      
+    </rdf:Seq>
+  </items>
+
+</channel>
+
+
+  <item rdf:about="http://www.admb-project.org/examples/fisheries/a-fisheries-model-solving-the-baranov-catch-equation-using-adjoint-code/baranov-catch-equation">
+    <title>Baranov catch equation</title>
+    <link>http://www.admb-project.org/examples/fisheries/a-fisheries-model-solving-the-baranov-catch-equation-using-adjoint-code/baranov-catch-equation</link>
+    <description>Writing adjoint code in ADMB to numerically solve the Baranov catch equation. </description>
+    
+    <dc:publisher>No publisher</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    
+      <dc:subject>Fisheries</dc:subject>
+    
+    <dc:date>2013-01-14T20:05:00Z</dc:date>
+    <dc:type>Document</dc:type>
+  </item>
+
+
+
+</rdf:RDF>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Mixed response</title>
+    <link>http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/mixed-response</link>
+    <description>Models with responses of different types</description>
+    
+    <language>en</language>
+    <copyright></copyright>
+    <generator>Plone</generator>
+    <item>
+      <title>Diet and heart disease</title>
+      <link>http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/mixed-response/diet-and-heart-disease</link>
+      <description>Continuous and discrete observation sharing being influenced by a latent random variable</description>
+      <pubDate>2012-12-30T04:50:08Z</pubDate>
+      <guid>http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/mixed-response/diet-and-heart-disease</guid>
+    </item>
+  </channel>
+</rss>

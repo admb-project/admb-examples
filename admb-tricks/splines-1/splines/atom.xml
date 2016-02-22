@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="atom.css" type="text/css"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="http://www.admb-project.org/examples/admb-tricks/splines-1/splines" xml:lang="en">
+  <link rel="self" href="http://www.admb-project.org/examples/admb-tricks/splines-1/splines/atom.xml"/>
+  <title type="html">Splines I</title>
+  <subtitle>notes and examples related to cubic splines</subtitle>
+  <updated>2012-11-16T22:13:21-08:00</updated>
+  <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/admb-tricks/splines-1/splines"/>
+  <id>urn:syndication:a6565769-adc4-414d-90b6-9eaea8073b8b</id>
+  <logo>http://www.admb-project.org/logo.png</logo>
+  <icon>http://www.admb-project.org/favicon.ico</icon>
+  <generator uri="http://www.plone.org" version="1.0">plone</generator>
+  
+  <author>
+    <name>Ian Taylor</name>
+    <email>ian.taylor@noaa.gov</email>
+  </author>
+
+  
+    <entry>
+      <title>splines.tpl</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/admb-tricks/splines-1/splines/splines.tpl/view"/>
+      <link rel="enclosure" length="2977" href="http://www.admb-project.org/examples/admb-tricks/splines-1/splines/splines.tpl/@@download/file/%ssplines.tpl" type="application/octet-stream"/>
+      <id>urn:syndication:9293a38e-4130-40d3-bcd9-560e3b6e1985</id>
+      <summary>ADMB code with a spline (very rough)</summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2012-11-16T22:11:14-08:00</published>
+
+      <updated>2012-11-16T22:11:14-08:00</updated>
+
+
+    </entry>
+
+  
+  
+    <entry>
+      <title>Example results</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/admb-tricks/splines-1/splines/spline_example.pdf/view"/>
+      <link rel="enclosure" length="653254" href="http://www.admb-project.org/examples/admb-tricks/splines-1/splines/spline_example.pdf/@@download/file/%sspline_example.pdf" type="application/pdf"/>
+      <id>urn:syndication:1cf63397-2499-4132-a027-78e9abb7a749</id>
+      <summary>notes: grey lines are from MCMC samples,
+third derivative looks rough only because of numerical precision</summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2012-11-16T22:11:14-08:00</published>
+
+      <updated>2012-11-16T22:11:14-08:00</updated>
+
+
+    </entry>
+
+  
+  
+    <entry>
+      <title>splines.dat</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/admb-tricks/splines-1/splines/splines.dat/view"/>
+      <link rel="enclosure" length="414" href="http://www.admb-project.org/examples/admb-tricks/splines-1/splines/splines.dat/@@download/file/%ssplines.dat" type="chemical/x-mopac-input"/>
+      <id>urn:syndication:aee4e29a-ab3f-45a6-8ead-e6104af2ce66</id>
+      <summary>data file to go with the model in splines.tpl</summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2012-11-16T22:11:14-08:00</published>
+
+      <updated>2012-11-16T22:11:14-08:00</updated>
+
+
+    </entry>
+
+  
+  
+    <entry>
+      <title>R code</title>
+      <link rel="alternate" type="text/html" href="http://www.admb-project.org/examples/admb-tricks/splines-1/splines/splines_code.R/view"/>
+      <link rel="enclosure" length="2333" href="http://www.admb-project.org/examples/admb-tricks/splines-1/splines/splines_code.R/@@download/file/%ssplines_code.R" type="application/octet-stream"/>
+      <id>urn:syndication:3e97039f-920c-4a37-81f3-8a0ed9a0b71f</id>
+      <summary>read output from splines model and plot results shown in spline_example.pdf</summary>
+      
+
+      <author>
+        <name></name>
+        
+      </author>
+
+      <published>2012-11-16T22:11:14-08:00</published>
+
+      <updated>2012-11-16T22:11:14-08:00</updated>
+
+
+    </entry>
+
+  
+
+</feed>
