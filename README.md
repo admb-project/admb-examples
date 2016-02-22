@@ -4,8 +4,11 @@ Good examples are an important part of the ADMB documentation. The examples are 
 Warning: currently the hierarchy of examples is under reorganization and hence linking to examples may be risky. (Better to link directly to underlying external material in case that is provided).
 ### Examples
 [admb-tricks](/admb-tricks)
+
 [by-field-of-application](/by-field-of-application
+
 [categorical-data](/categorical-data
+
 [copy_of_new-examples](/copy_of_new-examples)
 [differential-equations](/differential-equations)
 [fisheries](/fisheries)
