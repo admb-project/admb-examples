@@ -1,0 +1,7 @@
+while read p; do
+	mv $p $p-rem123
+	mv $p-rem123/at_download/*.* .
+	rm $p-rem123/at_download
+	rm $p-rem123/view.html
+	rm $p-rem123
+done <names.txt
