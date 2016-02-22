@@ -1,6 +1,30 @@
 # admb-examples
-Good examples are an important part of the ADMB documentation. The examples are categorised and include the ADMB files needed to run the model. Users are encouraged to contribute their own examples. Warning: currently the hierarchy of examples is under reorganization and hence linking to examples may be risky. (Better to link directly to underlying external material in case that is provided).
+Good examples are an important part of the ADMB documentation. The examples are categorised and include the ADMB files needed to run the model. Users are encouraged to contribute their own examples. 
 
+Warning: currently the hierarchy of examples is under reorganization and hence linking to examples may be risky. (Better to link directly to underlying external material in case that is provided).
+### Examples
+[admb-tricks](/admb-tricks)
+[by-field-of-application](/by-field-of-application
+[categorical-data](/categorical-data
+[copy_of_new-examples](/copy_of_new-examples)
+[differential-equations](/differential-equations)
+[fisheries](/fisheries)
+[function-minimization](/function-minimization)
+[glmm-generalized-linear-mixed-models](/glmm-generalized-linear-mixed-models)
+[growth_models](/growth_models)
+[growth-models](/growth-models)
+[mark-recapture](/mark-recapture)
+[miscellaneous](/miscellaneous)
+[new-examples](/new-examples)
+[r-stuff](/r-stuff)
+[sampling](/sampling)
+[simple-examples](/simple-examples)
+[spatial-models](/spatial-models)
+[state-space-models](/state-space-models)
+[storage](/storage)
+[survival-analysis](/survival-analysis)
+[text-books](/text-books)
+[winbugs](/winbugs)
 ### How to submit your own example  
 
 *   Upload the example to **your own** webpage
