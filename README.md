@@ -9,8 +9,6 @@ Warning: currently the hierarchy of examples is under reorganization and hence l
 
 [categorical-data](/categorical-data)
 
-[copy_of_new-examples](/copy_of_new-examples)
-
 [differential-equations](/differential-equations)
 
 [fisheries](/fisheries)
