@@ -8,5 +8,5 @@ Document Actions
 
 * [RSS feed][2]
 
-[1]: survival-analysis/weibull-regression-with-censoring.html
-[2]: survival-analysis/RSS ""
+[1]: ./weibull-regression-with-censoring.html
+[2]: ./RSS ""

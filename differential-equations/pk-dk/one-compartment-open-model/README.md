@@ -29,4 +29,4 @@ Pinheiro, J., Bates, D.M.  (2000), _Mixed-Effects Models in S and S-PLUS_. St
 
 [1]: http://www.admb-project.org/@@search?Subject:list=Differential equations
 [2]: http://www.admb-project.org/@@search?Subject:list=PK/DK
-[3]: one-compartment-open-model/pheno.pdf "pheno.pdf"
+[3]: ./pheno.pdf "pheno.pdf"

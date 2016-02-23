@@ -54,10 +54,10 @@ The par-files contain estimated parameters and volatilities. (Comments...)
   
   
 
-[1]: the-basic-sv-model-and-simple-extensions-1/Figur_1.jpg/image_preview.jpg "Fig_1"
-[2]: the-basic-sv-model-and-simple-extensions-1/sdv_plain.tpl "sdv_plain.tpl"
-[3]: the-basic-sv-model-and-simple-extensions-1/sdv_t.tpl "sdv_t.tpl"
-[4]: the-basic-sv-model-and-simple-extensions-1/sdv_t_skw.tpl "sdv_t_skw.tpl"
-[5]: the-basic-sv-model-and-simple-extensions-1/sdv_plain.par "sdv_plain.par"
-[6]: the-basic-sv-model-and-simple-extensions-1/sdv_t.par "sdv_t.par"
-[7]: the-basic-sv-model-and-simple-extensions-1/sdv_t_skw.par "sdv_t_skw.par"
+[1]: ./Figur_1.jpg/image_preview.jpg "Fig_1"
+[2]: ./sdv_plain.tpl "sdv_plain.tpl"
+[3]: ./sdv_t.tpl "sdv_t.tpl"
+[4]: ./sdv_t_skw.tpl "sdv_t_skw.tpl"
+[5]: ./sdv_plain.par "sdv_plain.par"
+[6]: ./sdv_t.par "sdv_t.par"
+[7]: ./sdv_t_skw.par "sdv_t_skw.par"

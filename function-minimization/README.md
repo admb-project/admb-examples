@@ -9,5 +9,5 @@ Document Actions
 
 * [RSS feed][2]
 
-[1]: function-minimization/parameter-scaling.html
-[2]: function-minimization/RSS ""
+[1]: ./parameter-scaling.html
+[2]: ./RSS ""

@@ -36,4 +36,4 @@ Skrondal and Rabe-Hesketh (2004), Generalized Latent Variable Modeling: Multilev
 [3]: http://www.admb-project.org/@@search?Subject:list=Transformations of RE
 [4]: http://www.admb-project.org/@@search?Subject:list=non-gaussian random effect
 [5]: http://www.admb-project.org/@@search?Subject:list=Skrondal and Rabe-Hesketh (2004)
-[6]: diet-and-heart-disease/skewed_re.pdf "skewed_re.pdf"
+[6]: ./skewed_re.pdf "skewed_re.pdf"

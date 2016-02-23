@@ -13,7 +13,7 @@ Document Actions
 * [RSS feed][5]
 
 [1]: http://www.admb-project.org/pdf.png
-[2]: ././view
+[2]: covariance-calculations/covariance-calculations/view.html
 [3]: http://www.admb-project.org/application.png
-[4]: ./r-code-to-interact-with-admodel.cov/view
-[5]: ./RSS ""
+[4]: covariance-calculations/r-code-to-interact-with-admodel.cov/view.html
+[5]: covariance-calculations/RSS ""

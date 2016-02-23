@@ -12,6 +12,6 @@ Document Actions
 
 * [RSS feed][3]
 
-[1]: line-transect-methods/estimation-of-detection-function.html
-[2]: line-transect-methods/random-scale.html
-[3]: line-transect-methods/RSS ""
+[1]: ./estimation-of-detection-function.html
+[2]: ./random-scale.html
+[3]: ./RSS ""

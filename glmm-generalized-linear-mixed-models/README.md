@@ -19,9 +19,9 @@ Document Actions
 
 * [RSS feed][6]
 
-[1]: glmm-generalized-linear-mixed-models/gams-as-mixed-models.html
-[2]: glmm-generalized-linear-mixed-models/non-gaussian-random-effects.html
-[3]: glmm-generalized-linear-mixed-models/count-data.html
-[4]: glmm-generalized-linear-mixed-models/mixed-response.html
-[5]: glmm-generalized-linear-mixed-models/gaussian-models.html
-[6]: glmm-generalized-linear-mixed-models/RSS ""
+[1]: ./gams-as-mixed-models.html
+[2]: ./non-gaussian-random-effects.html
+[3]: ./count-data.html
+[4]: ./mixed-response.html
+[5]: ./gaussian-models.html
+[6]: ./RSS ""

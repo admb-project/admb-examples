@@ -37,4 +37,4 @@ See "Navigation" box to the left.
 
 [1]: http://www.admb-project.org/@@search?Subject:list=Finance
 [2]: citations.html#harv:ruiz:shep:1994
-[3]: stochastic-volatility-models-for-financial-time-series/sdv.pdf "sdv.pdf"
+[3]: ./sdv.pdf "sdv.pdf"

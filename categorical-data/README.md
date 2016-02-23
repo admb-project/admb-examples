@@ -10,6 +10,6 @@ Document Actions
 
 * [RSS feed][3]
 
-[1]: categorical-data/item-response-theory-irt-and-the-multilevel-rasch-model-1.html
-[2]: categorical-data/ordered-categorical-responses.html
-[3]: categorical-data/RSS ""
+[1]: ./item-response-theory-irt-and-the-multilevel-rasch-model-1.html
+[2]: ./ordered-categorical-responses.html
+[3]: ./RSS ""

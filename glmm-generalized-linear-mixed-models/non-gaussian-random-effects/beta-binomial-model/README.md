@@ -6,4 +6,4 @@ Comparison of ADMB-RE and h-GLM fits of a binomial-beta model to the seed germin
 
 [binbeta.pdf][1]
 
-[1]: beta-binomial-model/binbeta.pdf "binbeta.pdf"
+[1]: ./binbeta.pdf "binbeta.pdf"

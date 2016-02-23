@@ -27,5 +27,5 @@ See "Navigation" box to the left.
 * .pin: Starting values for the numerical optimizer  
 * .par: Result file (what you get when you compile and run your model)  
 
-[1]: generalized-additive-models/union.pdf
-[2]: generalized-additive-models/union.pdf "union.pdf"
+[1]: ./union.pdf
+[2]: ./union.pdf "union.pdf"

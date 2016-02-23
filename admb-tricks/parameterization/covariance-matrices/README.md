@@ -32,6 +32,6 @@ Sometimes you want elements in the C (or S) to be zero, say S(1,2) = 0, meaning 
 
  
 
-[1]: covariance-matrices/correlation matrix.pdf "Correlation matrix"
-[2]: covariance-matrices/constrained_cor.tpl "constrained_cor.tpl"
-[3]: covariance-matrices/constrained_cor.dat "constrained_cor.dat"
+[1]: ./correlation matrix.pdf "Correlation matrix"
+[2]: ./constrained_cor.tpl "constrained_cor.tpl"
+[3]: ./constrained_cor.dat "constrained_cor.dat"

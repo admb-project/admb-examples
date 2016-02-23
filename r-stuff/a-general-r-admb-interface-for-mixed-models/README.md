@@ -26,4 +26,4 @@ A simple example that shows how you can create a general .tpl file and use R to 
 
  
 
-[1]: a-general-r-admb-interface-for-mixed-models/mixed_example.pdf "mixed_example.pdf"
+[1]: ./mixed_example.pdf "mixed_example.pdf"

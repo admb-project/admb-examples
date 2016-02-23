@@ -22,5 +22,5 @@ Thank you.
 
 [1]: http://www.admb-project.org/contact-info
 [2]: http://www.admb-project.org/examples/growth-models
-[3]: http://www.admb-project.org/examples/growth-models/orange-trees/orange-trees
+[3]: http://www.admb-project.org/examples/./orange-trees/orange-trees
 [4]: http://www.admb-project.org/users/bibliography/journal-papers-and-formal-publications

@@ -75,6 +75,6 @@ This is the R script for the simulator modifed to write out the simulated data f
 
 Zhang et al. (2011) On fitting generalized linear mixed-effects models for binary responses using different  statistical packages. _Statistics in Medicine_, 30, p. 1097-0258.
 
-[1]: lmer-comparison/bolker-par.r "bolker-par.r"
-[2]: lmer-comparison/write2admb.r "write2admb.r"
-[3]: lmer-comparison/analyzer.tpl "analyzer.tpl"
+[1]: ./bolker-par.r "bolker-par.r"
+[2]: ./write2admb.r "write2admb.r"
+[3]: ./analyzer.tpl "analyzer.tpl"

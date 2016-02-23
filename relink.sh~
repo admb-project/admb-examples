@@ -1,0 +1,7 @@
+while read p; do
+	dname="$(dirname $p)"
+	sname="$(basename $dname)"
+	echo "s:$dname/:./:g"
+	find $p -type f -exec sed -i "s:$dname/:./:g" {} \;
+
+done <md_files.txt

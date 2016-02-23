@@ -70,12 +70,12 @@ where vt ̴ N(0, 1)and εt has some standardized continuous distribution. This l
   
 For models on this form ht 1|(Xt, ht, θ) ̴ N(ϕht σρXt exp(-ht/2)/σX, σ2(1 – ρ2)) no matter which distribution we choose for εt. When εt  is not normally distributed, the distribution of h1|θ is unknown, so strictly speaking we cannot find an exact expression for p(**X**,**h**|θ) here. However it is still the case that E[h1] = 0 and Var(h1) = σ2/(1-ϕ2), and by assuming that h1|θ ̴ N(0,σ2/(1-ϕ2)), we find an approximate expression for the joint density. Since p(h1|θ) is only a minor contributor to p(**X**,**h**|θ), the error is small. The distribution of Xt|ht depends on the distribution used for εt, as can be seen in the tpl-files, [**sdv_t_lev.tpl][8]** and [**sdv_st_lev.tpl][9]**.
 
-[1]: sv-models-with-leverage-effect/Figur_2.jpg/image_preview.jpg "Fig_1"
-[2]: sv-models-with-leverage-effect/Figur_3.jpg/image_preview.jpg "Fig_2"
-[3]: sv-models-with-leverage-effect/Figur_4.jpg/image_preview.jpg "Fig_3"
-[4]: sv-models-with-leverage-effect/sdv_lev_1.tpl "sdv_lev_1.tpl"
-[5]: sv-models-with-leverage-effect/sdv_lev_2.tpl "sdv_lev_2.tpl"
-[6]: sv-models-with-leverage-effect/sdv_lev_1.par "sdv_lev_1.par"
-[7]: sv-models-with-leverage-effect/sdv_lev_2.par "sdv_lev_2.par"
-[8]: sv-models-with-leverage-effect/sdv_t_lev.tpl "sdv_t_lev.tpl"
-[9]: sv-models-with-leverage-effect/sdv_st_lev.tpl "sdv_st_lev.tpl"
+[1]: ./Figur_2.jpg/image_preview.jpg "Fig_1"
+[2]: ./Figur_3.jpg/image_preview.jpg "Fig_2"
+[3]: ./Figur_4.jpg/image_preview.jpg "Fig_3"
+[4]: ./sdv_lev_1.tpl "sdv_lev_1.tpl"
+[5]: ./sdv_lev_2.tpl "sdv_lev_2.tpl"
+[6]: ./sdv_lev_1.par "sdv_lev_1.par"
+[7]: ./sdv_lev_2.par "sdv_lev_2.par"
+[8]: ./sdv_t_lev.tpl "sdv_t_lev.tpl"
+[9]: ./sdv_st_lev.tpl "sdv_st_lev.tpl"

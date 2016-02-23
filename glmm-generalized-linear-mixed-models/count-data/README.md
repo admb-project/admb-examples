@@ -21,9 +21,9 @@ Document Actions
 
 * [RSS feed][6]
 
-[1]: count-data/a-discrete-valued-time-series-model.html
-[2]: count-data/negative-binomial-serially-correlated-counts.html
-[3]: count-data/negative-binomial-fir-fecundity-1.html
-[4]: count-data/flexible-negative-binomial-model.html
-[5]: count-data/owl-nestling-negotiation.html
-[6]: count-data/RSS ""
+[1]: ./a-discrete-valued-time-series-model.html
+[2]: ./negative-binomial-serially-correlated-counts.html
+[3]: ./negative-binomial-fir-fecundity-1.html
+[4]: ./flexible-negative-binomial-model.html
+[5]: ./owl-nestling-negotiation.html
+[6]: ./RSS ""

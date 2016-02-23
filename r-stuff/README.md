@@ -15,9 +15,9 @@ Document Actions
 
 * [RSS feed][6]
 
-[1]: r-stuff/glmmadmb.html
-[2]: r-stuff/lmer-comparison.html
-[3]: r-stuff/gamma-distributed-myxomatosis-using-r2admb.html
-[4]: r-stuff/mcmcmc.html
-[5]: r-stuff/a-general-r-admb-interface-for-mixed-models.html
-[6]: r-stuff/RSS ""
+[1]: ./glmmadmb.html
+[2]: ./lmer-comparison.html
+[3]: ./gamma-distributed-myxomatosis-using-r2admb.html
+[4]: ./mcmcmc.html
+[5]: ./a-general-r-admb-interface-for-mixed-models.html
+[6]: ./RSS ""

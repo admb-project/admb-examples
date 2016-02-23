@@ -17,13 +17,13 @@ Document Actions
 * [RSS feed][11]
 
 [1]: http://www.admb-project.org/unknown.png
-[2]: negative-binomial-serially-correlated-counts/polio.dat/view.html ""
+[2]: ./polio.dat/view.html ""
 [3]: http://www.admb-project.org/application.png
-[4]: negative-binomial-serially-correlated-counts/polio2.tpl/view.html ""
-[5]: negative-binomial-serially-correlated-counts/polio2s.tpl/view.html ""
-[6]: negative-binomial-serially-correlated-counts/polio3.tpl/view.html ""
-[7]: negative-binomial-serially-correlated-counts/polio3s.tpl/view.html ""
-[8]: negative-binomial-serially-correlated-counts/negative-binomial-serially-correlated-counts.html ""
+[4]: ./polio2.tpl/view.html ""
+[5]: ./polio2s.tpl/view.html ""
+[6]: ./polio3.tpl/view.html ""
+[7]: ./polio3s.tpl/view.html ""
+[8]: ./negative-binomial-serially-correlated-counts.html ""
 [9]: http://www.admb-project.org/png.png
-[10]: negative-binomial-serially-correlated-counts/polio_plot.png/view.html ""
-[11]: negative-binomial-serially-correlated-counts/RSS ""
+[10]: ./polio_plot.png/view.html ""
+[11]: ./RSS ""

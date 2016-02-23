@@ -4,7 +4,7 @@
 <p>In RE (random effects) models there are two types of parameters, x (parameter in the ordinary sense) and u (random effect). This documents tries to shed some light on how the variance of x and u are calculated. The covariance matrix of the x vector is based on the (marginal) likelihood, obtained via the Laplace approximation, and corresponds to the way covariance matrices are calculated in non-RE models in ADMB.</p>
 <p> </p>
 <p><strong>Theory</strong></p>
-<p>Here is what the user manual says about the variance of u (the manual talks about "theta" instead of "x"): <a class="internal-link" href="variance-in-re-models/usermanual.pdf" title="usermanual.pdf">usermanual.pdf</a> A few words can be added to this.</p>
+<p>Here is what the user manual says about the variance of u (the manual talks about "theta" instead of "x"): <a class="internal-link" href="./usermanual.pdf" title="usermanual.pdf">usermanual.pdf</a> A few words can be added to this.</p>
 <p> </p>
 <p>The formula is based on the Law of total variance: <a class="external-link" href="http://en.wikipedia.org/wiki/Law_of_total_variance">http://en.wikipedia.org/wiki/Law_of_total_variance</a></p>
 <p>In our context this says: </p>

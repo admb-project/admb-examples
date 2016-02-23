@@ -23,4 +23,4 @@ It could be interesting to look at a prediction interval for a new observation. 
 
 Ruppert, D., Wand, M. & Carroll, R. (2003), _Semiparametric Regression_, Cambridge University Press.
 
-[1]: mean-and-variance/copy_of_lidar.jpg/image_preview.jpg "Lidar plot"
+[1]: ./copy_of_lidar.jpg/image_preview.jpg "Lidar plot"

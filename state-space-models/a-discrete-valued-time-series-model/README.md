@@ -17,11 +17,11 @@ Document Actions
 [1]: http://www.admb-project.org/@@search?Subject:list=Random effect
 [2]: http://www.admb-project.org/@@search?Subject:list=Medical/Biometrics
 [3]: http://www.admb-project.org/application.png
-[4]: a-discrete-valued-time-series-model/polio.tpl/view.html
+[4]: ./polio.tpl/view.html
 [5]: http://www.admb-project.org/unknown.png
-[6]: a-discrete-valued-time-series-model/polio.dat/view.html
-[7]: a-discrete-valued-time-series-model/polio.pin/view.html
-[8]: a-discrete-valued-time-series-model/polio.par/view.html
+[6]: ./polio.dat/view.html
+[7]: ./polio.pin/view.html
+[8]: ./polio.par/view.html
 [9]: http://www.admb-project.org/pdf.png
-[10]: a-discrete-valued-time-series-model/polio.pdf/view.html
-[11]: a-discrete-valued-time-series-model/RSS ""
+[10]: ./polio.pdf/view.html
+[11]: ./RSS ""

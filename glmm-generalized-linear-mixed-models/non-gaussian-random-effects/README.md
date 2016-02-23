@@ -12,6 +12,6 @@ Document Actions
 
 * [RSS feed][3]
 
-[1]: non-gaussian-random-effects/beta-binomial-model.html
-[2]: non-gaussian-random-effects/wildflowers.html
-[3]: non-gaussian-random-effects/RSS ""
+[1]: ./beta-binomial-model.html
+[2]: ./wildflowers.html
+[3]: ./RSS ""

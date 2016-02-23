@@ -19,4 +19,4 @@ Document Actions
 [2]: ../glmm-generalized-linear-mixed-models/count-data/a-discrete-valued-time-series-model/a-discrete-valued-time-series-model-polio-data.html
 [3]: ../glmm-generalized-linear-mixed-models/count-data/a-discrete-valued-time-series-model.html
 [4]: ../survival-analysis/weibull-regression-with-censoring.html
-[5]: medical-biometrics/RSS ""
+[5]: ./RSS ""

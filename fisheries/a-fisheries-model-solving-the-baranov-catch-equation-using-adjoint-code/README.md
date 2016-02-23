@@ -9,5 +9,5 @@ Document Actions
 
 * [RSS feed][2]
 
-[1]: a-fisheries-model-solving-the-baranov-catch-equation-using-adjoint-code/baranov-catch-equation.html
-[2]: a-fisheries-model-solving-the-baranov-catch-equation-using-adjoint-code/RSS ""
+[1]: ./baranov-catch-equation.html
+[2]: ./RSS ""

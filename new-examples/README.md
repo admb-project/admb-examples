@@ -8,4 +8,4 @@ Document Actions
 
 * [RSS feed][1]
 
-[1]: new-examples/RSS ""
+[1]: ./RSS ""

@@ -17,11 +17,12 @@ Different uses of ADMB in fisheries stock assessments or other fisheries work
 :  Pella-Tomlinson example by Dave Fournier from the ADMB manual. Demonstrates several innovative modelling approaches: 6 month time step, time-varying K and q.
 
 Document Actions
+
 * [RSS feed][6]
 
 [1]: http://www.admb-project.org/@@search?Subject:list=Fisheries
-[2]: ./a-fisheries-model-with-random-effects-1.html
-[3]: ./a-fisheries-model-solving-the-baranov-catch-equation-using-adjoint-code.html
-[4]: ./pella.html
-[5]: ./pella-t.html
-[6]: ./RSS ""
+[2]: fisheries/a-fisheries-model-with-random-effects-1.html
+[3]: fisheries/a-fisheries-model-solving-the-baranov-catch-equation-using-adjoint-code.html
+[4]: fisheries/pella.html
+[5]: fisheries/pella-t.html
+[6]: fisheries/RSS ""

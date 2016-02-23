@@ -17,4 +17,4 @@ Document Actions
 [2]: ../sampling/line-transect-methods/estimation-of-detection-function/estimation-of-detection-function.html
 [3]: ../state-space-models/delta-smelt-life-cycle-model/delta-smelt-life-cycle-model.html
 [4]: ../state-space-models/theta-logistic-population-growth-model/theta-logistic-population-growth-model.html
-[5]: copy_of_medical-biometrics/RSS ""
+[5]: ./RSS ""

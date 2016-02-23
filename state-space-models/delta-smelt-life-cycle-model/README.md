@@ -15,5 +15,5 @@ This is the state-space approach reported in [Maunder and Deriso (2011)][5] to 
 [3]: http://www.admb-project.org/@@search?Subject:list=Ecology
 [4]: http://www.admb-project.org/@@search?Subject:list=Random effect
 [5]: http://www.nrcresearchpress.com/doi/pdf/10.1139/f2011-071
-[6]: delta-smelt-life-cycle-model/DeltaSmeltPopModel.pdf "DeltaSmeltPopModel.pdf"
-[7]: delta-smelt-life-cycle-model/DeltaSmelt.tpl "DeltaSmelt.tpl"
+[6]: ./DeltaSmeltPopModel.pdf "DeltaSmeltPopModel.pdf"
+[7]: ./DeltaSmelt.tpl "DeltaSmelt.tpl"

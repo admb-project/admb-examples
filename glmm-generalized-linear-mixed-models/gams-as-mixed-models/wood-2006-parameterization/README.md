@@ -15,4 +15,4 @@ Model description: [binom_gam_ML_example.pdf][2]
 ADMB files, data and R files are given to the left
 
 [1]: http://www.admb-project.org/@@search?Subject:list=Splines
-[2]: wood-2006-parameterization/binom_gam_ML_example.pdf "binom_gam_ML_example.pdf"
+[2]: ./binom_gam_ML_example.pdf "binom_gam_ML_example.pdf"

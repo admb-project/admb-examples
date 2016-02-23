@@ -9,5 +9,5 @@ Document Actions
 
 * [RSS feed][2]
 
-[1]: sampling/line-transect-methods.html
-[2]: sampling/RSS ""
+[1]: ./line-transect-methods.html
+[2]: ./RSS ""

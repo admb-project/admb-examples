@@ -15,7 +15,7 @@ Document Actions
 
 * [RSS feed][4]
 
-[1]: http://www.hafro.is/~arnima/pella/pella.pdf
-[2]: http://www.hafro.is/~arnima/pella/pella.tpl
-[3]: http://www.hafro.is/~arnima/pella/modelruns.zip
-[4]: pella/RSS ""
+[1]: http://www.hafro.is/~arnima/./pella.pdf
+[2]: http://www.hafro.is/~arnima/./pella.tpl
+[3]: http://www.hafro.is/~arnima/./modelruns.zip
+[4]: ./RSS ""

@@ -22,10 +22,10 @@ Document Actions
 
 [1]: http://www.admb-project.org/@@search?Subject:list=Splines
 [2]: http://www.admb-project.org/application.png
-[3]: splines/splines.tpl/view.html
+[3]: ./splines.tpl/view.html
 [4]: http://www.admb-project.org/pdf.png
-[5]: splines/spline_example.pdf/view.html
+[5]: ./spline_example.pdf/view.html
 [6]: http://www.admb-project.org/unknown.png
-[7]: splines/splines.dat/view.html
-[8]: splines/splines_code.R/view.html
-[9]: splines/RSS ""
+[7]: ./splines.dat/view.html
+[8]: ./splines_code.R/view.html
+[9]: ./RSS ""
