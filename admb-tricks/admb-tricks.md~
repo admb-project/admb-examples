@@ -1,0 +1,31 @@
+#  admb-tricks
+
+[Math][7]
+Various undocumented techniques and tricks useful for developing ADMB programs
+
+[Adjoint code][1]
+:  Why to write adjoint code and alternative approaches to do it.
+
+[Parameterization][2]
+:  Examples of how to (and not to) parameterize mathematical functions and statistical models
+
+[Splines][3]
+:  Different aspects of spline models
+
+[Variance calculations][4]
+:  How variance is calculated in ADMB
+
+[Covariance Calculations][5]
+:  A short document with accompanying R code that details (1) the functions used to bound parameters, (2) the method for calculating a bounded covariance matrix, and (3) what is stored in the binary admodel.hes and admodel.cov files and how the user can utilize this information to gain more control over an MCMC chain.
+
+Document Actions
+
+* [RSS feed][6]
+
+[1]: admb-tricks/adjoint-code-1
+[2]: admb-tricks/parameterization
+[3]: admb-tricks/splines-1
+[4]: admb-tricks/variance-calculations
+[5]: admb-tricks/covariance-calculations
+[6]: admb-tricks/RSS ""
+[7]: admb-tricks/math

@@ -1,0 +1,9 @@
+import json
+
+markdown(content):
+	url = 'http://heckyesmarkdown.com/go/#sthash.kY8Gkjrw.dpuf'
+	payload = {'html': content}
+	headers = {'content-type': 'application/json'}
+
+	response = requests.post(url, data=json.dumps(payload), headers=headers)
+	return response

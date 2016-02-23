@@ -1,0 +1,560 @@
+# Math &mdash; ADMB Project
+
+[Skip to content.][1] | [Skip to navigation][2]
+
+* [Site Map][3]
+* [Accessibility][4]
+* [Contact][5]
+
+Search ADMB
+
+[ Advanced Search… ][6]
+
+[ ![ADMB Project][7]][8]
+
+Navigation
+
+* [Home][9]
+* [Downloads][10]
+* [Documentation][11]
+* [Examples][12]
+* [Courses][13]
+* [Tools][14]
+* [Developers][15]
+* [Users][16]
+
+##### Personal tools
+
+* [Log in][17]
+
+You are here: [Home][8] › [Examples][18] › Math
+
+| ----- |
+|
+
+[Navigation][19]
+:
+
+* [ New examples ][20]
+* [ All examples ][21]
+* [ By field of application ][22]
+* [ Differential equations ][23]
+* [ Categorical data ][24]
+* [ Fisheries ][25]
+* [ Growth models ][26]
+* [ GLM/GLMM/GAM ][27]
+* [ Function minimizer ][28]
+* [ Math ][29]
+    * [ Adjoint code ][30]
+    * [ Parameterization ][31]
+    * [ Splines ][32]
+    * [ Variance calculations ][33]
+    * [ Covariance Calculations ][34]
+* [ Mark-recapture ][35]
+* [ R stuff ][36]
+* [ Simple examples ][37]
+* [ Sampling ][38]
+* [ Spatial models ][39]
+* [ State-space models ][40]
+* [ Survival analysis ][41]
+* [ Text books ][42]
+* [ WinBUGS ][43]
+* [ Miscellaneous ][44]
+* [ Storage ][45]
+
+ 
+
+ |
+
+Info
+:
+
+#  Math
+
+Various undocumented techniques and tricks useful for developing ADMB programs
+
+[Adjoint code][46]
+:  Why to write adjoint code and alternative approaches to do it.
+
+[Parameterization][47]
+:  Examples of how to (and not to) parameterize mathematical functions and statistical models
+
+[Splines][48]
+:  Different aspects of spline models
+
+[Variance calculations][49]
+:  How variance is calculated in ADMB
+
+[Covariance Calculations][50]
+:  A short document with accompanying R code that details (1) the functions used to bound parameters, (2) the method for calculating a bounded covariance matrix, and (3) what is stored in the binary admodel.hes and admodel.cov files and how the user can utilize this information to gain more control over an MCMC chain.
+
+Document Actions
+
+* [RSS feed][51]
+
+ |
+
+The ADMB Project is supported by the [**ADMB Foundation**][52], and a grant from ![logo graphic][53][ **NOAA Fisheries**][54] to ![logo graphic][55][**JIMAR**][56].
+
+| ----- |
+|  ![Fusion Creative logo graphic][57] Graphic design by [Fusion Creative][58]. |  ![white spacer gif][59]This web site is powered by [Plone][60] and hosted by ![logo graphic][61][**NCEAS**][62]. |
+
+[ADMB Foundation][52] © 2007–2013  •  [Log in][63] "));  try { var pageTracker = _gat._getTracker("UA-5850320-4"); pageTracker._trackPageview(); } catch(err) {}var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); document.write(unescape("<script src='" gaJsHost "google-analytics.com/ga.js' type='text/javascript'>
+
+[1]: admb-tricks.html#content
+[2]: admb-tricks.html#portal-globalnav
+[3]: http://www.admb-project.org/sitemap "Site Map"
+[4]: http://www.admb-project.org/accessibility-info "Accessibility"
+[5]: http://www.admb-project.org/contact-info "Contact"
+[6]: http://www.admb-project.org/search_form
+[7]: http://www.soest.hawaii.edu/Illust/admb_dev/image/admb_banner_deep.jpg
+[8]: http://www.admb-project.org/
+[9]: http://www.admb-project.org/ ""
+[10]: http://www.admb-project.org/downloads ""
+[11]: http://www.admb-project.org/documentation ""
+[12]: http://www.admb-project.org/examples "Under construction"
+[13]: http://www.admb-project.org/courses "Information on ADMB related courses and potential instructors is provided as a public service.  These are not products of the ADMB project and currently our policy is to freely announce courses and instructors based on information provided to us.  If you would like to submit such information contact Jim Bence (bence@msu.edu).  "
+[14]: http://www.admb-project.org/tools ""
+[15]: http://www.admb-project.org/developers "Please contact developers@admb-project.org if you are interested in actively participating in development of ADMB."
+[16]: http://www.admb-project.org/users "This is the user's community page for ADMB. If you would like to contribute to this section, please email a request for an account to users@admb-project.org."
+[17]: http://www.admb-project.org/login
+[18]: http://www.admb-project.org/examples
+[19]: http://www.admb-project.org/sitemap
+[20]: new-examples.html "Examples created less than 1 year ago. In cases where a hierarchy of catalogues are created parent catalogues also show up"
+[21]: copy_of_new-examples.html "All examples currently available in the website"
+[22]: by-field-of-application.html ""
+[23]: differential-equations.html ""
+[24]: categorical-data.html ""
+[25]: fisheries.html "Different uses of ADMB in fisheries stock assessments or other fisheries work"
+[26]: growth-models.html ""
+[27]: glmm-generalized-linear-mixed-models.html ""
+[28]: function-minimization.html "Various tricks and techniques related to the function minimizer to improve convergence"
+[29]: admb-tricks.html "Various undocumented techniques and tricks useful for developing ADMB programs"
+[30]: admb-tricks/adjoint-code-1.html "Why to write adjoint code and alternative approaches to do it."
+[31]: admb-tricks/parameterization.html "Examples of how to (and not to) parameterize mathematical functions and statistical models"
+[32]: admb-tricks/splines-1.html "Different aspects of spline models
+"
+[33]: admb-tricks/variance-calculations.html "How variance is calculated in ADMB"
+[34]: admb-tricks/covariance-calculations.html "A short document with accompanying R code that details (1) the functions used to bound parameters, (2) the method for calculating a bounded covariance matrix, and (3) what is stored in the binary admodel.hes and admodel.cov files and how the user can utilize this information to gain more control over an MCMC chain."
+[35]: mark-recapture.html ""
+[36]: r-stuff.html ""
+[37]: simple-examples.html ""
+[38]: sampling.html "Survey sampling related examples"
+[39]: spatial-models.html "ADMB supports both the geostatistical approach and Gaussian Markov random field approach to spatial modelling
+"
+[40]: state-space-models.html ""
+[41]: survival-analysis.html "Lifetime data and survival analysis"
+[42]: text-books.html "Collections of examples taken from text books"
+[43]: winbugs.html "Comparison with the software package WinBUGS"
+[44]: miscellaneous.html "Stuff that is hard to categorize, but still is useful"
+[45]: storage.html "Physical storage of individual examples with guarantied permanent URL"
+[46]: admb-tricks/adjoint-code-1.html
+[47]: admb-tricks/parameterization.html
+[48]: admb-tricks/splines-1.html
+[49]: admb-tricks/variance-calculations.html
+[50]: admb-tricks/covariance-calculations.html
+[51]: admb-tricks/RSS ""
+[52]: http://admb-foundation.org/
+[53]: http://www.swpc.noaa.gov/sites/all/themes/swx/noaa_logo.svg
+[54]: http://www.noaa.gov/
+[55]: http://www.soest.hawaii.edu/jimar/images/JIMAR_color.png
+[56]: http://www.soest.hawaii.edu/jimar/
+[57]: http://www.soest.hawaii.edu/Illust/admb_dev/image/fc-gray30x29_darker.gif
+[58]: http://fusioncreative.ca/
+[59]: http://www.soest.hawaii.edu/Illust/admb_dev/image/white_pixel.gif
+[60]: http://plone.org/
+[61]: https://www.nceas.ucsb.edu/files/logos/NCEAS/NCEAS-stacked-logo-50px.png
+[62]: http://www.nceas.ucsb.edu/
+[63]: http://admb-project.org/login_form
+[64]: http://plone.org/ "This site was built using the Plone Open Source CMS/WCM."
+
+# Math &mdash; ADMB Project
+
+[Skip to content.][1] | [Skip to navigation][2]
+
+* [Site Map][3]
+* [Accessibility][4]
+* [Contact][5]
+
+Search ADMB
+
+[ Advanced Search… ][6]
+
+[ ![ADMB Project][7]][8]
+
+Navigation
+
+* [Home][9]
+* [Downloads][10]
+* [Documentation][11]
+* [Examples][12]
+* [Courses][13]
+* [Tools][14]
+* [Developers][15]
+* [Users][16]
+
+##### Personal tools
+
+* [Log in][17]
+
+You are here: [Home][8] › [Examples][18] › Math
+
+| ----- |
+|
+
+[Navigation][19]
+:
+
+* [ New examples ][20]
+* [ All examples ][21]
+* [ By field of application ][22]
+* [ Differential equations ][23]
+* [ Categorical data ][24]
+* [ Fisheries ][25]
+* [ Growth models ][26]
+* [ GLM/GLMM/GAM ][27]
+* [ Function minimizer ][28]
+* [ Math ][29]
+    * [ Adjoint code ][30]
+    * [ Parameterization ][31]
+    * [ Splines ][32]
+    * [ Variance calculations ][33]
+    * [ Covariance Calculations ][34]
+* [ Mark-recapture ][35]
+* [ R stuff ][36]
+* [ Simple examples ][37]
+* [ Sampling ][38]
+* [ Spatial models ][39]
+* [ State-space models ][40]
+* [ Survival analysis ][41]
+* [ Text books ][42]
+* [ WinBUGS ][43]
+* [ Miscellaneous ][44]
+* [ Storage ][45]
+
+ 
+
+ |
+
+Info
+:
+
+#  Math
+
+Various undocumented techniques and tricks useful for developing ADMB programs
+
+[Adjoint code][46]
+:  Why to write adjoint code and alternative approaches to do it.
+
+[Parameterization][47]
+:  Examples of how to (and not to) parameterize mathematical functions and statistical models
+
+[Splines][48]
+:  Different aspects of spline models
+
+[Variance calculations][49]
+:  How variance is calculated in ADMB
+
+[Covariance Calculations][50]
+:  A short document with accompanying R code that details (1) the functions used to bound parameters, (2) the method for calculating a bounded covariance matrix, and (3) what is stored in the binary admodel.hes and admodel.cov files and how the user can utilize this information to gain more control over an MCMC chain.
+
+Document Actions
+
+* [RSS feed][51]
+
+ |
+
+The ADMB Project is supported by the [**ADMB Foundation**][52], and a grant from ![logo graphic][53][ **NOAA Fisheries**][54] to ![logo graphic][55][**JIMAR**][56].
+
+| ----- |
+|  ![Fusion Creative logo graphic][57] Graphic design by [Fusion Creative][58]. |  ![white spacer gif][59]This web site is powered by [Plone][60] and hosted by ![logo graphic][61][**NCEAS**][62]. |
+
+[ADMB Foundation][52] © 2007–2013  •  [Log in][63] "));  try { var pageTracker = _gat._getTracker("UA-5850320-4"); pageTracker._trackPageview(); } catch(err) {}var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); document.write(unescape("<script src='" gaJsHost "google-analytics.com/ga.js' type='text/javascript'>
+
+[1]: admb-tricks.html#content
+[2]: admb-tricks.html#portal-globalnav
+[3]: http://www.admb-project.org/sitemap "Site Map"
+[4]: http://www.admb-project.org/accessibility-info "Accessibility"
+[5]: http://www.admb-project.org/contact-info "Contact"
+[6]: http://www.admb-project.org/search_form
+[7]: http://www.soest.hawaii.edu/Illust/admb_dev/image/admb_banner_deep.jpg
+[8]: http://www.admb-project.org/
+[9]: http://www.admb-project.org/ ""
+[10]: http://www.admb-project.org/downloads ""
+[11]: http://www.admb-project.org/documentation ""
+[12]: http://www.admb-project.org/examples "Under construction"
+[13]: http://www.admb-project.org/courses "Information on ADMB related courses and potential instructors is provided as a public service.  These are not products of the ADMB project and currently our policy is to freely announce courses and instructors based on information provided to us.  If you would like to submit such information contact Jim Bence (bence@msu.edu).  "
+[14]: http://www.admb-project.org/tools ""
+[15]: http://www.admb-project.org/developers "Please contact developers@admb-project.org if you are interested in actively participating in development of ADMB."
+[16]: http://www.admb-project.org/users "This is the user's community page for ADMB. If you would like to contribute to this section, please email a request for an account to users@admb-project.org."
+[17]: http://www.admb-project.org/login
+[18]: http://www.admb-project.org/examples
+[19]: http://www.admb-project.org/sitemap
+[20]: new-examples.html "Examples created less than 1 year ago. In cases where a hierarchy of catalogues are created parent catalogues also show up"
+[21]: copy_of_new-examples.html "All examples currently available in the website"
+[22]: by-field-of-application.html ""
+[23]: differential-equations.html ""
+[24]: categorical-data.html ""
+[25]: fisheries.html "Different uses of ADMB in fisheries stock assessments or other fisheries work"
+[26]: growth-models.html ""
+[27]: glmm-generalized-linear-mixed-models.html ""
+[28]: function-minimization.html "Various tricks and techniques related to the function minimizer to improve convergence"
+[29]: admb-tricks.html "Various undocumented techniques and tricks useful for developing ADMB programs"
+[30]: admb-tricks/adjoint-code-1.html "Why to write adjoint code and alternative approaches to do it."
+[31]: admb-tricks/parameterization.html "Examples of how to (and not to) parameterize mathematical functions and statistical models"
+[32]: admb-tricks/splines-1.html "Different aspects of spline models
+"
+[33]: admb-tricks/variance-calculations.html "How variance is calculated in ADMB"
+[34]: admb-tricks/covariance-calculations.html "A short document with accompanying R code that details (1) the functions used to bound parameters, (2) the method for calculating a bounded covariance matrix, and (3) what is stored in the binary admodel.hes and admodel.cov files and how the user can utilize this information to gain more control over an MCMC chain."
+[35]: mark-recapture.html ""
+[36]: r-stuff.html ""
+[37]: simple-examples.html ""
+[38]: sampling.html "Survey sampling related examples"
+[39]: spatial-models.html "ADMB supports both the geostatistical approach and Gaussian Markov random field approach to spatial modelling
+"
+[40]: state-space-models.html ""
+[41]: survival-analysis.html "Lifetime data and survival analysis"
+[42]: text-books.html "Collections of examples taken from text books"
+[43]: winbugs.html "Comparison with the software package WinBUGS"
+[44]: miscellaneous.html "Stuff that is hard to categorize, but still is useful"
+[45]: storage.html "Physical storage of individual examples with guarantied permanent URL"
+[46]: admb-tricks/adjoint-code-1.html
+[47]: admb-tricks/parameterization.html
+[48]: admb-tricks/splines-1.html
+[49]: admb-tricks/variance-calculations.html
+[50]: admb-tricks/covariance-calculations.html
+[51]: admb-tricks/RSS ""
+[52]: http://admb-foundation.org/
+[53]: http://www.swpc.noaa.gov/sites/all/themes/swx/noaa_logo.svg
+[54]: http://www.noaa.gov/
+[55]: http://www.soest.hawaii.edu/jimar/images/JIMAR_color.png
+[56]: http://www.soest.hawaii.edu/jimar/
+[57]: http://www.soest.hawaii.edu/Illust/admb_dev/image/fc-gray30x29_darker.gif
+[58]: http://fusioncreative.ca/
+[59]: http://www.soest.hawaii.edu/Illust/admb_dev/image/white_pixel.gif
+[60]: http://plone.org/
+[61]: https://www.nceas.ucsb.edu/files/logos/NCEAS/NCEAS-stacked-logo-50px.png
+[62]: http://www.nceas.ucsb.edu/
+[63]: http://admb-project.org/login_form
+[64]: http://plone.org/ "This site was built using the Plone Open Source CMS/WCM."
+
+# Splines &mdash; ADMB Project
+
+[Skip to content.][1] | [Skip to navigation][2]
+
+* [Site Map][3]
+* [Accessibility][4]
+* [Contact][5]
+
+Search ADMB
+
+[ Advanced Search… ][6]
+
+[ ![ADMB Project][7]][8]
+
+Navigation
+
+* [Home][9]
+* [Downloads][10]
+* [Documentation][11]
+* [Examples][12]
+* [Courses][13]
+* [Tools][14]
+* [Developers][15]
+* [Users][16]
+
+##### Personal tools
+
+* [Log in][17]
+
+You are here: [Home][8] › [Examples][18] › [Math][19] › Splines
+
+| ----- |
+|
+
+[Navigation][20]
+:
+
+* [ New examples ][21]
+* [ All examples ][22]
+* [ By field of application ][23]
+* [ Differential equations ][24]
+* [ Categorical data ][25]
+* [ Fisheries ][26]
+* [ Growth models ][27]
+* [ GLM/GLMM/GAM ][28]
+* [ Function minimizer ][29]
+* [ Math ][30]
+    * [ Adjoint code ][31]
+    * [ Parameterization ][32]
+    * [ Splines ][33]
+        * [ Splines I ][34]
+    * [ Variance calculations ][35]
+    * [ Covariance Calculations ][36]
+* [ Mark-recapture ][37]
+* [ R stuff ][38]
+* [ Simple examples ][39]
+* [ Sampling ][40]
+* [ Spatial models ][41]
+* [ State-space models ][42]
+* [ Survival analysis ][43]
+* [ Text books ][44]
+* [ WinBUGS ][45]
+* [ Miscellaneous ][46]
+* [ Storage ][47]
+
+ 
+
+ |
+
+Info
+:
+
+#  Splines
+
+Different aspects of spline models
+
+[Splines I][48]
+:  notes and examples related to cubic splines
+
+Document Actions
+
+* [RSS feed][49]
+
+ |
+
+The ADMB Project is supported by the [**ADMB Foundation**][50], and a grant from ![logo graphic][51][ **NOAA Fisheries**][52] to ![logo graphic][53][**JIMAR**][54].
+
+| ----- |
+|  ![Fusion Creative logo graphic][55] Graphic design by [Fusion Creative][56]. |  ![white spacer gif][57]This web site is powered by [Plone][58] and hosted by ![logo graphic][59][**NCEAS**][60]. |
+
+[ADMB Foundation][50] © 2007–2013  •  [Log in][61] "));  try { var pageTracker = _gat._getTracker("UA-5850320-4"); pageTracker._trackPageview(); } catch(err) {}var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); document.write(unescape("<script src='" gaJsHost "google-analytics.com/ga.js' type='text/javascript'>
+
+[1]: splines-1.html#content
+[2]: splines-1.html#portal-globalnav
+[3]: http://www.admb-project.org/sitemap "Site Map"
+[4]: http://www.admb-project.org/accessibility-info "Accessibility"
+[5]: http://www.admb-project.org/contact-info "Contact"
+[6]: http://www.admb-project.org/search_form
+[7]: http://www.soest.hawaii.edu/Illust/admb_dev/image/admb_banner_deep.jpg
+[8]: http://www.admb-project.org/
+[9]: http://www.admb-project.org/ ""
+[10]: http://www.admb-project.org/downloads ""
+[11]: http://www.admb-project.org/documentation ""
+[12]: http://www.admb-project.org/examples "Under construction"
+[13]: http://www.admb-project.org/courses "Information on ADMB related courses and potential instructors is provided as a public service.  These are not products of the ADMB project and currently our policy is to freely announce courses and instructors based on information provided to us.  If you would like to submit such information contact Jim Bence (bence@msu.edu).  "
+[14]: http://www.admb-project.org/tools ""
+[15]: http://www.admb-project.org/developers "Please contact developers@admb-project.org if you are interested in actively participating in development of ADMB."
+[16]: http://www.admb-project.org/users "This is the user's community page for ADMB. If you would like to contribute to this section, please email a request for an account to users@admb-project.org."
+[17]: http://www.admb-project.org/login
+[18]: http://www.admb-project.org/examples
+[19]: ../admb-tricks.html
+[20]: http://www.admb-project.org/sitemap
+[21]: ../new-examples.html "Examples created less than 1 year ago. In cases where a hierarchy of catalogues are created parent catalogues also show up"
+[22]: ../copy_of_new-examples.html "All examples currently available in the website"
+[23]: ../by-field-of-application.html ""
+[24]: ../differential-equations.html ""
+[25]: ../categorical-data.html ""
+[26]: ../fisheries.html "Different uses of ADMB in fisheries stock assessments or other fisheries work"
+[27]: ../growth-models.html ""
+[28]: ../glmm-generalized-linear-mixed-models.html ""
+[29]: ../function-minimization.html "Various tricks and techniques related to the function minimizer to improve convergence"
+[30]: ../admb-tricks.html "Various undocumented techniques and tricks useful for developing ADMB programs"
+[31]: adjoint-code-1.html "Why to write adjoint code and alternative approaches to do it."
+[32]: parameterization.html "Examples of how to (and not to) parameterize mathematical functions and statistical models"
+[33]: splines-1.html "Different aspects of spline models
+"
+[34]: splines-1/splines.html "notes and examples related to cubic splines"
+[35]: variance-calculations.html "How variance is calculated in ADMB"
+[36]: covariance-calculations.html "A short document with accompanying R code that details (1) the functions used to bound parameters, (2) the method for calculating a bounded covariance matrix, and (3) what is stored in the binary admodel.hes and admodel.cov files and how the user can utilize this information to gain more control over an MCMC chain."
+[37]: ../mark-recapture.html ""
+[38]: ../r-stuff.html ""
+[39]: ../simple-examples.html ""
+[40]: ../sampling.html "Survey sampling related examples"
+[41]: ../spatial-models.html "ADMB supports both the geostatistical approach and Gaussian Markov random field approach to spatial modelling
+"
+[42]: ../state-space-models.html ""
+[43]: ../survival-analysis.html "Lifetime data and survival analysis"
+[44]: ../text-books.html "Collections of examples taken from text books"
+[45]: ../winbugs.html "Comparison with the software package WinBUGS"
+[46]: ../miscellaneous.html "Stuff that is hard to categorize, but still is useful"
+[47]: ../storage.html "Physical storage of individual examples with guarantied permanent URL"
+[48]: splines-1/splines.html
+[49]: splines-1/RSS ""
+[50]: http://admb-foundation.org/
+[51]: http://www.swpc.noaa.gov/sites/all/themes/swx/noaa_logo.svg
+[52]: http://www.noaa.gov/
+[53]: http://www.soest.hawaii.edu/jimar/images/JIMAR_color.png
+[54]: http://www.soest.hawaii.edu/jimar/
+[55]: http://www.soest.hawaii.edu/Illust/admb_dev/image/fc-gray30x29_darker.gif
+[56]: http://fusioncreative.ca/
+[57]: http://www.soest.hawaii.edu/Illust/admb_dev/image/white_pixel.gif
+[58]: http://plone.org/
+[59]: https://www.nceas.ucsb.edu/files/logos/NCEAS/NCEAS-stacked-logo-50px.png
+[60]: http://www.nceas.ucsb.edu/
+[61]: http://admb-project.org/login_form
+[62]: http://plone.org/ "This site was built using the Plone Open Source CMS/WCM."
+
+#  Splines
+
+Different aspects of spline models
+
+[Splines I][1]
+:  notes and examples related to cubic splines
+
+Document Actions
+
+* [RSS feed][2]
+
+[1]: splines-1/splines.html
+[2]: splines-1/RSS ""
+
+<div id="content">
+<h1 class="documentFirstHeading" id="parent-fieldname-title">
+                    Splines
+                </h1>
+<div class="documentDescription" id="parent-fieldname-description">
+                   Different aspects of spline models
+
+                </div>
+<div id="content-core">
+<dl>
+<dt class="">
+<span class="summary">
+<a class="contenttype-folder state-published url" href="splines-1/splines.html">Splines I</a>
+</span>
+<span class="documentByLine">
+</span>
+</dt>
+<dd>
+<span class="description">notes and examples related to cubic splines</span>
+</dd>
+</dl>
+<!-- Navigation -->
+</div>
+<div class="visualClear"><!-- --></div>
+<div class="documentActions">
+<p class="hiddenStructure">
+              Document Actions
+            </p>
+<ul>
+<li id="document-action-rss">
+<a href="splines-1/RSS" title="">RSS feed</a>
+</li>
+</ul>
+</div>
+</div>
+#  Splines
+
+Different aspects of spline models
+
+[Splines I][1]
+:  notes and examples related to cubic splines
+
+Document Actions
+
+* [RSS feed][2]
+
+[1]: splines-1/splines.html
+[2]: splines-1/RSS ""
+
