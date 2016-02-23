@@ -32,7 +32,7 @@ if not test:
 		response = markdown(body)
 		outname = html_file[i].strip()[0:-5] + ".md"
 	 	outfile = open(outname, 'w')
-		outfile.write(response.text)
+		outfile.write(response.text.encode("UTF-8"))
 		i = i +1
 else:
 	while (i<1):

@@ -25,6 +25,7 @@ with open('html_files.txt') as f:
 i=0;
 if not test:
 	while (i<len(html_file)):
+		print(i)
 		out=""
 		content = open(html_file[i].strip(), 'r').read()
 		soup = BeautifulSoup(content, 'html.parser')
