@@ -27,7 +27,9 @@ All paths to  X<sub>t</sub> and h<sub>t+1</sub> goes via/through h<sub>t</sub>, 
   b. Alternatively we can use p(X<sub>t</sub>, h<sub>t+1</sub>|h<sub>t</sub>, θ) = p(X<sub>t</sub>|h<sub>t</sub>, θ)p(h<sub>t+1</sub>|X<sub>t</sub>, h<sub>t</sub>, θ), which gives the following expression p(X,h|θ) = p(h<sub>1</sub>|θ) Πp(X<sub>t</sub>|h<sub>t</sub>, θ)p(h<sub>t+1</sub>|X<sub>t</sub>, h<sub>t</sub>, θ). 
   
   The graphical representation for this form is given by 
- ![Fig_3][3]   The two forms should be equivalent, so it should in principle be possible to use both. However, as we shall see, it might be reasons to prefer one over the other.    
+  
+ ![Fig_3][3]
+ The two forms should be equivalent, so it should in principle be possible to use both. However, as we shall see, it might be reasons to prefer one over the other.    
  
 ###<strong>The Gaussian leverage model</strong>
  In the Gaussian leverage model it is assumed that the pairs (ε<sub>t</sub>, η<sub>t</sub>) are iid bi-variate normally distributed, with standard normal marginals. This is the most popular leverage model and it is a discrete time version of models used in option pricing. 
@@ -67,8 +69,8 @@ All paths to  X<sub>t</sub> and h<sub>t+1</sub> goes via/through h<sub>t</sub>, 
 
 
 [1]: Figure-2.jpeg "Fig_1"
-[2]: Figur-3.jpeg "Fig_2"
-[3]: Figur-4.jpeg "Fig_3"
+[2]: Figure-3.jpeg "Fig_2"
+[3]: Figure-4.jpeg "Fig_3"
 [4]: sdv_lev_1.tpl "sdv_lev_1.tpl"
 [5]: sdv_lev_2.tpl "sdv_lev_2.tpl"
 [6]: sdv_lev_1.par "sdv_lev_1.par"
