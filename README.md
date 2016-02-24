@@ -6,6 +6,7 @@
 All examples currently available in the website
 
 ["Maximum likelihood estimation and inference" by Russell Millar][1]
+
 [A discrete valued time series model; Polio data][2]
 :  Illustrate how a time series of count data can be modelled as a GLMM with a Poisson response
 
@@ -31,7 +32,9 @@ All examples currently available in the website
 :  Binomial response with random effects having beta distribution. Comparison to Winbugs and h-GLM
 
 [By field of application][10]
+
 [Categorical data][11]
+
 [CJS Individual Heterogeneity ][12]
 :  Mixed Effects Cormack-Jolly-Seber Models for Analysis of Capture-Recapture Data
 
@@ -48,6 +51,7 @@ All examples currently available in the website
 :  A short document with accompanying R code that details (1) the functions used to bound parameters, (2) the method for calculating a bounded covariance matrix, and (3) what is stored in the binary admodel.hes and admodel.cov files and how the user can utilize this information to gain more control over an MCMC chain.
 
 [Covariance in RE models][17]
+
 [Covariance matrices][18]
 :  How to parameterize a covariance matrix
 
@@ -58,6 +62,7 @@ All examples currently available in the website
 :  Continuous and discrete observation sharing being influenced by a latent random variable
 
 [Differential equations][21]
+
 [Eilers &amp; Marx parameterization][22]
 :  Parameterization of the spline from Eilers &amp; Marx (1996)
 
@@ -83,6 +88,7 @@ All examples currently available in the website
 :  Various tricks and techniques related to the function minimizer to improve convergence
 
 [Gamma distributed myxomatosis using R2admb][30]
+
 [GAMs as mixed models][31]
 :  Generalized Additive Models
 
@@ -93,8 +99,11 @@ All examples currently available in the website
 :  The approach to spatial modeling where you explicitly model the covariance function/matrix. First used in geology/mining (hence the name). Can be used with both Gaussian and non-Gaussian response for data.
 
 [GLM/GLMM/GAM][34]
+
 [glmmADMB][35]
+
 [Growth models][36]
+
 [Item response theory][37]
 :  The multilevel Rasch model can be implented using random effects in ADMB. As an example we use data on the responses of 2042 soldiers to a total of 19 items (questions), taken from Doran et al (2007). This illustrates the use of crossed random effects in ADMB. Further, it is shown how the model easily can be generalized in ADMB. These more general models cannot be fitted with standard GLMM software such as "lmer" in R.
 
@@ -166,6 +175,78 @@ All examples currently available in the website
 :  Pharmacokinetics (PK) &amp; Pharmacodynamics(DK)
 
 
+[Poisson GLMM][61]
+:  An example of the geostatistical approach to spatial modelling. The response distribution is Poisson with an isotropic correlation function r(d), where "d" is the distiance between two locations.
+
+[R - ADMB interface for mixed models][62]
+:  Explains how to set up a general mixed model interface between R and ADMB used for instance in glmmADMB
+
+[R stuff][63]
+
+[Random scale][64]
+:  Distance Sampling with Random Scale Detection Function
+
+[Sampling][65]
+:  Survey sampling related examples
+
+[Separable: Method explanation][66]
+:  It has for a long time been possible to fit GLMMs (Generalized Linear Mixed Models) in ADMB-RE. A typical example is correlated count data with Poisson distribution. However, when the observation are located on a spatial grid the number of latent variables (random effects in the ADMB-RE terminology) grows quadratically in the number of grid points in each geographical direction. The large number of random effects causes a computational challenge.
+
+[Simple examples][67]
+
+[Skate mortality: Bayesian state-space model][68]
+:  Bayesian state-space model example from the NCEAS non-linear modelling working group
+
+[Spatial models][69]
+:  ADMB supports both the geostatistical approach and Gaussian Markov random field approach to spatial modelling
+
+[Splines][70]
+:  Different aspects of spline models
+
+[Splines I][71]
+:  notes and examples related to cubic splines
+
+[State-space models][72]
+
+[Stochastic volatility collection][73]
+
+[Stochastic volatility models for financial time series][74]
+:  Stochastic volatility models are used in mathematical finance to describe the evolution of asset returns, which typically exhibit changing variances over time.
+
+[Storage][75]
+:  Physical storage of individual examples with guarantied permanent URL
+
+[Survival analysis][76]
+:  Lifetime data and survival analysis
+
+[SV models with leverage effect][77]
+
+[Tadpole mortality as a function of size][78]
+:  A maximum likelihood estimation problem with a binomial response variable, example from the NCEAS non-linear modelling working group.
+
+[Text books][79]
+:  Collections of examples taken from text books
+
+[The basic SV model and simple extensions][80]
+:  Beskrivelse av innhold. Kan droppes?
+
+[Theta-logistic population growth model][81]
+:  State-space model from the NCEAS non-linear modelling working group
+
+[Variance calculations][82]
+:  How variance is calculated in ADMB
+
+[Weibull regression with censoring][83]
+
+[Wildflowers][84]
+:  A binomial generalized linear mixed model example from the NCEAS non-linear modelling working group.
+
+[WinBUGS][85]
+:  Comparison with the software package WinBUGS
+
+[Wood (2006) parameterization][86]
+:  Parameterization via the eigen vectors of the penalty matrix (Wood 2006, Section 6.6.1).
+
   
 [1]: text-books/maximum-likelihood-estimation-and-inference-by-russell-millar
 [2]: glmm-generalized-linear-mixed-models/count-data/a-discrete-valued-time-series-model
@@ -226,5 +307,31 @@ All examples currently available in the website
 [57]: admb-tricks/parameterization
 [58]: fisheries/pella
 [59]: fisheries/pella-t
-
+[61]: spatial-models/glmm-with-spatial-structure-described-in-terms-of-covariance-function
+[62]: r-stuff/a-general-r-admb-interface-for-mixed-models
+[63]: r-stuff
+[64]: sampling/line-transect-methods/random-scale
+[65]: sampling
+[66]: spatial-models/glmm2019s-on-large-spatial-grids
+[67]: simple-examples
+[68]: state-space-models/skate-mortality-bayesian-state-space-model
+[69]: spatial-models
+[70]: admb-tricks/splines-1
+[71]: admb-tricks/splines-1/splines
+[72]: state-space-models
+[73]: by-field-of-application/stochastic-volatility-collection
+[74]: state-space-models/stochastic-volatility-models-for-financial-time-series
+[75]: storage
+[76]: survival-analysis
+[77]: by-field-of-application/stochastic-volatility-collection/sv-models-with-leverage-effect
+[78]: simple-examples/tadpole-mortality-as-a-function-of-size
+[79]: text-books
+[80]: by-field-of-application/stochastic-volatility-collection/the-basic-sv-model-and-simple-extensions-1
+[81]: state-space-models/theta-logistic-population-growth-model
+[82]: admb-tricks/variance-calculations
+[83]: survival-analysis/weibull-regression-with-censoring
+[84]: glmm-generalized-linear-mixed-models/non-gaussian-random-effects/wildflowers
+[85]: winbugs
+[86]: glmm-generalized-linear-mixed-models/gams-as-mixed-models/wood-2006-parameterization
+  
   
