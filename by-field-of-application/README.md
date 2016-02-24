@@ -1,8 +1,8 @@
 #  By field of application
 
-[MedicaBiometrics][1]
+[Medical Biometrics][1]
 
-[Stochastic volatility collection][2]
+[Stochastic Volatility Collection][2]
 
 [Ecology][3]
 
