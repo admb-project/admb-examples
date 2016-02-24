@@ -19,18 +19,21 @@ In order to fit the models to data using ADMB-RE we have to find an expression f
 ![Fig_1][1]  
   
   
-Note that:  
-\- Xt is separated from the other variables by ht. This implies that Xt is conditionally independent of all other variables given ht.   
-\- The only path to ht goes via ht-1. Then ht is conditionally independent og all previous variables given ht-1.
+<img src="http://www.admb-project.org/examples/by-field-of-application/stochastic-volatility-collection/the-basic-sv-model-and-simple-extensions-1/Figur_1.jpg/image_preview" alt="Fig_1" class="image-inline image-inline" title="Fig_1">
 
-These considerations leads to the folowing expression for the joint density:  
-p(**X**,**h**|θ) = p(h1|θ)prod p(ht 1|ht,θ) prod p(Xt|ht,θ).  
-  
-hT 1 is not strictly needed here, but will be needed in later models and is for consistency also included here.   
-  
-For the models considered so far h1~N(0,σ(1-ϕ2)) and ht 1|ht~N(ϕht, σ2), while the distribution of Xt|ht depends on the distribution used for εt.    
-  
-It is then easy to specify log p(**X**, **h**|θ), see tpl files for how this can be done for the three models:
+Note that:
+- X<sub>t</sub> is separated from the other variables by h<sub>t</sub>. This implies that X<sub>t</sub> is conditionally independent of all other variables given h<sub>t</sub>.
+- The only path to h<sub>t</sub> goes via h<sub>t-1</sub>. 
+- Then h<sub>t</sub> is conditionally independent og all previous variables given h<sub>t-1</sub>.
+
+These considerations leads to the folowing expression for the joint density:
+p(<strong>X</strong>,<strong>h</strong>|θ) = p(h<sub>1</sub>|θ)\prod p(h<sub>t+1</sub>|h<sub>t</sub>,θ) \prod p(X<sub>t</sub>|h<sub>t</sub>,θ).
+
+h<sub>T+1</sub> is not strictly needed here, but will be needed in later models and is for consistency also included here. 
+
+For the models considered so far h<sub>1</sub>~N(0,σ<sup>2</sup>/(1-ϕ<sup>2</sup>)) and h<sub>t+1</sub>|h<sub>t</sub>~N(ϕh<sub>t</sub>, σ<sup>2</sup>), while the distribution of X<sub>t</sub>|h<sub>t</sub> depends on the distribution used for ε<sub>t</sub>.
+
+It is then easy to specify log p(<strong>X</strong>, <strong>h</strong>|θ), see tpl files for how this can be done for the three models:
 
 > [sdv_plain.tpl][2]
 >
