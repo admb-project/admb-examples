@@ -71,4 +71,4 @@ The result you get when you run ADMB matches those from R:
          1   x 3.3335e+000 8.1650e-001   1.0000
          2   u 6.6668e+000 8.1650e-001   0.5000  1.0000
 
-[1]: http://www.admb-project.org/examples/admb-tricks/variance-calculations/variance-in-re-models/usermanual.pdf "usermanual.pdf"
+[1]: usermanual.pdf "usermanual.pdf"
