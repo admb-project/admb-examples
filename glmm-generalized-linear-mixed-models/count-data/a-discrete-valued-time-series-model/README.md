@@ -9,15 +9,13 @@ A serially correlated time series of Poisson counts using a GLMM framework
 As an example of a discrete valued time series we use the 'polio data' considered by [Kuk & Cheng (1999)][4]. It is assumed that _yi_ has a Poisson (lambdai) distribution, where
 
   
-log(lambdai) = _**X**i_**b** _ui_.
+log(lambdai) = _**X**i_**b** + u<sub>i</sub>.
 
- 
 
-Here, _**X**i_ is a covariate vector, **b** is a vector of regression parameters and _ui_
 
-is a first order autoregressive process.
+Here, _**X**i_ is a covariate vector, **b** is a vector of regression parameters and u<sub>i</sub> is a first order autoregressive process.
 
- 
+
 
 ### Details   
 
@@ -29,10 +27,10 @@ is a first order autoregressive process.
 
 See "Navigation" box to the left.
 
-* .tpl:  Model file
-* .dat: Data file
-* .pin: Starting values for the numerical optimizer  
-* .par: Result file (what you get when you compile and run your model)  
+* [polio.tpl]:  Model file
+* [polio.dat]: Data file
+* [polio.pin]: Starting values for the numerical optimizer  
+* [polio.par]: Result file (what you get when you compile and run your model)  
 
  
 
@@ -40,4 +38,8 @@ See "Navigation" box to the left.
 [2]: http/www.admb-project.or@@search?Subject:list=MedicaBiometrics
 [3]: http/www.admb-project.or@@search?Subject:list=Count data
 [4]: .citations.html#kuk:chen:1999
-[5]: polio.pdf "polio.pdf"
+[5]: polio.pdf
+[6]: polio.tpl
+[7]: polio.dat
+[8]: polio.pin
+[9]: polio.par
