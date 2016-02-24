@@ -8,6 +8,6 @@
 
 [Weibull regression with censoring][3]
 
-[2]: ./../../glmm-generalized-linear-mixed-models/count-data/a-discrete-valued-time-series-model
-[3]: ./../../state-space-models/a-discrete-valued-time-series-model
-[4]: ./../../survival-analysis/weibull-regression-with-censoring
+[1]: ./../../glmm-generalized-linear-mixed-models/count-data/a-discrete-valued-time-series-model
+[2]: ./../../state-space-models/a-discrete-valued-time-series-model
+[3]: ./../../survival-analysis/weibull-regression-with-censoring
