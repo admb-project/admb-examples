@@ -67,8 +67,8 @@ All paths to  X<sub>t</sub> and h<sub>t+1</sub> goes via/through h<sub>t</sub>, 
 
 
 [1]: Figure-2.jpeg "Fig_1"
-[2]: Figur-3.jpeg "Fig_2"
-[3]: Figur-4.jpeg "Fig_3"
+[2]: Figure-3.jpeg "Fig_2"
+[3]: Figure-4.jpeg "Fig_3"
 [4]: sdv_lev_1.tpl "sdv_lev_1.tpl"
 [5]: sdv_lev_2.tpl "sdv_lev_2.tpl"
 [6]: sdv_lev_1.par "sdv_lev_1.par"
