@@ -11,7 +11,7 @@
 
  Due to correlated noise terms, the structure in SV models with leverage effect is (slightly) more complicated than in the models without leverage effect. It is therefore also more difficult to find an expression for the joint density function, p(<strong>X</strong>, <strong>h</strong>|θ), in this case.  SV models on the form (1-2) can be represented graphically as: 
  
- <img src="./Figure-2.jpeg" alt="Fig_1" class="image-inline image-inline" title="Fig_1"> 
+ ![Fig_1][1]
  
 All paths to  X<sub>t</sub> and h<sub>t+1</sub> goes via/through h<sub>t</sub>, so the pair (X<sub>t</sub>, h<sub>t+1</sub>) is conditionally independent of previous variables given h<sub>t</sub>. 
    
@@ -22,12 +22,12 @@ All paths to  X<sub>t</sub> and h<sub>t+1</sub> goes via/through h<sub>t</sub>, 
  This expression may be further simplified by factorizing p(Xt, ht+1|ht, θ). This can be done in two ways: 
  
  a. We can use that p(X<sub>t</sub>, h<sub>t+1</sub>|h<sub>t</sub>, θ) = p(X<sub>t</sub>|h<sub>t+1</sub>, h<sub>t</sub>, θ)p(h<sub>t+1</sub>|h<sub>t</sub>, θ) and write the joint density as p(X,h|θ) = p(h<sub>1</sub>|θ) Πp(X<sub>t</sub>|h<sub>t+1</sub>, h<sub>t</sub>, θ)p(h<sub>t+1</sub>|h<sub>t</sub>, θ) This is represented in the folowing graph  
-  <img src="./Figure-3.jpeg" alt="Fig_2" class="image-inline image-inline" title="Fig_2">  
+   ![Fig_2][2] 
   
   b. Alternatively we can use p(X<sub>t</sub>, h<sub>t+1</sub>|h<sub>t</sub>, θ) = p(X<sub>t</sub>|h<sub>t</sub>, θ)p(h<sub>t+1</sub>|X<sub>t</sub>, h<sub>t</sub>, θ), which gives the following expression p(X,h|θ) = p(h<sub>1</sub>|θ) Πp(X<sub>t</sub>|h<sub>t</sub>, θ)p(h<sub>t+1</sub>|X<sub>t</sub>, h<sub>t</sub>, θ). 
   
   The graphical representation for this form is given by 
- <img src="./Figure-4.jpeg" alt="Fig_3" class="image-inline image-inline" title="Fig_3">   The two forms should be equivalent, so it should in principle be possible to use both. However, as we shall see, it might be reasons to prefer one over the other.    
+ ![Fig_3][3]   The two forms should be equivalent, so it should in principle be possible to use both. However, as we shall see, it might be reasons to prefer one over the other.    
  
 ###<strong>The Gaussian leverage model</strong>
  In the Gaussian leverage model it is assumed that the pairs (ε<sub>t</sub>, η<sub>t</sub>) are iid bi-variate normally distributed, with standard normal marginals. This is the most popular leverage model and it is a discrete time version of models used in option pricing. 
@@ -56,7 +56,8 @@ All paths to  X<sub>t</sub> and h<sub>t+1</sub> goes via/through h<sub>t</sub>, 
  
  The two specifications for the Gaussian leverage model should give the same results. Comparing the par files [sdv_lev_1.par][3] and [sdv_lev_2.par][4], we see that the results are practically identical, as they should. However, it seems that sdv_lev_1 runs somewhat faster and that the difference in run time is increasing in the size of the data set. This suggests that it might be preferable to use the parametrization given in sdv_lev_1, at least for large data sets. This version may be less intuitive than the other and is less commonly used, but it might actually be preferable because of the run time issue.   
  
- ###Leverage models with heavier tails and/or skewness
+###<strong>Leverage models with heavier tails and/or skewness</strong>
+ 
  The moments of returns in the Gaussian leverage model are the same as in the basic SV model. In order to model both leverage effect and heavier tails and/or skewness, the following specification is used: X<sub>t</sub> = σ<sub>X</sub> exp(h<sub>t</sub>/2)ε<sub>t</sub> , 
  h<sub>t+1</sub> = ϕh<sub>t</sub> + σρX<sub>t</sub> exp(-h<sub>t</sub>/2)/σ<sub>X</sub> + σ sqrt(1-ρ<sup>2</sup>) v<sub>t</sub>, 
  
