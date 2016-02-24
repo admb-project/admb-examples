@@ -4,7 +4,7 @@ In RE (random effects) models there are two types of parameters, x (parameter in
 **Theory**
 Here is what the user manual says about the variance of u (the manual talks about "theta" instead of "x"): [usermanual.pdf][1] A few words can be added to this.
 
-The formula is based on the Law of total variance: <http: en.wikipedia.org="" wiki="" law_of_total_variance="">
+The formula is based on the [Law of total variance][2]:
 
 In our context this says:
 
@@ -72,3 +72,4 @@ The result you get when you run ADMB matches those from R:
          2   u 6.6668e+000 8.1650e-001   0.5000  1.0000
 
 [1]: usermanual.pdf "usermanual.pdf"
+[2]: https://en.wikipedia.org/wiki/Law_of_total_variance
