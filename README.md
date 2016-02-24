@@ -57,6 +57,116 @@ All examples currently available in the website
 [Diet and heart disease][20]
 :  Continuous and discrete observation sharing being influenced by a latent random variable
 
+[Differential equations][21]
+[Eilers &amp; Marx parameterization][22]
+:  Parameterization of the spline from Eilers &amp; Marx (1996)
+
+[Estimation of detection function ][23]
+:  Illustrates the likelihood based estimation of the detection function (perpendicular distance)
+
+[Examples][24]
+:  Under construction
+
+[Extension: correlated RE's][25]
+:  Add random effects to all 3 phi's, and attempt to estimate correlations
+
+[Extension: crossed RE's][26]
+:  Adds a "day effect" following Millar (2004, Aust NZ J. Stat, 46, p. 543-554)
+
+[Fisheries][27]
+:  Different uses of ADMB in fisheries stock assessments or other fisheries work
+
+[Flexible negative binomial][28]
+:  Explores non-standard relationships between mean and variance in the NB model
+
+[Function minimizer][29]
+:  Various tricks and techniques related to the function minimizer to improve convergence
+
+[Gamma distributed myxomatosis using R2admb][30]
+[GAMs as mixed models][31]
+:  Generalized Additive Models
+
+[Gaussian models][32]
+:  Models where both the response and latent random variable are Gaussian. For such models the covariance matrix of the observations can be worked out analytically, but still the latent variable (random effect) formulation can be beneficial.
+
+[Geostatistical approach][33]
+:  The approach to spatial modeling where you explicitly model the covariance function/matrix. First used in geology/mining (hence the name). Can be used with both Gaussian and non-Gaussian response for data.
+
+[GLM/GLMM/GAM][34]
+[glmmADMB][35]
+[Growth models][36]
+[Item response theory][37]
+:  The multilevel Rasch model can be implented using random effects in ADMB. As an example we use data on the responses of 2042 soldiers to a total of 19 items (questions), taken from Doran et al (2007). This illustrates the use of crossed random effects in ADMB. Further, it is shown how the model easily can be generalized in ADMB. These more general models cannot be fitted with standard GLMM software such as "lmer" in R.
+
+[Line transect methods][38]
+:  Line transect methods are commonly used to estimate animal abundance, and is a special case of distance sampling.
+
+[lmer() comparison][39]
+:  Application of ADMB to the simulated datasets in Zhang et al. (2011) with emphasis on comparison to the R function lmer()
+
+[Mark-recapture][40]
+
+[Math][41]
+:  Various undocumented techniques and tricks useful for developing ADMB programs
+
+[MCMCMC][42]
+:  This presents generalized code for conducting Metropolis Coupled MCMC using ADMB called within R
+
+[Mean and variance][43]
+:  Both mean and variance vary smoothly as functions of a covariate
+
+[MGRF: simple CAR model][44]
+:  CAR model for the Scottish Lip Cancer Data
+
+[Mineralization of terbuthylazine][45]
+:  A simple nonlinear least-squares problem, with normally distributed residuals and no random effects or latent variables. Example from the NCEAS non-linear modelling working group.
+
+[Miscellaneous][46]
+:  Stuff that is hard to categorize, but still is useful
+
+[Mixed response][47]
+:  Models with responses of different types
+
+[Negative Binomial Fir Fecundity][48]
+:
+
+[Negative binomial serially correlated counts][49]
+:  Compares a negative binomial response to Poisson responses for the polio data
+
+[Non Gaussian random effects][50]
+:  ADMB allows non-Gaussian random effects via transformation of a normal variate
+
+[Occupancy model][51]
+:  Comparison of ADMB and WinBUGS modelling approach for simple occupancy model. This is also a comparison of Bayesian and frequentist modelling.
+
+[One-compartment open model][52]
+:  Fit mixed effects model to the classical "phenopharbital" model
+
+[Orange trees][53]
+
+[Ordered categorical responses][54]
+:  Ordered categorical responses with application to SOCATT data
+
+[Owl nestling negotiation][55]
+:  Zero-inflated generalized linear mixed model example from the NCEAS non-linear modelling working group.
+
+[Parameter scaling][56]
+:  Shows how to scale parameters so that they become of the same magnitude
+
+[Parameterization][57]
+:  Examples of how to (and not to) parameterize mathematical functions and statistical models
+
+[Pella-Tomlinson basic model][58]
+:  Pella-Tomlinson by Arni Magnusson with user interface and formatted MCMC output. Repeats and extends the analysis of Polacheck et al. (1993).
+
+[Pella-Tomlinson from ADMB manual][59]
+:  Pella-Tomlinson example by Dave Fournier from the ADMB manual. Demonstrates several innovative modelling approaches: 6 month time step, time-varying K and q.
+
+[PK/DK ][60]
+:  Pharmacokinetics (PK) &amp; Pharmacodynamics(DK)
+
+
+  
 [1]: text-books/maximum-likelihood-estimation-and-inference-by-russell-millar
 [2]: glmm-generalized-linear-mixed-models/count-data/a-discrete-valued-time-series-model
 [3]: state-space-models/a-discrete-valued-time-series-model
@@ -77,4 +187,44 @@ All examples currently available in the website
 [18]: admb-tricks/parameterization/covariance-matrices
 [19]: state-space-models/delta-smelt-life-cycle-model
 [20]: glmm-generalized-linear-mixed-models/mixed-response/diet-and-heart-disease
+[21]: differential-equations
+[22]: glmm-generalized-linear-mixed-models/gams-as-mixed-models/generalized-additive-models
+[23]: sampling/line-transect-methods/estimation-of-detection-function
+[24]: http://www.admb-project.org/examples
+[25]: growth-models/orange-trees/extension-correlated-res
+[26]: growth-models/orange-trees/extension-crossed-res
+[27]: fisheries
+[28]: glmm-generalized-linear-mixed-models/count-data/flexible-negative-binomial-model
+[29]: function-minimization
+[30]: r-stuff/gamma-distributed-myxomatosis-using-r2admb
+[31]: glmm-generalized-linear-mixed-models/gams-as-mixed-models
+[32]: glmm-generalized-linear-mixed-models/gaussian-models
+[33]: spatial-models/the-geostatistical-approach
+[34]: glmm-generalized-linear-mixed-models
+[35]: r-stuff/glmmadmb
+[36]: growth-models
+[37]: categorical-data/item-response-theory-irt-and-the-multilevel-rasch-model-1
+[38]: sampling/line-transect-methods
+[39]: r-stuff/lmer-comparison
+[40]: mark-recapture
+[41]: admb-tricks
+[42]: r-stuff/mcmcmc
+[43]: glmm-generalized-linear-mixed-models/gams-as-mixed-models/mean-and-variance
+[44]: spatial-models/mgrf-car-model-for-the-scottish-lip-cancer-data
+[45]: differential-equations/mineralization-of-terbuthylazine
+[46]: miscellaneous
+[47]: glmm-generalized-linear-mixed-models/mixed-response
+[48]: glmm-generalized-linear-mixed-models/count-data/negative-binomial-fir-fecundity-1
+[49]: glmm-generalized-linear-mixed-models/count-data/negative-binomial-serially-correlated-counts
+[50]: glmm-generalized-linear-mixed-models/non-gaussian-random-effects
+[51]: winbugs/occupancy-model
+[52]: differential-equations/pk-dk/one-compartment-open-model
+[53]: growth-models/orange-trees
+[54]: categorical-data/ordered-categorical-responses
+[55]: glmm-generalized-linear-mixed-models/count-data/owl-nestling-negotiation
+[56]: function-minimization/parameter-scaling
+[57]: admb-tricks/parameterization
+[58]: fisheries/pella
+[59]: fisheries/pella-t
+
   
