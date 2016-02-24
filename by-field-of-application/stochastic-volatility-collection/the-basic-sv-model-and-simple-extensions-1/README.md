@@ -16,9 +16,6 @@ The model captures important properties of financial returns like volatility clu
 
 In order to fit the models to data using ADMB-RE we have to find an expression for the log of the joint density function for returns and latent variables, p(**X**,**h**|θ), where θ is a parameter vector. It is then useful to find a graphical representation for the models. This makes it easier to uncover the dependence structure in the models so that we may find simple expessions for the joint density functions. The SV models considered so far can be represented graphically as: 
 
-![Fig_1][1]  
-  
-  
 <img src="http://www.admb-project.org/examples/by-field-of-application/stochastic-volatility-collection/the-basic-sv-model-and-simple-extensions-1/Figur_1.jpg/image_preview" alt="Fig_1" class="image-inline image-inline" title="Fig_1">
 
 Note that:
@@ -56,8 +53,6 @@ The par-files contain estimated parameters and volatilities. (Comments...)
 
   
   
-
-[1]: Figur_1.jpimage_preview.jpg "Fig_1"
 [2]: sdv_plain.tpl "sdv_plain.tpl"
 [3]: sdv_t.tpl "sdv_t.tpl"
 [4]: sdv_t_skw.tpl "sdv_t_skw.tpl"
