@@ -20,9 +20,9 @@ Document Actions
 
 * [RSS feed][6]
 
-[1]: admb-tricks/adjoint-code-1
-[2]: admb-tricks/parameterization
-[3]: admb-tricks/splines-1
-[4]: admb-tricks/variance-calculations
-[5]: admb-tricks/covariance-calculations
-[6]: admb-tricks/RSS ""
+[1]: adjoint-code-1
+[2]: parameterization
+[3]: splines-1
+[4]: variance-calculations
+[5]: covariance-calculations
+[6]: RSS ""

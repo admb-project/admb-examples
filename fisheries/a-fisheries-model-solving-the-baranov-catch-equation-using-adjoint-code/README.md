@@ -9,5 +9,5 @@ Document Actions
 
 * [RSS feed][2]
 
-[1]: adjoint-code-1
+[1]: ../../../../tree/master/admb-tricks/adjoint-code-1
 [2]: RSS ""
