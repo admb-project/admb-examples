@@ -259,7 +259,7 @@ All examples currently available in the website
 [9]: glmm-generalized-linear-mixed-models/non-gaussian-random-effects/beta-binomial-model
 [10]: by-field-of-application
 [11]: categorical-data
-[12]: mark-recapture/cormack-jolly-seber-models/cjs-individual-heterogeneity-1
+[12]: mark-recapture/cormack-jolly-seber-models/cjs-individual-heterogeneity
 [13]: mark-recapture/cormack-jolly-seber-models
 [14]: spatial-models/separable-different-implementation
 [15]: glmm-generalized-linear-mixed-models/count-data
