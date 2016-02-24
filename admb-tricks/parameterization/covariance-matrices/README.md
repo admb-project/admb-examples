@@ -29,7 +29,7 @@ Sometimes you want elements in the C (or S) to be zero, say S(1,2) = 0, meaning 
 [constrained_cor.dat][5]
 
 
-[1]: "correlation_matrix.pdf" "Correlation matrix"
+[1]: correlation_matrix.pdf "Correlation matrix"
 [2]: C.tpl
 [3]: C.dat
 [4]: constrained_cor.tpl "constrained_cor.tpl"
