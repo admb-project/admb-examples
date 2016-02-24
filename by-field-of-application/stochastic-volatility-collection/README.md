@@ -7,15 +7,5 @@ An important property of financial time series is that volatility, defined as th
 1. [**The basic SV-model and simple extensions**.][1] In this section the basic SV-model is introduced, and it is shown how simple modifications can produce models that also can capture skewness and higher kurtosis than the basic model. 
 2. [**SV-models with leverage effect**. ][2]We often see an increase in volatility after a drop in returns. This phenomenon is called leverage effect and seems to be particularly important for stocks. Leverage effect can be modeled by correlated noise terms in the retun and the volatility equations. Models with correlated noise terms have a more complicated structure, and are therefore treated in a separate section.
 
- 
-
- 
-
- 
-
- 
-
- 
-
-[1]: the-basic-sv-model-and-simple-extensions-modeller.html "The basic SV model and simple extensions"
-[2]: sv-models-with-leverage-effecsv-models-with-leverage-effect.html "SV models with leverage effect"
+[1]: the-basic-sv-model-and-simple-extensions-1 "The basic SV model and simple extensions"
+[2]: sv-models-with-leverage-effect "SV models with leverage effect"
