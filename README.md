@@ -1,5 +1,5 @@
 
-[Source](http://www.admb-project.org/examples/copy_of_new-examples "Permalink to All examples — ADMB Project")
+[Source](copy_of_new-examples "Permalink to All examples — ADMB Project")
 
 # All examples — ADMB Project
 
@@ -57,24 +57,24 @@ All examples currently available in the website
 [Diet and heart disease][20]
 :  Continuous and discrete observation sharing being influenced by a latent random variable
 
-[1]: http://www.admb-project.org/examples/text-books/maximum-likelihood-estimation-and-inference-by-russell-millar
-[2]: http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data/a-discrete-valued-time-series-model
-[3]: http://www.admb-project.org/examples/state-space-models/a-discrete-valued-time-series-model
-[4]: http://www.admb-project.org/examples/fisheries/a-fisheries-model-with-random-effects-1
-[5]: http://www.admb-project.org/examples/mark-recapture/cormack-jolly-seber-models/fitting-cormack-jolly-seber-models-to-capture-recapture-data-using-r2admb
-[6]: http://www.admb-project.org/examples/admb-tricks/adjoint-code-1
-[7]: http://www.admb-project.org/examples/fisheries/a-fisheries-model-solving-the-baranov-catch-equation-using-adjoint-code
-[8]: http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/gaussian-models/bcb-bowheads
-[9]: http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/non-gaussian-random-effects/beta-binomial-model
-[10]: http://www.admb-project.org/examples/by-field-of-application
-[11]: http://www.admb-project.org/examples/categorical-data
-[12]: http://www.admb-project.org/examples/mark-recapture/cormack-jolly-seber-models/cjs-individual-heterogeneity-1
-[13]: http://www.admb-project.org/examples/mark-recapture/cormack-jolly-seber-models
-[14]: http://www.admb-project.org/examples/spatial-models/separable-different-implementation
-[15]: http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/count-data
-[16]: http://www.admb-project.org/examples/admb-tricks/covariance-calculations
-[17]: http://www.admb-project.org/examples/admb-tricks/variance-calculations/variance-in-re-models
-[18]: http://www.admb-project.org/examples/admb-tricks/parameterization/covariance-matrices
-[19]: http://www.admb-project.org/examples/state-space-models/delta-smelt-life-cycle-model
-[20]: http://www.admb-project.org/examples/glmm-generalized-linear-mixed-models/mixed-response/diet-and-heart-disease
+[1]: text-books/maximum-likelihood-estimation-and-inference-by-russell-millar
+[2]: glmm-generalized-linear-mixed-models/count-data/a-discrete-valued-time-series-model
+[3]: state-space-models/a-discrete-valued-time-series-model
+[4]: fisheries/a-fisheries-model-with-random-effects-1
+[5]: mark-recapture/cormack-jolly-seber-models/fitting-cormack-jolly-seber-models-to-capture-recapture-data-using-r2admb
+[6]: admb-tricks/adjoint-code-1
+[7]: fisheries/a-fisheries-model-solving-the-baranov-catch-equation-using-adjoint-code
+[8]: glmm-generalized-linear-mixed-models/gaussian-models/bcb-bowheads
+[9]: glmm-generalized-linear-mixed-models/non-gaussian-random-effects/beta-binomial-model
+[10]: by-field-of-application
+[11]: categorical-data
+[12]: mark-recapture/cormack-jolly-seber-models/cjs-individual-heterogeneity-1
+[13]: mark-recapture/cormack-jolly-seber-models
+[14]: spatial-models/separable-different-implementation
+[15]: glmm-generalized-linear-mixed-models/count-data
+[16]: admb-tricks/covariance-calculations
+[17]: admb-tricks/variance-calculations/variance-in-re-models
+[18]: admb-tricks/parameterization/covariance-matrices
+[19]: state-space-models/delta-smelt-life-cycle-model
+[20]: glmm-generalized-linear-mixed-models/mixed-response/diet-and-heart-disease
   
