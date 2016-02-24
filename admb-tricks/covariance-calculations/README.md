@@ -8,8 +8,6 @@ A short document with accompanying R code that details (1) the functions used to
 [R code to interact with admodel.cov][2]
 :  R code for reproducing the covariance calculations and manipulating the admodel.cov file.
 
-Document Actions
-
 
 [1]: ADMB_Covariance_Calculations.pdf
 [2]: ADMB_Covariance_Functions.R
