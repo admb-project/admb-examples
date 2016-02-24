@@ -1,4 +1,4 @@
-#  GLM/GLMM/GAM
+#  GLGLMGAM
 
 [GAMs as mixed models][1]
 :  Generalized Additive Models
@@ -19,9 +19,9 @@ Document Actions
 
 * [RSS feed][6]
 
-[1]: ./gams-as-mixed-models.html
-[2]: ./non-gaussian-random-effects.html
-[3]: ./count-data.html
-[4]: ./mixed-response.html
-[5]: ./gaussian-models.html
-[6]: ./RSS ""
+[1]: gams-as-mixed-models.html
+[2]: non-gaussian-random-effects.html
+[3]: count-data.html
+[4]: mixed-response.html
+[5]: gaussian-models.html
+[6]: RSS ""

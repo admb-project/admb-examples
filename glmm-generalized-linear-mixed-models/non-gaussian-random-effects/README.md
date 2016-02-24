@@ -12,6 +12,6 @@ Document Actions
 
 * [RSS feed][3]
 
-[1]: ./beta-binomial-model.html
-[2]: ./wildflowers.html
-[3]: ./RSS ""
+[1]: beta-binomial-model.html
+[2]: wildflowers.html
+[3]: RSS ""

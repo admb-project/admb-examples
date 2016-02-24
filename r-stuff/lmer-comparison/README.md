@@ -12,7 +12,7 @@ Comparison by David Fournier:
 
 A few days ago there was a posting
 
-<https://stat.ethz.ch/pipermail/r-sig-mixed-models/2011q4/006887.html>
+<https/stat.ethz.cpipermair-sig-mixed-model2011q006887.html>
 
 indicating that a reviewer considered lmer less reliable than SAS NLMIXED. The source of this distrust was pehaps the results of the paper Zhang et al. (2011)
 
@@ -58,7 +58,7 @@ This is the bash shell script (found on linux) used to run the R simulations.
 
     for i in {1..1000}
     do
-     R CMD BATCH ./bolker-par.r
+     R CMD BATCH bolker-par.r
     done
 
 where the R script [_bolker-par.r_][1] must be located in the current directory.
@@ -75,6 +75,6 @@ This is the R script for the simulator modifed to write out the simulated data f
 
 Zhang et al. (2011) On fitting generalized linear mixed-effects models for binary responses using different  statistical packages. _Statistics in Medicine_, 30, p. 1097-0258.
 
-[1]: ./bolker-par.r "bolker-par.r"
-[2]: ./write2admb.r "write2admb.r"
-[3]: ./analyzer.tpl "analyzer.tpl"
+[1]: bolker-par.r "bolker-par.r"
+[2]: write2admb.r "write2admb.r"
+[3]: analyzer.tpl "analyzer.tpl"

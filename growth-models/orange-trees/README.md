@@ -8,7 +8,7 @@ A growth curve model fitted to the "orange tree" data by [Pinheiro & Bates (2000
 
  
 
-_y_ = f1 /(1 exp[-(_t_-f2)/f3]) ] e,
+_y_ = f1(1 exp[-(_t_-f2f3]) ] e,
 
  
 
@@ -34,7 +34,7 @@ See list to the left
 
  
 
-[1]: http://www.admb-project.org/@@search?Subject:list=Growth models
+[1]: http/www.admb-project.or@@search?Subject:list=Growth models
 [2]: citations.html#pinh:bate:2000
-[3]: http://www.r-project.org/
-[4]: ./orange.pdf "orange.pdf"
+[3]: http/www.r-project.or
+[4]: orange.pdf "orange.pdf"

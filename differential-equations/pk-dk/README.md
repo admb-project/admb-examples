@@ -1,4 +1,4 @@
-#  PK/DK
+#  PDK
 
 Ordinary differential equations (ODE) are important in Pharmacokinetics (PK) & Pharmacodynamics(DK) and can be fit in ADMB.
 
@@ -6,11 +6,11 @@ The difference between PK and DK has been described (Wikipedia) as
 
 > _"Pharmacokinetics may be simply defined as what the body does to the drug, as opposed to pharmacodynamics which may be defined as what the drug does to the body"_
 
-Se more details at <http://en.wikipedia.org/wiki/Pharmacokinetics> and <http://en.wikipedia.org/wiki/Pharmacodynamics>.
+Se more details at <http/en.wikipedia.orwikPharmacokinetics> and <http/en.wikipedia.orwikPharmacodynamics>.
 
  
 
-I nice description of mixed models in PK/DK is provided here: <http://www4.stat.ncsu.edu/~davidian/webinar.pdf>
+I nice description of mixed models in PDK is provided here: <http/www4.stat.ncsu.ed~davidiawebinar.pdf>
 
  
 

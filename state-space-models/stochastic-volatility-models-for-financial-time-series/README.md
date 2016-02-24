@@ -8,7 +8,7 @@ Stochastic volatility models are used in mathematical finance to describe the ev
 
  
 
-The dataset is  previously analyzed by [Harvey et al. (1994)][2], and later by several other authors. The data consist of a time series of daily pound/dollar exchange rates {_zt_} from the period 01/10/81 to 28/6/85. The series of interest are the daily mean-corrected returns {_yt_}, given by the transformation
+The dataset is  previously analyzed by [Harvey et al. (1994)][2], and later by several other authors. The data consist of a time series of daily poundollar exchange rates {_zt_} from the period 0181 to 285. The series of interest are the daily mean-corrected returns {_yt_}, given by the transformation
 
  
 
@@ -35,6 +35,6 @@ See "Navigation" box to the left.
 
  
 
-[1]: http://www.admb-project.org/@@search?Subject:list=Finance
+[1]: http/www.admb-project.or@@search?Subject:list=Finance
 [2]: citations.html#harv:ruiz:shep:1994
-[3]: ./sdv.pdf "sdv.pdf"
+[3]: sdv.pdf "sdv.pdf"

@@ -9,6 +9,6 @@ Document Actions
 
 * [RSS feed][3]
 
-[1]: ./cormack-jolly-seber-models.html
-[2]: ./mark-recapture-random-effects-model.html
-[3]: ./RSS ""
+[1]: cormack-jolly-seber-models.html
+[2]: mark-recapture-random-effects-model.html
+[3]: RSS ""

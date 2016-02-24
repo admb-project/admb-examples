@@ -4,13 +4,13 @@ Filed under:  [Splines][1]
 
 notes and examples related to cubic splines
 
-![File text/x-perl][2] [splines.tpl][3]
+![File texx-perl][2] [splines.tpl][3]
 :  ADMB code with a spline (very rough)
 
 ![File PDF document][4] [Example results][5]
 :  notes: grey lines are from MCMC samples, third derivative looks rough only because of numerical precision
 
-![File chemical/x-mopac-input][6] [splines.dat][7]
+![File chemicax-mopac-input][6] [splines.dat][7]
 :  data file to go with the model in splines.tpl
 
 ![File][2] [R code][8]
@@ -20,12 +20,12 @@ Document Actions
 
 * [RSS feed][9]
 
-[1]: http://www.admb-project.org/@@search?Subject:list=Splines
-[2]: http://www.admb-project.org/application.png
-[3]: ./splines.tpl/view.html
-[4]: http://www.admb-project.org/pdf.png
-[5]: ./spline_example.pdf/view.html
-[6]: http://www.admb-project.org/unknown.png
-[7]: ./splines.dat/view.html
-[8]: ./splines_code.R/view.html
-[9]: ./RSS ""
+[1]: http/www.admb-project.or@@search?Subject:list=Splines
+[2]: http/www.admb-project.orapplication.png
+[3]: splines.tpview.html
+[4]: http/www.admb-project.orpdf.png
+[5]: spline_example.pdview.html
+[6]: http/www.admb-project.orunknown.png
+[7]: splines.daview.html
+[8]: splines_code.view.html
+[9]: RSS ""

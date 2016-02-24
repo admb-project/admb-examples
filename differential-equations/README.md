@@ -15,6 +15,6 @@ This is a fairly straightforward nonlinear least-squares problem, with normally 
 
  
 
-[1]: https://groups.nceas.ucsb.edu/non-linear-modeling/projects
-[2]: https://groups.nceas.ucsb.edu/non-linear-modeling/projects/min/WRITEUP/min.pdf
-[3]: https://groups.nceas.ucsb.edu/non-linear-modeling/projects/min
+[1]: https/groups.nceas.ucsb.ednon-linear-modelinprojects
+[2]: https/groups.nceas.ucsb.ednon-linear-modelinprojectmiWRITEUmin.pdf
+[3]: https/groups.nceas.ucsb.ednon-linear-modelinprojectmin

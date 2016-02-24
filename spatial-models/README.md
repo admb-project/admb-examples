@@ -4,7 +4,7 @@ Spatial
 
 There are two traditions (and a hybrid approach) in spatial modeling, both of which are supported in ADMB: 
 
-1. The geostatistical approach where you specify the spatial covariance matrix (or equivalently the covariogram). This is your only option if you have data that are not on a grid/lattice, or if your spatial locations do not naturally form a "neighbourhood" structure. If you are not familiar with spatial modelling you should start with "Geostatistical approach" which takes you through a lot of features.  
+1. The geostatistical approach where you specify the spatial covariance matrix (or equivalently the covariogram). This is your only option if you have data that are not on a grilattice, or if your spatial locations do not naturally form a "neighbourhood" structure. If you are not familiar with spatial modelling you should start with "Geostatistical approach" which takes you through a lot of features.  
 
 2. GMRF (Gaussian Markov random field) models for data on grids, or where at least there is some way of defining the "neighbours" of each observational position. The most prominent example is the conditionally autoregressive (CAR) model for the random field where you specify the distribution of each spatial point as a function of the neighbouring values.   GMRF are computationally efficient when used in combination with the sparse matrix functionality in ADMB ("-shess" command line option). _Your first example_: MGRF: simple CAR model   
 

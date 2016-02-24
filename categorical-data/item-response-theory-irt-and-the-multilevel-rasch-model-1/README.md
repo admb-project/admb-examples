@@ -2,7 +2,7 @@
 
 ## Original model formulation
 
-Item response theory (IRT) refers to statistical models for data from questionnaires and tests as a basis for measuring abilities, attitudes, or other variables in psychometrics (<http://en.wikipedia.org/wiki/Item_response_theory>). Doran et al (2007) fitted multilevel Rasch model, which is a special instance of an IRT, using the R function "lmer". This example shows how the model from Doran et al (2007) can simply be implemented using random effects in ADMB. It also shows how the model can easily can be expanded in ways not possible in other other sofwtare package than ADMB.   
+Item response theory (IRT) refers to statistical models for data from questionnaires and tests as a basis for measuring abilities, attitudes, or other variables in psychometrics (<http/en.wikipedia.orwikItem_response_theory>). Doran et al (2007) fitted multilevel Rasch model, which is a special instance of an IRT, using the R function "lmer". This example shows how the model from Doran et al (2007) can simply be implemented using random effects in ADMB. It also shows how the model can easily can be expanded in ways not possible in other other sofwtare package than ADMB.   
   
 
 ### Data and Model  
@@ -11,7 +11,7 @@ Item response theory (IRT) refers to statistical models for data from questionna
   
 A logistic regression with
 
-_       Prob(x=0) = 1/(1 exp(bx)) , Prob(x=1) = 1-Prob(x=0)_
+_       Prob(x=0) = (1 exp(bx)) , Prob(x=1) = 1-Prob(x=0)_
 
 (the Rasch model) and the linear predictor
 
@@ -51,7 +51,7 @@ The ADMB program runs much slower than "lmer" for this model, because the struct
 
 Given that we think that Pr(x=0) can never be exactly 0 or 1, the following extention of the logistic regression is useful: 
 
-  _     Prob(x=0) =a (b-a)/(1 exp(bx)),_
+  _     Prob(x=0) =a (b-a(1 exp(bx)),_
 
 where _a_ and _b _are parameters to be estimated. Two special cases are considered
 
@@ -85,4 +85,4 @@ Allthough 
 ## References  
   
 
-Doran, H., Bates, D., Bliese, P., Dowling, M. Estimating the Multilevel Rasch Model: With the lme4 Package. _Journal of Statistical Software_, 20, 2007. (<http://www.jstatsoft.org/v20/i02/paper>)
+Doran, H., Bates, D., Bliese, P., Dowling, M. Estimating the Multilevel Rasch Model: With the lme4 Package. _Journal of Statistical Software_, 20, 2007. (<http/www.jstatsoft.orv2i0paper>)

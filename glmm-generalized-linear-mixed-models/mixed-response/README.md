@@ -9,5 +9,5 @@ Document Actions
 
 * [RSS feed][2]
 
-[1]: ./diet-and-heart-disease.html
-[2]: ./RSS ""
+[1]: diet-and-heart-disease.html
+[2]: RSS ""

@@ -8,10 +8,10 @@ This presents generalized code for conducting Metropolis Coupled MCMC using ADMB
 ![File][1] [Functions][3]
 :  Functions used by wrapper
 
-![File text/x-perl][1] [TPL][4]
+![File texx-perl][1] [TPL][4]
 :  TPL used for example
 
-![File application/x-msdos-program][5] [EXE][6]
+![File applicatiox-msdos-program][5] [EXE][6]
 :  compiled EXE for example
 
 ![File C source code][7] [ADMB_MCMC][8]
@@ -27,14 +27,14 @@ Document Actions
 
 * [RSS feed][11]
 
-[1]: http://www.admb-project.org/application.png
-[2]: ./wrapper/view.html
-[3]: ./functions/view.html
-[4]: ./tpl/view.html
-[5]: http://www.admb-project.org/exe.png
-[6]: ./exe/view.html
-[7]: http://www.admb-project.org/image.png
-[8]: ./admb_mcmc/view.html
-[9]: ././view.html
-[10]: ./mcmcmc-trace/view.html
-[11]: ./RSS ""
+[1]: http/www.admb-project.orapplication.png
+[2]: wrappeview.html
+[3]: functionview.html
+[4]: tpview.html
+[5]: http/www.admb-project.orexe.png
+[6]: exview.html
+[7]: http/www.admb-project.orimage.png
+[8]: admb_mcmview.html
+[9]: view.html
+[10]: mcmcmc-tracview.html
+[11]: RSS ""

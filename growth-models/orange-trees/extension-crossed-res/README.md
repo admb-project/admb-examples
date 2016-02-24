@@ -6,7 +6,7 @@ The following example was considered by Millar (2004, Aust NZ J. Stat, 46, p. 54
 
     
 
-_yij_ = f1,_ij_ /(1 exp[-(_t_-f2)/f3]) ] e_ij_,
+_yij_ = f1,_ij_(1 exp[-(_t_-f2f3]) ] e_ij_,
 
 f1,_ij_ = f1 _ui_ _vj_
 

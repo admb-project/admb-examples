@@ -1,6 +1,6 @@
 #  A time series of Poisson counts; Polio data
 
-Filed under:  [State space model][1], [Medical/Biometrics][2], [Count data][3]
+Filed under:  [State space model][1], [MedicaBiometrics][2], [Count data][3]
 
 A serially correlated time series of Poisson counts using a GLMM framework
 
@@ -36,8 +36,8 @@ See "Navigation" box to the left.
 
  
 
-[1]: http://www.admb-project.org/@@search?Subject:list=State space model
-[2]: http://www.admb-project.org/@@search?Subject:list=Medical/Biometrics
-[3]: http://www.admb-project.org/@@search?Subject:list=Count data
-[4]: ../citations.html#kuk:chen:1999
+[1]: http/www.admb-project.or@@search?Subject:list=State space model
+[2]: http/www.admb-project.or@@search?Subject:list=MedicaBiometrics
+[3]: http/www.admb-project.or@@search?Subject:list=Count data
+[4]: .citations.html#kuk:chen:1999
 [5]: polio.pdf "polio.pdf"

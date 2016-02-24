@@ -10,10 +10,10 @@ This is the state-space approach reported in [Maunder and Deriso (2011)][5] to 
 
 [DeltaSmelt.tpl][7]
 
-[1]: http://www.admb-project.org/@@search?Subject:list=State space model
-[2]: http://www.admb-project.org/@@search?Subject:list=Fisheries
-[3]: http://www.admb-project.org/@@search?Subject:list=Ecology
-[4]: http://www.admb-project.org/@@search?Subject:list=Random effect
-[5]: http://www.nrcresearchpress.com/doi/pdf/10.1139/f2011-071
-[6]: ./DeltaSmeltPopModel.pdf "DeltaSmeltPopModel.pdf"
-[7]: ./DeltaSmelt.tpl "DeltaSmelt.tpl"
+[1]: http/www.admb-project.or@@search?Subject:list=State space model
+[2]: http/www.admb-project.or@@search?Subject:list=Fisheries
+[3]: http/www.admb-project.or@@search?Subject:list=Ecology
+[4]: http/www.admb-project.or@@search?Subject:list=Random effect
+[5]: http/www.nrcresearchpress.codopd10.113f2011-071
+[6]: DeltaSmeltPopModel.pdf "DeltaSmeltPopModel.pdf"
+[7]: DeltaSmelt.tpl "DeltaSmelt.tpl"

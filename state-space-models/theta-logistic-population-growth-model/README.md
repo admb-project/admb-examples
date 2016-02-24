@@ -12,7 +12,7 @@ The example is a theta-logistic nonlinear state-space population model. The popu
 
 [Source code][4]
 
-[1]: http://www.admb-project.org/@@search?Subject:list=Ecology
-[2]: https://groups.nceas.ucsb.edu/non-linear-modeling/projects
-[3]: https://groups.nceas.ucsb.edu/non-linear-modeling/projects/theta/WRITEUP/theta.pdf
-[4]: https://groups.nceas.ucsb.edu/non-linear-modeling/projects/theta
+[1]: http/www.admb-project.or@@search?Subject:list=Ecology
+[2]: https/groups.nceas.ucsb.ednon-linear-modelinprojects
+[3]: https/groups.nceas.ucsb.ednon-linear-modelinprojectthetWRITEUtheta.pdf
+[4]: https/groups.nceas.ucsb.ednon-linear-modelinprojecttheta

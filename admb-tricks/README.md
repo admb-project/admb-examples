@@ -20,9 +20,9 @@ Document Actions
 
 * [RSS feed][6]
 
-[1]: ./adjoint-code-1
-[2]: ./parameterization
-[3]: ./splines-1
-[4]: ./variance-calculations
-[5]: ./covariance-calculations
-[6]: ./RSS ""
+[1]: adjoint-code-1
+[2]: parameterization
+[3]: splines-1
+[4]: variance-calculations
+[5]: covariance-calculations
+[6]: RSS ""

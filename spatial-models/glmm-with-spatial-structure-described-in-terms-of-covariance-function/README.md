@@ -28,15 +28,15 @@ Here _d_ is the Euclidean distance between the two positions.
 This example shows a mathematical trick that is useful in all sorts of regression analysis: make the columns of the design matrix X orthogonal. This makes the model more stable, but when you later shall interpret the output (b vector) you must "transform back".
 
     DATA_SECTION
-      matrix dd(1,n,1,n);		// Distance matrix
+      matrix dd(1,n,1,n);	/ Distance matrix
      LOC_CALCS
       int i, j;
       dmatrix tX=trans(X);
       ncol1=norm(tX(1));
-      tX(1)/=ncol1;
+      tX(1=ncol1;
       tX(2)-= tX(1)*tX(2)*tX(1);
       cout << tX(1)*tX(2) << endl;
       ncol2=norm(tX(2));
-      tX(2)/=ncol2;
+      tX(2=ncol2;
       X=trans(tX);
      END_CALCS

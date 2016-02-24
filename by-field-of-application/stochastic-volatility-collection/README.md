@@ -17,5 +17,5 @@ An important property of financial time series is that volatility, defined as th
 
  
 
-[1]: ./the-basic-sv-model-and-simple-extensions-1/modeller.html "The basic SV model and simple extensions"
-[2]: ./sv-models-with-leverage-effect/sv-models-with-leverage-effect.html "SV models with leverage effect"
+[1]: the-basic-sv-model-and-simple-extensions-modeller.html "The basic SV model and simple extensions"
+[2]: sv-models-with-leverage-effecsv-models-with-leverage-effect.html "SV models with leverage effect"

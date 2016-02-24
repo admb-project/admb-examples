@@ -13,8 +13,8 @@ Document Actions
 
 * [RSS feed][5]
 
-[1]: ../mark-recapture/mark-recapture-random-effects-model.html
-[2]: ../sampling/line-transect-methods/estimation-of-detection-function/estimation-of-detection-function.html
-[3]: ../state-space-models/delta-smelt-life-cycle-model/delta-smelt-life-cycle-model.html
-[4]: ../state-space-models/theta-logistic-population-growth-model/theta-logistic-population-growth-model.html
-[5]: ./RSS ""
+[1]: .mark-recapturmark-recapture-random-effects-model.html
+[2]: .samplinline-transect-methodestimation-of-detection-functioestimation-of-detection-function.html
+[3]: .state-space-modeldelta-smelt-life-cycle-modedelta-smelt-life-cycle-model.html
+[4]: .state-space-modeltheta-logistic-population-growth-modetheta-logistic-population-growth-model.html
+[5]: RSS ""

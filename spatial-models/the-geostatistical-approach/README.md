@@ -1,6 +1,6 @@
 #  Geostatistical approach
 
-This is what most people think of when you say "spatial statistics". You explicitly model the correlation matrix/function. Observations do not need to be on a grid; their correlation is typically determined by distance. This example takes you from simple examples with Gaussian observation noise to non-Gaussian response (GLMMs).
+This is what most people think of when you say "spatial statistics". You explicitly model the correlation matrifunction. Observations do not need to be on a grid; their correlation is typically determined by distance. This example takes you from simple examples with Gaussian observation noise to non-Gaussian response (GLMMs).
 
 ## Model description
 
@@ -35,7 +35,7 @@ There is a special setup in ADMB that makes computations in geostatistical model
       normal_prior M(u);
 
     NORMAL_PRIOR_FUNCTION void get_M(const dvariable& _a)
-      // Function descript goes here ....
+     / Function descript goes here ....
 
     FUNCTION void evaluate_M(void)
       get_M(a);
@@ -88,9 +88,9 @@ The code for the above model is given in "spatial_simple.tpl". You should try th
 
 * **Generating other datasets  **The R script "spatial_simple.R" generates the dat-file. Modify the script and run it using source("spatial_simple.R"), and see if the ADMB output changes accordingly. You also need to download "ADMButils.R").  
 * **Implement non-RE version.** Because this is a fully Gaussian model it is possible to implement the likelihood directly without using the random effects features of ADMB. The key point is to notice that the (marginal) covariance matrix of Y is σ2M σe2I, where I is the identity matrix (1's on the diagonal; 0's everywhere else). Either write your own tpl, or use "spatial_nonre.tpl". Compare results and run times.  
-* **Flexible correlation function** Use a half-normal correlation function ρ(d) = a1exp{-(d/a2)2}, where -a1 and a2 are parameters that you estimate.
+* **Flexible correlation function** Use a half-normal correlation function ρ(d) = a1exp{-(a2)2}, where -a1 and a2 are parameters that you estimate.
 
-     tmpM(i,j)=a1*exp(-square(d(i,j)/a2));
+     tmpM(i,j)=a1*exp(-square(d(i,ja2));
 
 * **Experiment with phases **and see if the use of phases affects run times. Go back to "spatial_simple.tpl" and use the command "time" in your operating system to measure the run time.
     * Try to activate all parameters in phase 1
@@ -106,8 +106,8 @@ The code for the above model is given in "spatial_simple.tpl". You should try th
     * Modify "spatial_simple.R" so that X is generated and written to the .dat file.
 
     DATA_SECTION
-      init_int p			// Number of fixed effects (b's)
-      init_matrix X(1,n,1,p)	// Covariate matrix
+      init_int p		/ Number of fixed effects (b's)
+      init_matrix X(1,n,1,p)/ Covariate matrix
 
     SEPARABLE_FUNCTION void normal_loglik()
         dvariable mu = X(u)*beta   sigma*u_i;
@@ -121,17 +121,17 @@ The code for the above model is given in "spatial_simple.tpl". You should try th
      where Y|u denotes conditional probability (conditionally on u).
 
 * The expectation μ must be positive, so we use a log-link, i.e.  μ = exp{β σ*u(xi,yi)}
-* τ = Var(Y)/E(Y) > 1 is the over dispersion.   
+* τ = Var(YE(Y) > 1 is the over dispersion.   
 
     * For τ=1 the negative binomial distribution collapses to the Poisson distribution and τ=10 is a large deviation from Poisson (try to plot the probability function for τ=10).
     * τ should be given phase 2, while parameters governing the latent field (σ and a) should be postponed to phase 3  
 
     PARAMETER_SECTION
-      init_bounded_number tau(1.0,10,2)             // Over dispersion
+      init_bounded_number tau(1.0,10,2)            / Over dispersion
 
     SEPARABLE_FUNCTION void negbin_loglik(...,const dvariable& tau)
         dvariable sigma = exp(log_sigma);
-        dvariable mu = exp(beta   sigma*u_i);       // Mean of Y
+        dvariable mu = exp(beta   sigma*u_i);      / Mean of Y
         l -= log_negbinomial_density(Y(i),mu,tau);
 
 * **Code **ADMB (spatial_negbin.tpl) and R code for (spatial_negbin.R) are provided.  

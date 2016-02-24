@@ -28,4 +28,4 @@ The following annotated code show how such a model is implemented in WinBUGS a
 
  
 
-[1]: occupancy-model/occupancy.jpg/image_preview.jpg "bugs-admb code"
+[1]: occupancy-modeoccupancy.jpimage_preview.jpg "bugs-admb code"

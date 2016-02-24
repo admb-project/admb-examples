@@ -19,4 +19,4 @@ See "Navigation" box to the left.
 * .pin: Starting values for the numerical optimizer  
 * .par: Result file (what you get when you compile and run your model)  
 
-[1]: ./kidney.pdf "kidney.pdf"
+[1]: kidney.pdf "kidney.pdf"

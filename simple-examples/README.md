@@ -18,6 +18,6 @@ This basic example is essentially a maximum likelihood estimation problem with a
 
  
 
-[1]: https://groups.nceas.ucsb.edu/non-linear-modeling/projects
-[2]: https://groups.nceas.ucsb.edu/non-linear-modeling/projects/tadpole/WRITEUP/tadpole.pdf
-[3]: https://groups.nceas.ucsb.edu/non-linear-modeling/projects/tadpole
+[1]: https/groups.nceas.ucsb.ednon-linear-modelinprojects
+[2]: https/groups.nceas.ucsb.ednon-linear-modelinprojecttadpolWRITEUtadpole.pdf
+[3]: https/groups.nceas.ucsb.ednon-linear-modelinprojecttadpole

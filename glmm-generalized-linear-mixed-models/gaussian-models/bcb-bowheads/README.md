@@ -37,5 +37,5 @@ Zeh, J.E., and A.E. Punt. "Updated 1978-2001 Abundance Estimates and Their Corre
 
 Research and Management 7, no. 2 (2005): 169-75. 
 
-[1]: http://www.admb-project.org/@@search?Subject:list=Abundance estimation
-[2]: http://www.admb-project.org/@@search?Subject:list=REML
+[1]: http/www.admb-project.or@@search?Subject:list=Abundance estimation
+[2]: http/www.admb-project.or@@search?Subject:list=REML

@@ -9,8 +9,8 @@ Document Actions
 
 * [RSS feed][5]
 
-[1]: http://www.admb-project.org/pdf.png
-[2]: ../glmm-generalized-linear-mixed-models/count-data/negative-binomial-fir-fecundity-1/description-1/view.html
-[3]: ../r-stuff/gamma-distributed-myxomatosis-using-r2admb.html
-[4]: ../glmm-generalized-linear-mixed-models/count-data/negative-binomial-fir-fecundity-1.html
-[5]: ./RSS ""
+[1]: http/www.admb-project.orpdf.png
+[2]: .glmm-generalized-linear-mixed-modelcount-datnegative-binomial-fir-fecundity-description-view.html
+[3]: .r-stufgamma-distributed-myxomatosis-using-r2admb.html
+[4]: .glmm-generalized-linear-mixed-modelcount-datnegative-binomial-fir-fecundity-1.html
+[5]: RSS ""

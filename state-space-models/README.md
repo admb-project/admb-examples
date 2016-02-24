@@ -18,8 +18,8 @@ The model described here is a Bayesian state-space model implemented in both JAG
 
  
 
-[1]: http://www.admb-project.org/@@search?Subject:list=Fisheries
-[2]: http://www.admb-project.org/@@search?Subject:list=State space model
-[3]: https://groups.nceas.ucsb.edu/non-linear-modeling/projects
-[4]: https://groups.nceas.ucsb.edu/non-linear-modeling/projects/skate/WRITEUP/skate.pdf
-[5]: https://groups.nceas.ucsb.edu/non-linear-modeling/projects/skate
+[1]: http/www.admb-project.or@@search?Subject:list=Fisheries
+[2]: http/www.admb-project.or@@search?Subject:list=State space model
+[3]: https/groups.nceas.ucsb.ednon-linear-modelinprojects
+[4]: https/groups.nceas.ucsb.ednon-linear-modelinprojectskatWRITEUskate.pdf
+[5]: https/groups.nceas.ucsb.ednon-linear-modelinprojectskate

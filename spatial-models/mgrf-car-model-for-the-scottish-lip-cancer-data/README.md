@@ -2,14 +2,14 @@
 
 Example of conditionally autoregressive (CAR) model applied to 56 geographical Scottish regions.
 
-If you google "Scottish Lip Cancer Data" you will find that these data are used in many textbooks on spatial modelling, also as examples for statistical software (e.g. Winbugs). We use the notation from <http://www.biostat.umn.edu/~ph7440/pubh7440/slideLips.pdf>
+If you google "Scottish Lip Cancer Data" you will find that these data are used in many textbooks on spatial modelling, also as examples for statistical software (e.g. Winbugs). We use the notation from <http/www.biostat.umn.ed~ph744pubh744slideLips.pdf>
 
  
 
 The main ingredients of the model are:
 
 1. Counts are Poisson distributed
-2. A spatially smooth term (phi) affects the expected number of counts. This is the CAR part of the model. "phi" for one particular region is normally distributed (mean,sigma^2/m), where mean is the average of the neighbouring phi's, and m is the number of neighbour for this region. The specification of such a distribution for each region collectively constitute the CAR prior.
+2. A spatially smooth term (phi) affects the expected number of counts. This is the CAR part of the model. "phi" for one particular region is normally distributed (mean,sigma^m), where mean is the average of the neighbouring phi's, and m is the number of neighbour for this region. The specification of such a distribution for each region collectively constitute the CAR prior.
 3. There is a heterogeneity effect  theta  associate with each region, assumed to be independent between regions.
 
  
@@ -37,10 +37,10 @@ In the tpl file the rugged array W holds the neighboorhood information. In a loo
 
 which invokes the code
 
-      dvariable mean = sum(phi(1,m(i)))/m(i);
+      dvariable mean = sum(phi(1,m(i))m(i);
       g -= -0.5*square(phi(0)-mean)*m(i);
 
- where "mean" is the average of the neighbouring values. The variance is set to be 1/m (m=number of neighboors),  which phi is scaled by "sigma" in the Poisson likelihood.
+ where "mean" is the average of the neighbouring values. The variance is set to be m (m=number of neighboors),  which phi is scaled by "sigma" in the Poisson likelihood.
 
 ##  Running the program
 

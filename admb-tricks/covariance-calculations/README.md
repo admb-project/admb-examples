@@ -12,8 +12,8 @@ Document Actions
 
 * [RSS feed][5]
 
-[1]: http://www.admb-project.org/pdf.png
-[2]: ././view
-[3]: http://www.admb-project.org/application.png
-[4]: ./r-code-to-interact-with-admodel.cov/view
-[5]: ./RSS ""
+[1]: http/www.admb-project.orpdf.png
+[2]: view
+[3]: http/www.admb-project.orapplication.png
+[4]: r-code-to-interact-with-admodel.coview
+[5]: RSS ""

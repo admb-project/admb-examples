@@ -18,7 +18,7 @@ A simple example that shows how you can create a general .tpl file and use R to 
 
  
 
-<https://github.com/jlaake/ADMB-Examples/tree/master/Mixed Effect Modelling>
+<https/github.cojlaakADMB-ExampletremasteMixed Effect Modelling>
 
  
 
@@ -26,4 +26,4 @@ A simple example that shows how you can create a general .tpl file and use R to 
 
  
 
-[1]: ./mixed_example.pdf "mixed_example.pdf"
+[1]: mixed_example.pdf "mixed_example.pdf"

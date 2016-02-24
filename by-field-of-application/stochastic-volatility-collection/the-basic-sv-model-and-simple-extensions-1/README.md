@@ -2,7 +2,7 @@
 
 The basic SV model can be written as (alternative versions are also used):
 
-Xt = σX exp(ht/2) εt ,      (1)
+Xt = σX exp(h2) εt ,      (1)
 
 ht 1 = φht σηt ,          (2)
 
@@ -28,7 +28,7 @@ p(**X**,**h**|θ) = p(h1|θ)prod p(ht 1|ht,θ) prod p(Xt|ht,θ).
   
 hT 1 is not strictly needed here, but will be needed in later models and is for consistency also included here.   
   
-For the models considered so far h1~N(0,σ2/(1-ϕ2)) and ht 1|ht~N(ϕht, σ2), while the distribution of Xt|ht depends on the distribution used for εt.    
+For the models considered so far h1~N(0,σ(1-ϕ2)) and ht 1|ht~N(ϕht, σ2), while the distribution of Xt|ht depends on the distribution used for εt.    
   
 It is then easy to specify log p(**X**, **h**|θ), see tpl files for how this can be done for the three models:
 
@@ -54,10 +54,10 @@ The par-files contain estimated parameters and volatilities. (Comments...)
   
   
 
-[1]: ./Figur_1.jpg/image_preview.jpg "Fig_1"
-[2]: ./sdv_plain.tpl "sdv_plain.tpl"
-[3]: ./sdv_t.tpl "sdv_t.tpl"
-[4]: ./sdv_t_skw.tpl "sdv_t_skw.tpl"
-[5]: ./sdv_plain.par "sdv_plain.par"
-[6]: ./sdv_t.par "sdv_t.par"
-[7]: ./sdv_t_skw.par "sdv_t_skw.par"
+[1]: Figur_1.jpimage_preview.jpg "Fig_1"
+[2]: sdv_plain.tpl "sdv_plain.tpl"
+[3]: sdv_t.tpl "sdv_t.tpl"
+[4]: sdv_t_skw.tpl "sdv_t_skw.tpl"
+[5]: sdv_plain.par "sdv_plain.par"
+[6]: sdv_t.par "sdv_t.par"
+[7]: sdv_t_skw.par "sdv_t_skw.par"

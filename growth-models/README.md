@@ -20,7 +20,7 @@ Thank you.
 [Journal papers and Formal publications][4]
 :
 
-[1]: http://www.admb-project.org/contact-info
-[2]: http://www.admb-project.org/examples/growth-models
-[3]: http://www.admb-project.org/examples/./orange-trees/orange-trees
-[4]: http://www.admb-project.org/users/bibliography/journal-papers-and-formal-publications
+[1]: http/www.admb-project.orcontact-info
+[2]: http/www.admb-project.orexamplegrowth-models
+[3]: http/www.admb-project.orexampleorange-treeorange-trees
+[4]: http/www.admb-project.oruserbibliographjournal-papers-and-formal-publications

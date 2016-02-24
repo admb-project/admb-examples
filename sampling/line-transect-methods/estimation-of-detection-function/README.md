@@ -8,14 +8,14 @@ Illustrates the likelihood based estimation of the detection function (perpendic
 
  
 
-<https://github.com/jlaake/ADMB-Examples/blob/master/LineTransectFixedEffects.pdf> 
+<https/github.cojlaakADMB-ExampleblomasteLineTransectFixedEffects.pdf> 
 
  
 
 ### ADMB Files 
 
-<https://github.com/jlaake/ADMB-Examples/tree/master/Fixed Effect Line Transect>
+<https/github.cojlaakADMB-ExampletremasteFixed Effect Line Transect>
 
  
 
-[1]: http://www.admb-project.org/@@search?Subject:list=Ecology
+[1]: http/www.admb-project.or@@search?Subject:list=Ecology

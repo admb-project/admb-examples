@@ -7,7 +7,7 @@ Generalized additive models (GAMs) refers to the simplifying assumption that the
 
          response = some-transformation[  b1(x1) b2(x2) ... bk(xk)  ]
 
-where the b(x)'s are taken to be smoothing splines (see <http://en.wikipedia.org/wiki/Smoothing_spline>). This "smoothing" aspect is basically that some restriction is put on the flexibility of the spline, controlled by a smoothing parameter which is estimated from data.
+where the b(x)'s are taken to be smoothing splines (see <http/en.wikipedia.orwikSmoothing_spline>). This "smoothing" aspect is basically that some restriction is put on the flexibility of the spline, controlled by a smoothing parameter which is estimated from data.
 
  
 

@@ -9,5 +9,5 @@ Document Actions
 
 * [RSS feed][2]
 
-[1]: ./bcb-bowheads.html
-[2]: ./RSS ""
+[1]: bcb-bowheads.html
+[2]: RSS ""

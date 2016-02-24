@@ -24,6 +24,6 @@ where _x1i_, _x2i_ and _x3i_ are dummy variables coding for the different levels
 
  
 
-[1]: http://www.admb-project.org/@@search?Subject:list=Social science
-[2]: http://multilevel.ioe.ac.uk/softrev/index.html
-[3]: ./socatt.pdf "socatt.pdf"
+[1]: http/www.admb-project.or@@search?Subject:list=Social science
+[2]: http/multilevel.ioe.ac.usoftreindex.html
+[3]: socatt.pdf "socatt.pdf"

@@ -12,5 +12,5 @@ Examples, documentation, source code and associated files can be obtained from [
 
  
 
-[1]: https://groups.nceas.ucsb.edu/non-linear-modeling
-[2]: https://groups.nceas.ucsb.edu/non-linear-modeling/projects
+[1]: https/groups.nceas.ucsb.ednon-linear-modeling
+[2]: https/groups.nceas.ucsb.ednon-linear-modelinprojects

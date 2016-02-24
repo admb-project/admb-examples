@@ -9,7 +9,7 @@ Document Actions
 
 * [RSS feed][4]
 
-[1]: http://www.admb-project.org/pdf.png
-[2]: ./pella-t.pdf/view.html
-[3]: http://admb-project.org/svn/trunk/examples/admb/./
-[4]: ./RSS ""
+[1]: http/www.admb-project.orpdf.png
+[2]: pella-t.pdview.html
+[3]: http/admb-project.orsvtrunexampleadm
+[4]: RSS ""

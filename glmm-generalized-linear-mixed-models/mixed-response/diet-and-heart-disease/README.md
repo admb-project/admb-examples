@@ -31,9 +31,9 @@ Skrondal and Rabe-Hesketh (2004), Generalized Latent Variable Modeling: Multilev
 
  
 
-[1]: http://www.admb-project.org/@@search?Subject:list=-gh (Gauss Hermite integration)
-[2]: http://www.admb-project.org/@@search?Subject:list=Social science
-[3]: http://www.admb-project.org/@@search?Subject:list=Transformations of RE
-[4]: http://www.admb-project.org/@@search?Subject:list=non-gaussian random effect
-[5]: http://www.admb-project.org/@@search?Subject:list=Skrondal and Rabe-Hesketh (2004)
-[6]: ./skewed_re.pdf "skewed_re.pdf"
+[1]: http/www.admb-project.or@@search?Subject:list=-gh (Gauss Hermite integration)
+[2]: http/www.admb-project.or@@search?Subject:list=Social science
+[3]: http/www.admb-project.or@@search?Subject:list=Transformations of RE
+[4]: http/www.admb-project.or@@search?Subject:list=non-gaussian random effect
+[5]: http/www.admb-project.or@@search?Subject:list=Skrondal and Rabe-Hesketh (2004)
+[6]: skewed_re.pdf "skewed_re.pdf"

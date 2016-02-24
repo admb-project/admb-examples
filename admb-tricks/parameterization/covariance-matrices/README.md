@@ -4,7 +4,7 @@ Parameterization via the Cholesky factor (Incomplete example)
 
 If you want to estimate the parameters of a covariance matrix S you must ensure that the resulting matrix is 1) symmetric and 2) positive definite. To achieve this you do not parameterize S directly, but rather its Cholesky factor L, i.e. S = LL', see
 
-  <http://en.wikipedia.org/wiki/Cholesky_decomposition>
+  <http/en.wikipedia.orwikCholesky_decomposition>
 
  
 
@@ -32,6 +32,6 @@ Sometimes you want elements in the C (or S) to be zero, say S(1,2) = 0, meaning 
 
  
 
-[1]: ./correlation matrix.pdf "Correlation matrix"
-[2]: ./constrained_cor.tpl "constrained_cor.tpl"
-[3]: ./constrained_cor.dat "constrained_cor.dat"
+[1]: correlation matrix.pdf "Correlation matrix"
+[2]: constrained_cor.tpl "constrained_cor.tpl"
+[3]: constrained_cor.dat "constrained_cor.dat"
