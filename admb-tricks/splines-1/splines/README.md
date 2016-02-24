@@ -2,7 +2,7 @@
 
 Filed under:  [Splines][1]
 
-notes and examples related to cubic splines
+Notes and examples related to cubic splines
 
 [splines.tpl][2]
 :  ADMB code with a spline (very rough)
