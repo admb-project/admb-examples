@@ -1,7 +1,7 @@
 # Covariance in RE models — ADMB Project
 In RE (random effects) models there are two types of parameters, x (parameter in the ordinary sense) and u (random effect). This documents tries to shed some light on how the variance of x and u are calculated. The covariance matrix of the x vector is based on the (marginal) likelihood, obtained via the Laplace approximation, and corresponds to the way covariance matrices are calculated in non-RE models in ADMB.
 
-**Theory**
+##Theory
 Here is what the user manual says about the variance of u (the manual talks about "theta" instead of "x"): [usermanual.pdf][1] A few words can be added to this.
 
 The formula is based on the [Law of total variance][2]:
@@ -12,7 +12,7 @@ Var(u) = Ex[var(u|x)] + varx(E(u|theta)
 
 The expectation "Ex" is obtained simply by inserting the point estimate of x into "var(u|x)". The second term is based on the "delta method" which is used elsewhere in ADMB, in combination with the covariance matrix of x (described above). Everything in these calculations are conditional on "data".
 
-**Example: simple & hierarchical model**
+##Example: simple & hierarchical model
 
 Consider the following simple Gaussian hierarchical model:
 
@@ -41,7 +41,7 @@ We are interested in the conditional variance of x and u given data (y).
 
  
 
-**Corresponding quantities in ADMB**
+##Corresponding quantities in ADMB
 
 An implementation of this model in ADMB is:
 
