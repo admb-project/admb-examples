@@ -27,14 +27,14 @@ Here, _**X**i_ is a covariate vector, **b** is a vector of regression parameters
 
 See "Navigation" box to the left.
 
-* [polio.tpl][6]:  Model file
+* [polio.tpl][6]: Model file
 * [polio.dat][7]: Data file
 * [polio.pin][8]: Starting values for the numerical optimizer  
 * [polio.par][9]: Result file (what you get when you compile and run your model)  
 
  
 
-[1]: http/www.admb-project.or@@search?Subject:list=State space model
+[1]: [base]/state-space-models
 [2]: http/www.admb-project.or@@search?Subject:list=MedicaBiometrics
 [3]: http/www.admb-project.or@@search?Subject:list=Count data
 [4]: .citations.html#kuk:chen:1999
