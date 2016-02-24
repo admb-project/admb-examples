@@ -9,6 +9,7 @@
 :  A state-space multistage model to evaluate population impacts in the presence of density dependence
 
 [Theta-logistic population growth model][4]
+:  State-space model from the NCEAS non-linear modelling working group
 
 [1]: ./../../mark-recapture
 [2]: ./../../sampling/line-transect-methods/estimation-of-detection-function
