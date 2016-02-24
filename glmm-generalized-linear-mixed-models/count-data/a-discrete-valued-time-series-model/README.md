@@ -27,10 +27,10 @@ Here, _**X**i_ is a covariate vector, **b** is a vector of regression parameters
 
 See "Navigation" box to the left.
 
-* [polio.tpl]:  Model file
-* [polio.dat]: Data file
-* [polio.pin]: Starting values for the numerical optimizer  
-* [polio.par]: Result file (what you get when you compile and run your model)  
+* [polio.tpl][6]:  Model file
+* [polio.dat][7]: Data file
+* [polio.pin][8]: Starting values for the numerical optimizer  
+* [polio.par][9]: Result file (what you get when you compile and run your model)  
 
  
 
