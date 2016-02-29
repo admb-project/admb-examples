@@ -1,4 +1,0 @@
-while read p; do
-	fname=`basename $p`
-	echo $p.html $p/$fname.html
-done <html_files.txt
