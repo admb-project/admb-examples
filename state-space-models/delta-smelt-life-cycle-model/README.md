@@ -13,7 +13,6 @@ This is the state-space approach reported in [Maunder and Deriso (2011)][5] to 
 [1]: ./../
 [2]: ./../../fisheries/
 [3]: ./../../by-field-of-application/ecology
-[4]: http/www.admb-project.or@@search?Subject:list=Random effect
 [5]: http://www.nrcresearchpress.com/doi/pdf/10.1139/f2011-071
 [6]: DeltaSmeltPopModel.pdf
 [7]: DeltaSmelt.tpl
