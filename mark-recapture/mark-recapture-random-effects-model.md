@@ -1,4 +1,4 @@
-Mark-Recapture random effects model
+#Mark-Recapture random effects model
 From: [Mark N. Maunder][1], [Hans J. Skaug][2], David A. Fournier and Simon D. Hoyle. (2009) Comparison of fixed effect, random effect, and hierarchical Bayes estimators for mark recapture data using AD Model builder.
 
 The model is compiled using the command line option –re
