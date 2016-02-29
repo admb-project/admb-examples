@@ -2,8 +2,9 @@
       
  The leverage effect is the phenomenon that volatility tends to rise following a drop in returns. In SV models the leverage effect is modeled by letting the noise terms in the two equations be correlated. SV models with leverage effect can be written as:  
  
-  X<sub>t</sub> = σ<sub>X</sub> exp(h<sub>t</sub>/2)ε<sub>t</sub>,      (1)
-  h<sub>t+1</sub> = ϕh<sub>t</sub> + ση<sub>t</sub>,          (2) 
+<img src="./eq1.png" alt="Xt = σX exp(h2) εt" width="125" height="25">
+
+<img src="./eq2.png" alt="ht 1 = φht σηt" width="180" height="25">
   
  where the pairs (ε<sub>t</sub>, η<sub>t</sub>) are iid with E(ε<sub>t</sub>) = E(η<sub>t</sub>) = 0, Var(ε<sub>t</sub>) = Var(η<sub>t</sub>) = 1 and  corr(ε<sub>t</sub>, η<sub>t</sub>) = ρ.   
  
