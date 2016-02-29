@@ -17,11 +17,11 @@
 All paths to  X<sub>t</sub> and h<sub>t+1</sub> goes via/through h<sub>t</sub>, so the pair (X<sub>t</sub>, h<sub>t+1</sub>) is conditionally independent of previous variables given h<sub>t</sub>. 
    
   This leads to the following expression for the joint density: 
- <img src="./probability1.png" alt="" width="180" height="25">
+ <img src="./probability1.png" alt="" width="380" height="25">
  
- This expression may be further simplified by factorizing  <img src="./probability2.png" alt="" width="180" height="25">. This can be done in two ways: 
+ This expression may be further simplified by factorizing  <img src="./probability2.png" alt="" width="130" height="20">. This can be done in two ways: 
  
- a. We can use that  <img src="./probability3.png" alt="" width="180" height="25"> and write the joint density as  <img src="./probability4.png" alt="" width="180" height="25"> This is represented in the folowing graph  
+ a. We can use that  <img src="./probability3.png" alt="" width="600" height="25"> and write the joint density as  <img src="./probability4.png" alt="" width="600" height="25"> This is represented in the folowing graph  
    ![Fig_2][2] 
   
   b. Alternatively we can use p(X<sub>t</sub>, h<sub>t+1</sub>|h<sub>t</sub>, θ) = p(X<sub>t</sub>|h<sub>t</sub>, θ)p(h<sub>t+1</sub>|X<sub>t</sub>, h<sub>t</sub>, θ), which gives the following expression p(X,h|θ) = p(h<sub>1</sub>|θ) Πp(X<sub>t</sub>|h<sub>t</sub>, θ)p(h<sub>t+1</sub>|X<sub>t</sub>, h<sub>t</sub>, θ). 
