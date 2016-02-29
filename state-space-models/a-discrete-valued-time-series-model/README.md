@@ -15,7 +15,7 @@ Document Actions
 * [RSS feed][11]
 
 [1]: http/www.admb-project.or@@search?Subject:list=Random effect
-[2]: http/www.admb-project.or@@search?Subject:list=MedicaBiometrics
+[2]: ./../../by-field-of-application/medical-biometrics
 [3]: http/www.admb-project.orapplication.png
 [4]: polio.tpview.html
 [5]: http/www.admb-project.orunknown.png
