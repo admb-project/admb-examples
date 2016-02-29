@@ -23,16 +23,21 @@ Note that:
 - Then h<sub>t</sub> is conditionally independent og all previous variables given h<sub>t-1</sub>.
 
 These considerations leads to the folowing expression for the joint density:
-<img src="./probability1.png" alt="p(<strong>X</strong>,<strong>h</strong>|θ) = p(h<sub>1</sub>|θ)\prod p(h<sub>t+1</sub>|h<sub>t</sub>,θ) \prod p(X<sub>t</sub>|h<sub>t</sub>,θ)." title="joint density" width="200" height="25">
+<img src="./probability1.png" alt="joint density formula" title="joint density" width="400" height="25">
 
 
 h<sub>T+1</sub> is not strictly needed here, but will be needed in later models and is for consistency also included here. 
 
 For the models considered so far:
-<img src="./h1.png" alt="h<sub>1</sub>~N(0,σ<sup>2</sup>/(1-ϕ<sup>2</sup>))" title="h1">
-<img src="./h_t_1.png" alt="h<sub>t+1</sub>|h<sub>t</sub>~N(ϕh<sub>t</sub>, σ<sup>2</sup>)" title="h2">
 
- and , while the distribution of X<sub>t</sub>|h<sub>t</sub> depends on the distribution used for ε<sub>t</sub>.
+<img src="./h1.png" alt="h1" title="h1" width="200" height="25">
+
+ and ,
+ 
+ 
+<img src="./h_t_1.png" alt="h2" title="h2" width="200" height="25">
+
+ while the distribution of X<sub>t</sub>|h<sub>t</sub> depends on the distribution used for ε<sub>t</sub>.
 
 It is then easy to specify log p(<strong>X</strong>, <strong>h</strong>|θ), see tpl files for how this can be done for the three models:
 
