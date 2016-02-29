@@ -14,12 +14,8 @@ The model described here is a Bayesian state-space model implemented in both JAG
 
 [Source code][5]
 
- 
-
- 
-
-[1]: http/www.admb-project.or@@search?Subject:list=Fisheries
-[2]: http/www.admb-project.or@@search?Subject:list=State space model
+[1]: ./../fisheries/
+[2]: ./
 [3]: https/groups.nceas.ucsb.ednon-linear-modelinprojects
 [4]: https/groups.nceas.ucsb.ednon-linear-modelinprojectskatWRITEUskate.pdf
 [5]: https/groups.nceas.ucsb.ednon-linear-modelinprojectskate
