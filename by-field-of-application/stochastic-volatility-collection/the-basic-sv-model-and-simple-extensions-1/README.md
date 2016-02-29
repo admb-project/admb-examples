@@ -15,7 +15,7 @@ The model captures important properties of financial returns like volatility clu
 
 In order to fit the models to data using ADMB-RE we have to find an expression for the log of the joint density function for returns and latent variables, p(**X**,**h**|θ), where θ is a parameter vector. It is then useful to find a graphical representation for the models. This makes it easier to uncover the dependence structure in the models so that we may find simple expessions for the joint density functions. The SV models considered so far can be represented graphically as: 
 
-<img src="http://www.admb-project.org/examples/by-field-of-application/stochastic-volatility-collection/the-basic-sv-model-and-simple-extensions-1/Figur_1.jpg/image_preview" alt="Fig_1" title="SV models">
+<img src="./fig1.jpeg" alt="Fig_1" title="SV models">
 
 Note that:
 - X<sub>t</sub> is separated from the other variables by h<sub>t</sub>. This implies that X<sub>t</sub> is conditionally independent of all other variables given h<sub>t</sub>.
@@ -23,7 +23,7 @@ Note that:
 - Then h<sub>t</sub> is conditionally independent og all previous variables given h<sub>t-1</sub>.
 
 These considerations leads to the folowing expression for the joint density:
-<img src="probability1.png" alt="p(<strong>X</strong>,<strong>h</strong>|θ) = p(h<sub>1</sub>|θ)\prod p(h<sub>t+1</sub>|h<sub>t</sub>,θ) \prod p(X<sub>t</sub>|h<sub>t</sub>,θ)." title="joint density" width="200" height="25">
+<img src="./probability1.png" alt="p(<strong>X</strong>,<strong>h</strong>|θ) = p(h<sub>1</sub>|θ)\prod p(h<sub>t+1</sub>|h<sub>t</sub>,θ) \prod p(X<sub>t</sub>|h<sub>t</sub>,θ)." title="joint density" width="200" height="25">
 
 
 h<sub>T+1</sub> is not strictly needed here, but will be needed in later models and is for consistency also included here. 
