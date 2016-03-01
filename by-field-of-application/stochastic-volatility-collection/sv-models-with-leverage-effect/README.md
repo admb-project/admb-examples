@@ -1,5 +1,7 @@
 #  SV models with leverage effect
-      
+
+Filed under: [Stochastic Volatility Collection][10]
+
  The leverage effect is the phenomenon that volatility tends to rise following a drop in returns. In SV models the leverage effect is modeled by letting the noise terms in the two equations be correlated. SV models with leverage effect can be written as:  
  
 <img src="./../the-basic-sv-model-and-simple-extensions-1/eq1.png" alt="Xt = σX exp(h2) εt" width="125" height="25">
@@ -77,3 +79,4 @@ All paths to  X<sub>t</sub> and h<sub>t+1</sub> goes via/through h<sub>t</sub>, 
 [7]: sdv_lev_2.par "sdv_lev_2.par"
 [8]: sdv_t_lev.tpl "sdv_t_lev.tpl"
 [9]: sdv_st_lev.tpl "sdv_st_lev.tpl"
+[10]: ./../
