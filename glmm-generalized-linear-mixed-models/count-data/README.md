@@ -25,5 +25,5 @@ Poisson, negative binomial counts in various variants
 [2]: ./negative-binomial-serially-correlated-counts
 [3]: ./negative-binomial-fir-fecundity-1
 [4]: ./flexible-negative-binomial-model
-[5]: ./owl-nestling-negotiation.md
+[5]: ./owl-nesting-negotiation.md
 [6]: ./../
