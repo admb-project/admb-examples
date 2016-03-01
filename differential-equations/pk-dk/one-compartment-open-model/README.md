@@ -7,8 +7,7 @@ Fit mixed effects model to the classical "phenopharbital" model
 Pinheiro & Bates (2000, Ch. 6.4) fitted a so-called 'one-compartment open model' to a dataset known as the 'phenopharbital data'. A patient is given a dose _D_ at time _t_d, giving rise to a phenopharbital concentration _ct_ at a later time _t_:
 
   
-
-_ct_ = _V_ exp[-_CV_(_t_-_t_d)],
+<img src="./ct.png" alt="ct" width="200" height="45">
 
  
 
