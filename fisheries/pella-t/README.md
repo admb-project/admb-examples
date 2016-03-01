@@ -2,14 +2,17 @@
 
 Pella-Tomlinson example by Dave Fournier from the ADMB manual. Demonstrates several innovative modelling approaches: 6 month time step, time-varying K and q.
 
-![File PDF document][1] [pella-t.pdf][2]
-[Model and data files][3]
+[pella-t.pdf][1]
+[Model and data files]
+* [HALIBUT.DAT][2]
+* [ROCKLOBS.DAT][3]
+* [ROCKSOLE.DAT][4]
+* [pella-t.dat][5]
+* [pella-t.tpl][6]
 
-Document Actions
-
-* [RSS feed][4]
-
-[1]: http/www.admb-project.orpdf.png
-[2]: pella-t.pdview.html
-[3]: http/admb-project.orsvtrunexampleadm
-[4]: RSS ""
+[1]: ./Schaeffer-Pella-Tomlinson.pdf
+[2]: ./HALIBUT.DAT
+[3]: ./ROCKLOBS.DAT
+[4]: ./ROCKSOLE.DAT
+[5]: ./pella-t.dat
+[6]: ./pella-t.tpl
