@@ -15,21 +15,17 @@ The data, which are available from Statlib (lib.stat.cmu.ed), contain informatio
  
 
 ### Details   
-
-[union.pdf][2]
-
- 
+[union.pdf][1]
 
 ### Files
+* [union.tpl][2]: Model file
+* [union.dat][5]: Data file
+* [union.pin][6]: pin: Starting values for the numerical optimizer  
+* [union.par][7]:.par: Result file (what you get when you compile and run your model)  
 
-See "Navigation" box to the left.
-
-* .tpl:  Model file
-* .dat: Data file
-* .pin: Starting values for the numerical optimizer  
-* .par: Result file (what you get when you compile and run your model)  
-
-[1]: union.pdf
-[2]: union.pdf "union.pdf"
+[1]: ./union.pdf
 [3]: ./../../
 [4]: ./../
+[5]: ./union.dat
+[6]: ./union.pin
+[7]: ./union.par
