@@ -1,5 +1,6 @@
 #  Covariance Calculations
 
+Filed under: [ADMB Tricks][3]
 A short document with accompanying R code that details (1) the functions used to bound parameters, (2) the method for calculating a bounded covariance matrix, and (3) what is stored in the binary admodel.hes and admodel.cov files and how the user can utilize this information to gain more control over an MCMC chain.
 
 [Covariance Calculations][1]
@@ -11,3 +12,4 @@ A short document with accompanying R code that details (1) the functions used to
 
 [1]: ADMB_Covariance_Calculations.pdf
 [2]: ADMB_Covariance_Functions.R
+[3]: ./../
