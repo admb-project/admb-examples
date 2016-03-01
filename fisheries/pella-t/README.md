@@ -1,6 +1,7 @@
 #  Pella-Tomlinson from ADMB manual
 
 Filed under: [Fisheries][7]
+
 Pella-Tomlinson example by Dave Fournier from the ADMB manual. Demonstrates several innovative modelling approaches: 6 month time step, time-varying K and q.
 
 
