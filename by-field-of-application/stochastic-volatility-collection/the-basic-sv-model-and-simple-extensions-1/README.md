@@ -1,5 +1,7 @@
 #  The basic SV model and simple extensions
 
+Filed under: [Stochastic Volatility Collection][10]
+
 The basic SV model can be written as (alternative versions are also used):
 
 <img src="./eq1.png" alt="Xt = σX exp(h2) εt" width="125" height="25">
@@ -68,3 +70,4 @@ The par-files contain estimated parameters and volatilities.
 [5]: sdv_plain.par "sdv_plain.par"
 [6]: sdv_t.par "sdv_t.par"
 [7]: sdv_t_skw.par "sdv_t_skw.par"
+[10]: ./../
