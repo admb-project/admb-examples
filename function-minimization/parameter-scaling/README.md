@@ -1,5 +1,7 @@
 #  Parameter scaling
 
+Filed under: [Function Minimization][1]
+
 Shows how to scale parameters so that they become of the same magnitude, as seen from the perspective of the function minimizer
 
 Numerical minimizing algorithms are more stable if the parameters are of the same magnitude. A typically printout (when running the program) indicating that scaling is needed is:
@@ -42,3 +44,5 @@ which makes the function minimizer work internally with b_internal = 0.001*b.  
 ### Availablity
 
 This feature will become available for random effects model (admb -r) from release VERSION to 11.1.
+
+[1]: ./../
