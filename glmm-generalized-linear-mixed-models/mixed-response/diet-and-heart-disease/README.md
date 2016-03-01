@@ -43,7 +43,7 @@ Skrondal and Rabe-Hesketh (2004), Generalized Latent Variable Modeling: Multilev
 [4]: https://github.com/admb-project/examples/search?utf8=%E2%9C%93&q=non-gaussian+random+effect
 [5]: https://github.com/admb-project/examples/search?utf8=%E2%9C%93&q=Skrondal+and+Rabe-Hesketh+%282004%29
 [6]: ./skewed_re.pdf
-[7]: .diet.tpl
+[7]: ./diet.tpl
 [8]: ./diet_sk.tpl
 [9]: ./diet.dat
 [10]: ./diet.pin
