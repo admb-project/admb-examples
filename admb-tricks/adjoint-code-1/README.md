@@ -1,5 +1,7 @@
 # Adjoint code — ADMB Project
 
+Filed under: [ADMB Tricks][8]
+
 ### Why to write adjoint code?
 
 When you write code for variable objects in ADMB, all the derivatives are calculated for you. To accomplish this, ADMB must save derivative information for variable objects, which can take a lot of memory and be time consuming for functions that are called many times. The purpose of writing adjoint code is to reduce the amount of derivative information that must be calculated and stored in order to speed up the process. 
@@ -37,4 +39,5 @@ In the previous examples the adjoint code has been used for a simple function wh
 [5]: Adjoint_4var_str.tpl "Adjoint_4var_str.tpl"
 [6]: AdJointCodeBaranov.pdf "AdJointCodeBaranov.pdf"
 [7]: barnov.tpl "barnov.tpl"
+[8]: ./../
   
