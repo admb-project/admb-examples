@@ -18,5 +18,5 @@ The following example shows how the parameterization of the smoothing spline, ba
 [2]: ./binom_gam_ML_example.pdf
 [3]: ./binom_gam_ML_example.dat
 [4]: ./binom_gam_ML_example.tpl
-[5]: ./[run_analysis.R
+[5]: ./run_analysis.R
 [6]: ./example_data.csv
