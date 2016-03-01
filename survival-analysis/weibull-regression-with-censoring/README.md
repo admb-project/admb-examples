@@ -1,5 +1,7 @@
 #  Weibull regression with censoring
 
+Filed under: [Survival Analysis][6], [Medical Biometrics][7]
+
 Cox's proportional hazard model with random effects
 
 ### Details
@@ -16,3 +18,5 @@ Cox's proportional hazard model with random effects
 [3]: kidney.dat
 [4]: kidney.pin
 [5]: kidney.par
+[6]: ./../
+[7]: ./../../by-field-of-application/medical-biometrics/
