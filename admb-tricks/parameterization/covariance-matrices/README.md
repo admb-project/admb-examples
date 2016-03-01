@@ -1,5 +1,7 @@
 #  Covariance matrices
 
+Filed under: [ADMB Tricks][6]
+
 Parameterization via the Cholesky factor (Incomplete example)
 
 If you want to estimate the parameters of a covariance matrix S you must ensure that the resulting matrix is:
@@ -34,3 +36,4 @@ Sometimes you want elements in the C (or S) to be zero, say S(1,2) = 0, meaning 
 [3]: C.dat
 [4]: constrained_cor.tpl "constrained_cor.tpl"
 [5]: constrained_cor.dat "constrained_cor.dat"
+[6]: ./../../
