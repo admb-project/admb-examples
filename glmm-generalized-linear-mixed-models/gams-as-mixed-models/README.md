@@ -24,7 +24,8 @@ Often the penalty is put on the second derivative of the spline (wiggliness), wh
 * [Generalized Additive Models][2]
 * [Mean and Variance][3]
 * [Wood 2006 Parameterization][4]
-* 
+
+
 [1]: ./../
 [2]: ./generalized-additive-models/
 [3]: ./mean-and-variance/
