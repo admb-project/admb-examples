@@ -27,6 +27,6 @@ Note: In this model the underlying ODE has an analytical solution, but in more g
 
 Pinheiro, J., Bates, D.M.  (2000), _Mixed-Effects Models in S and S-PLUS_. Statistics and Computing, Springer.
 
-[1]: http/www.admb-project.or@@search?Subject:list=Differential equations
-[2]: http/www.admb-project.or@@search?Subject:list=PDK
-[3]: pheno.pdf "pheno.pdf"
+[1]: ./../../
+[2]: ./../
+[3]: ./pheno.pdf
