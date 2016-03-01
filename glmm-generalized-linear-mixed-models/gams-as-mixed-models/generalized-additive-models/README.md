@@ -1,5 +1,7 @@
 #  Eilers & Marx parameterization
 
+Filed under: [Generalized Linear Mixed Models][3], [GAMs as Mixed Models][4]
+
 Parameterization of the spline from Eilers & Marx (1996)
 
 ### **Model description**
@@ -29,3 +31,5 @@ See "Navigation" box to the left.
 
 [1]: union.pdf
 [2]: union.pdf "union.pdf"
+[3]: ./../../
+[4]: ./../
