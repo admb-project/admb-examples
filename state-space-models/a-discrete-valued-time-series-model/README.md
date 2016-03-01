@@ -1,5 +1,5 @@
 #  A discrete valued time series model; Polio data
-Filed under:  [Random effect][1], [MedicaBiometrics][2]
+Filed under:  [Random effect][1], [MedicaBiometrics][2], [State Space Models][11]
 
 Illustrate how a time series of count data can be modelled as a GLMM with a Poisson response
 * [polio.tpl][4]: Model file
@@ -16,3 +16,4 @@ Illustrate how a time series of count data can be modelled as a GLMM with a Pois
 [7]: polio.pin
 [8]: polio.par
 [10]: polio.pdf
+[11]: ./../
