@@ -10,15 +10,11 @@ As an example of a discrete valued time series we use the 'polio data' considere
 <img src="http://latex2png.com/output//latex_654cff27be7505f1ee7fcd17d114e389.png" alt="[log(lambda_i) = x_ib+u_i" width="200" height="25">
 
 
-
 Here, **X<sub>i</sub>** is a covariate vector, **b** is a vector of regression parameters and **u<sub>i</sub>** is a first order autoregressive process.
-
 
 
 ### Details   
 [polio.pdf][5]
-
- 
 
 ### Files
 * [polio.tpl][6]: Model file
@@ -26,7 +22,6 @@ Here, **X<sub>i</sub>** is a covariate vector, **b** is a vector of regression p
 * [polio.pin][8]: Starting values for the numerical optimizer  
 * [polio.par][9]: Result file (what you get when you compile and run your model)  
 
- 
 
 [1]: ./../../../state-space-models
 [2]: ./../../../by-field-of-application/medical-biometrics
