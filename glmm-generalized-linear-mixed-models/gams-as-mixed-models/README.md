@@ -1,7 +1,6 @@
 #  GAMs as mixed models
 
-Contents
-:
+Filed under [Generalized Linear Mixed Models][1]
 
 Generalized additive models (GAMs) refers to the simplifying assumption that the response variable depends additively on a set of covariates, as in linear regression, but each covariate can act nonlinearly. We thus have a model 
 
@@ -22,5 +21,10 @@ Often the penalty is put on the second derivative of the spline (wiggliness), wh
  
 
 ### Examples
-
-See subfolders to the left
+* [generalized-additive-models][2]
+* [mean-and-variance][3]
+* [wood-2006-parameterization][4]
+* 
+[1]: ./../
+[1]: ./
+[1]: ./
