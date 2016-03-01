@@ -1,5 +1,6 @@
 #  PDK
 
+Filed under: [Differential Equations][2]
 Ordinary differential equations (ODE) are important in Pharmacokinetics (PK) & Pharmacodynamics(DK) and can be fit in ADMB.
 
 The difference between PK and DK has been described (Wikipedia) as
@@ -25,3 +26,4 @@ The reason ADMB is useful for such models are:
 [One-compartment open model][1]
 
 [1]: ./one-compartment-open-model/
+[2]: ./../
