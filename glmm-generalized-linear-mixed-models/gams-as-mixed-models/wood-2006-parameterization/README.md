@@ -4,7 +4,9 @@ Filed under:  [Splines][1], [Generalized Linear Mixed Models][5], [GAMs as Mixed
 
 The following example shows how the parameterization of the smoothing spline, based on eigen decomposition, can be implemented in ADMB. Comparison is made to gmcv. An advantage offered by ADMB is that uncertainty in the smoothing parameter is incorporated into the uncertainty of the GAM fit.
 
-Model description: [binom_gam_ML_example.pdf][2]
+###Model description:
+
+[binom_gam_ML_example.pdf][2]
 
 ### Files
 * [binom_gam_ML_example.dat][3]
