@@ -4,7 +4,7 @@ Filed under [Generalized Linear Mixed Models][1]
 
 Generalized additive models (GAMs) refers to the simplifying assumption that the response variable depends additively on a set of covariates, as in linear regression, but each covariate can act nonlinearly. We thus have a model 
 
-         response = some-transformation[  b1(x1) b2(x2) ... bk(xk)  ]
+<img src="./response.png" alt="Generalized additive models" width="400" height="40">
 
 where the b(x)'s are taken to be smoothing splines (see <http/en.wikipedia.orwikSmoothing_spline>). This "smoothing" aspect is basically that some restriction is put on the flexibility of the spline, controlled by a smoothing parameter which is estimated from data.
 
