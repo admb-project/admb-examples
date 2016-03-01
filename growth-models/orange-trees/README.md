@@ -6,7 +6,7 @@ Simple growth curve example with individual effects (random effects) from Pinhei
 
 A growth curve model fitted to the "orange tree" data by *Pinheiro & Bates (2000, Ch.8.2)* as an illustration of the [R][3] (S-Plus) routine nlme(). The logistic growth curve is given as
 
-<img src="./eq1.png" alt="Xt = σX exp(h2) εt" width="180" height="35">
+<img src="./oranges.png" alt="Xt = σX exp(h2) εt" width="500" height="35">
  
 
 where _y_ is the response and _t_ is the age of the tree. The regression parameters to be estimated are: f<sub>1</sub>, f<sub>2</sub> and f<sub>3</sub>, and e is the residual error term. A random effect _u_ is added to the parameter f<sub>1</sub>.
