@@ -1,4 +1,7 @@
 # Covariance in RE models — ADMB Project
+
+Filed Under: [ADMB Tricks][3], [Variance Calculations][4]
+
 In RE (random effects) models there are two types of parameters, x (parameter in the ordinary sense) and u (random effect). This documents tries to shed some light on how the variance of x and u are calculated. The covariance matrix of the x vector is based on the (marginal) likelihood, obtained via the Laplace approximation, and corresponds to the way covariance matrices are calculated in non-RE models in ADMB.
 
 ##Theory
@@ -73,3 +76,5 @@ The result you get when you run ADMB matches those from R:
 
 [1]: usermanual.pdf "usermanual.pdf"
 [2]: https://en.wikipedia.org/wiki/Law_of_total_variance
+[3]: ./../../
+[4]: ./../
