@@ -1,5 +1,7 @@
 #  Item response theory
 
+Filed under: [Categorical Data][1]
+
 ## Original model formulation
 Item response theory (IRT) refers to statistical models for data from questionnaires and tests as a basis for measuring abilities, attitudes, or other variables in psychometrics (http://en.wikipedia.org/wiki/Item_response_theory). Doran et al (2007) fitted multilevel Rasch model, which is a special instance of an IRT, using the R function "lmer". This example shows how the model from Doran et al (2007) can simply be implemented using random effects in ADMB. It also shows how the model can easily can be expanded in ways not possible in other other sofwtare package than ADMB. 
 
@@ -84,3 +86,5 @@ Allthough 
 
 ## References  
 Doran, H., Bates, D., Bliese, P., Dowling, M. Estimating the Multilevel Rasch Model: With the lme4 Package. Journal of Statistical Software, 20, 2007. (http://www.jstatsoft.org/v20/i02/paper)
+
+[1]: ./../
