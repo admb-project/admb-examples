@@ -1,6 +1,6 @@
 #Wildflowers
 
-Filed under: [Generalized Linear Mixed Models][6]
+Filed under: [Generalized Linear Mixed Models][6], [Non-Gaussian Random Effects][7]
 
 This example is part of the [NCEAS non-linear modelling project][1]
 
@@ -20,3 +20,4 @@ This is a binomial generalized linear mixed model for flowering probability with
 [2]: https://groups.nceas.ucsb.edu/non-linear-modeling/projects/wildflower/WRITEUP/wildflower.pdf
 [3]: https://groups.nceas.ucsb.edu/non-linear-modeling/projects/wildflower
 [6]: ./../
+[7]: ./
