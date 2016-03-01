@@ -1,4 +1,4 @@
-#  GLGLMGAM
+#  GLM/GLMM/GAM
 
 [GAMs as mixed models][1]
 :  Generalized Additive Models
