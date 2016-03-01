@@ -8,10 +8,7 @@ Zeh & Punt (2005) combined data from two different counting methodologies in or
 
 Restricted maximum likelihood estimation (REML) is often used to estimate variance parameters in the linear mixed-model:
 
-_y_ = _X*b_ _Z*u_ _e_
-
-_  
-_
+<img src="./eq1.png" alt="Xt = σX exp(h2) εt" width="125" height="25">
 
 where _X_ and _Z_ are covariate matrices, _b_ are the fixed-effects, _u_ are the random effects and _e_ are the error terms. One way of defining the REML procedure is to:
 
@@ -27,15 +24,19 @@ To implement this in ADMB-RE we declare both _b_ and _u_ as random effects vecto
 
 Using this procedure you do not have to derive the "REML correction" to the log-likelihood function by hand. It is done automatically for you by ADMB-RE.
 
- 
+### Files
+* [bcb.dat][3]
+* [bcb.tpl][4]
+* [bcb.pin][5]
 
 ### References
-
- 
 
 Zeh, J.E., and A.E. Punt. "Updated 1978-2001 Abundance Estimates and Their Correlations for  the Bering-Chukchi-Beaufort Seas Stock of Bowhead Whales." Journal of Cetacean 
 
 Research and Management 7, no. 2 (2005): 169-75. 
 
-[1]: http/www.admb-project.or@@search?Subject:list=Abundance estimation
-[2]: http/www.admb-project.or@@search?Subject:list=REML
+[1]: https://github.com/admb-project/examples/search?utf8=%E2%9C%93&q=Abundance+estimation
+[2]: https://github.com/admb-project/examples/search?utf8=%E2%9C%93&q=REML
+[3]: ./bcb.dat
+[4]: ./bcb.tpl
+[5]: ./bcb.pin
