@@ -5,7 +5,7 @@ Filed under:  [State space model][1], [MedicaBiometrics][2], [Count data][3], [G
 A serially correlated time series of Poisson counts using a GLMM framework
 
 ### **Model description**
-As an example of a discrete valued time series we use the 'polio data' considered by [Kuk & Cheng (1999)][4]. It is assumed that _yi_ has a Poisson (lambdai) distribution, where 
+As an example of a discrete valued time series we use the 'polio data' considered by [Kuk & Cheng (1999)][4]. It is assumed that _y<sub>i</sub>_ has a Poisson (lambda<sub>i</sub>) distribution, where 
 <br/>
 <img src="http://latex2png.com/output//latex_654cff27be7505f1ee7fcd17d114e389.png" alt="[log(lambda_i) = x_ib+u_i" width="200" height="25">
 
