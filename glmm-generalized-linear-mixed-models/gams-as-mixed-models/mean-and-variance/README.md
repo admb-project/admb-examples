@@ -10,7 +10,7 @@ An assumption underlying ordinary regression is that all observations have the s
 
  
 
-The LIDAR data shown in the figure below are taken from the book Ruppert et al. (2003). The file [lidar.s][1] shows how to create design matrices for B-splines in R (S-Plus). When sourced into R, the file creates the input file for ADMB [lidar.dat][2]. You can use [lidar.s"][1] as a basis for you own spline models.
+The LIDAR data shown in the figure below are taken from the book Ruppert et al. (2003). The file [lidar.s][1] shows how to create design matrices for B-splines in R (S-Plus). When sourced into R, the file creates the input file for ADMB [lidar.dat][2]. You can use [lidar.s][1] as a basis for you own spline models.
 
  
 
