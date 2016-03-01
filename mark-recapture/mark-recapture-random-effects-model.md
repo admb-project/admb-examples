@@ -1,4 +1,8 @@
 #Mark-Recapture random effects model
+
+
+Filed under: [Ecology][3], [Mark Recapture][4]
+
 From: [Mark N. Maunder][1], [Hans J. Skaug][2], David A. Fournier and Simon D. Hoyle. (2009) Comparison of fixed effect, random effect, and hierarchical Bayes estimators for mark recapture data using AD Model builder.
 
 The model is compiled using the command line option –re
@@ -85,3 +89,5 @@ Mark N. Maunder, Hans J. Skaug, David A. Fournier, and Simon D. Hoyle (2009). Co
 
 [1] http://www.iattc.org/iattc-staffMMaunder.htm
 [2]: http://folk.uib.no/hsk021/
+[3]: ./../by-field-of-application/ecology/
+[4]: ./
