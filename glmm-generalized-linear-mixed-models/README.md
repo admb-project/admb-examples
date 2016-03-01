@@ -15,13 +15,9 @@
 [Gaussian models][5]
 :  Models where both the response and latent random variable are Gaussian. For such models the covariance matrix of the observations can be worked out analytically, but still the latent variable (random effect) formulation can be beneficial.
 
-Document Actions
 
-* [RSS feed][6]
-
-[1]: gams-as-mixed-models.html
-[2]: non-gaussian-random-effects.html
-[3]: count-data.html
-[4]: mixed-response.html
-[5]: gaussian-models.html
-[6]: RSS ""
+[1]: ./gams-as-mixed-models/
+[2]: ./non-gaussian-random-effects
+[3]: ./count-data
+[4]: ./mixed-response
+[5]: ./gaussian-models
