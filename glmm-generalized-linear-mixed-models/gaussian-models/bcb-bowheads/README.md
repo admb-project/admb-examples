@@ -1,6 +1,6 @@
 #  BCB bowheads
 
-Filed under:  [Abundance estimation][1], [REML][2]
+Filed under:  [Abundance estimation][1], [REML][2], [Generalized Linear Mixed Models][6]
 
 Zeh & Punt (2005) combined data from two different counting methodologies in order to estimate the rate of increase of BCB bowhead whales. On a log-scale they fitted a linear mixed-effects models using REML estimates for the variance parameters. This example shows how random effects in ADMB can be used to obtain REML estimates.
 
@@ -40,3 +40,4 @@ Research and Management 7, no. 2 (2005): 169-75. 
 [3]: ./bcb.dat
 [4]: ./bcb.tpl
 [5]: ./bcb.pin
+[6]: ./../
