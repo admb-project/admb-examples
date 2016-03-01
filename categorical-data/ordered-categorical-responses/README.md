@@ -6,11 +6,9 @@ The SOCATT data set is used in the comparison of different software packages for
 
 . We consider one categorical covariate (religion) with 4 categories. A random intercept ordered logit model was fitted:
 
- 
+<img src="./logit.png" alt="Xt = σX exp(h2) εt" width="450" height="25">
 
-logit[ P(_yij < s_) ] = _ks b1xi1 b2*xi2 b3*xi3_ _ui_,
-
-_ui_ ~ N(0,_s2_)
+<img src="./ui.png" alt="Xt = σX exp(h2) εt" width="125" height="25">
 
 where _x1i_, _x2i_ and _x3i_ are dummy variables coding for the different levels of the categorical covariates, and _ks_ are threshold parameters. A full description of the model can be found here: [socatt.pdf][3]
 
