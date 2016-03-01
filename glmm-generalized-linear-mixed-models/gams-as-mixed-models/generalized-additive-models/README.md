@@ -24,6 +24,7 @@ The data, which are available from Statlib (lib.stat.cmu.ed), contain informatio
 * [union.par][7]:.par: Result file (what you get when you compile and run your model)  
 
 [1]: ./union.pdf
+[2]: ./union.tpl
 [3]: ./../../
 [4]: ./../
 [5]: ./union.dat
