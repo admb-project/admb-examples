@@ -21,10 +21,11 @@ Often the penalty is put on the second derivative of the spline (wiggliness), wh
  
 
 ### Examples
-* [generalized-additive-models][2]
-* [mean-and-variance][3]
-* [wood-2006-parameterization][4]
+* [Generalized Additive Models][2]
+* [Mean and Variance][3]
+* [Wood 2006 Parameterization][4]
 * 
 [1]: ./../
-[1]: ./
-[1]: ./
+[2]: ./generalized-additive-models/
+[3]: ./mean-and-variance/
+[4]: ./wood-2006-parameterization/
