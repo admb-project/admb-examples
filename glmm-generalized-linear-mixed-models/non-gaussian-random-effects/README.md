@@ -10,4 +10,4 @@ ADMB allows non-Gaussian random effects via transformation of a normal variate
 
 
 [1]: ./beta-binomial-model
-[2]: ./wildflowers/
+[2]: ./wildflowers.md
