@@ -8,7 +8,7 @@ Zeh & Punt (2005) combined data from two different counting methodologies in or
 
 Restricted maximum likelihood estimation (REML) is often used to estimate variance parameters in the linear mixed-model:
 
-<img src="./eq1.png" alt="Xt = σX exp(h2) εt" width="125" height="25">
+<img src="./y.png" alt="Xt = σX exp(h2) εt" width="160" height="25">
 
 where _X_ and _Z_ are covariate matrices, _b_ are the fixed-effects, _u_ are the random effects and _e_ are the error terms. One way of defining the REML procedure is to:
 
