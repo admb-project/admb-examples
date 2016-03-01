@@ -1,21 +1,21 @@
 #  Item response theory
 
 ## Original model formulation
+Item response theory (IRT) refers to statistical models for data from questionnaires and tests as a basis for measuring abilities, attitudes, or other variables in psychometrics (http://en.wikipedia.org/wiki/Item_response_theory). Doran et al (2007) fitted multilevel Rasch model, which is a special instance of an IRT, using the R function "lmer". This example shows how the model from Doran et al (2007) can simply be implemented using random effects in ADMB. It also shows how the model can easily can be expanded in ways not possible in other other sofwtare package than ADMB. 
 
-Item response theory (IRT) refers to statistical models for data from questionnaires and tests as a basis for measuring abilities, attitudes, or other variables in psychometrics (<http/en.wikipedia.orwikItem_response_theory>). Doran et al (2007) fitted multilevel Rasch model, which is a special instance of an IRT, using the R function "lmer". This example shows how the model from Doran et al (2007) can simply be implemented using random effects in ADMB. It also shows how the model can easily can be expanded in ways not possible in other other sofwtare package than ADMB.   
   
 
 ### Data and Model  
 
-2042 soldiers responded to a total of 19 items, all of which with a dichotomous outcome (0 or 1). The 19 items were grouped into 3 categories, which were modelled as fixed effects (variable "itcoff" in irt_doran.tpl). Further, the soldiers were grouped into 49 companies, which taken to be random effects (v). Similarly, there was a random effect associated with each individual soldier (u) and one with each item (w).  
+2042 soldiers responded to a total of 19 items, all of which with a dichotomous outcome (0 or 1). The 19 items were grouped into 3 categories, which were modelled as fixed effects (variable "itcoff" in irt_doran.tpl). Further, the soldiers were grouped into 49 companies, which taken to be random effects (v). Similarly, there was a random effect associated with each individual soldier (u) and one with each item (w).
   
 A logistic regression with
 
-_       Prob(x=0) = (1 exp(bx)) , Prob(x=1) = 1-Prob(x=0)_
+<img src="./probx.png" alt="probx" width="450" height="45">
 
 (the Rasch model) and the linear predictor
 
-_       bx = itcoff sigma1*u sigma2*v sigma3*w;_
+<img src="./bx.png" alt="bx" width="400" height="45">
 
 was used. The sigma's are standard deviations of the random effects.
 
@@ -51,7 +51,7 @@ The ADMB program runs much slower than "lmer" for this model, because the struct
 
 Given that we think that Pr(x=0) can never be exactly 0 or 1, the following extention of the logistic regression is useful: 
 
-  _     Prob(x=0) =a (b-a(1 exp(bx)),_
+<img src="./probx2.png" alt="probx" width="550" height="45">
 
 where _a_ and _b _are parameters to be estimated. Two special cases are considered
 
@@ -83,6 +83,4 @@ Note that the are 3 parameters associated with each of _a_ and _b_: one of each 
 Allthough 
 
 ## References  
-  
-
-Doran, H., Bates, D., Bliese, P., Dowling, M. Estimating the Multilevel Rasch Model: With the lme4 Package. _Journal of Statistical Software_, 20, 2007. (<http/www.jstatsoft.orv2i0paper>)
+Doran, H., Bates, D., Bliese, P., Dowling, M. Estimating the Multilevel Rasch Model: With the lme4 Package. Journal of Statistical Software, 20, 2007. (http://www.jstatsoft.org/v20/i02/paper)
