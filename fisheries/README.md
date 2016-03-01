@@ -18,6 +18,6 @@ Different uses of ADMB in fisheries stock assessments or other fisheries work
 
 [1]: ./
 [2]: http://otter-rsch.com/admbre/examples/caest/caest.html
-[3]: ./a-fisheries-model-solving-the-baranov-catch-equation-using-adjoint-code/
+[3]: ./../admb-tricks/adjoint-code-1/baranov-catch-equation.md
 [4]: ./pella/
 [5]: ./pella-t/
