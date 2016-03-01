@@ -1,6 +1,6 @@
 #  A time series of Poisson counts; Polio data
 
-Filed under:  [State space model][1], [MedicaBiometrics][2], [Count data][3]
+Filed under:  [State space model][1], [MedicaBiometrics][2], [Count data][3], [Generalized Linear Mixed Models][10]
 
 A serially correlated time series of Poisson counts using a GLMM framework
 
@@ -37,4 +37,4 @@ Here, **X<sub>i</sub>** is a covariate vector, **b** is a vector of regression p
 [7]: polio.dat
 [8]: polio.pin
 [9]: polio.par
-
+[10]: ./../../
