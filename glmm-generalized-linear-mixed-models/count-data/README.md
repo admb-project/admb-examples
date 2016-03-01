@@ -1,5 +1,7 @@
 #  Count data
 
+Filed under: [Generalized Linear Mixed Models][6]
+
 Poisson, negative binomial counts in various variants
 
 [A discrete valued time series model; Polio data][1]
@@ -17,13 +19,11 @@ Poisson, negative binomial counts in various variants
 [Owl nestling negotiation][5]
 :  Zero-inflated generalized linear mixed model example from the NCEAS non-linear modelling working group.
 
-Document Actions
 
-* [RSS feed][6]
 
-[1]: a-discrete-valued-time-series-model.html
-[2]: negative-binomial-serially-correlated-counts.html
-[3]: negative-binomial-fir-fecundity-1.html
-[4]: flexible-negative-binomial-model.html
-[5]: owl-nestling-negotiation.html
-[6]: RSS ""
+[1]: ./a-discrete-valued-time-series-model
+[2]: ./negative-binomial-serially-correlated-counts
+[3]: ./negative-binomial-fir-fecundity-1
+[4]: ./flexible-negative-binomial-model
+[5]: ./owl-nestling-negotiation
+[6]: ./../
