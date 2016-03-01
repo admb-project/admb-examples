@@ -19,7 +19,6 @@ The Poisson and negative binomial models are supplied in two versions: normal an
 * [polio2s.tpl][5] - negative binomial (separable)
 * [polio3.tpl][6] - Poisson (normal)
 * [polio3s.tpl][7] - Poisson (separable)
-* [Negative binomial serially correlated counts ][8]
 * [polio_plot.png][10]
 * 
 
