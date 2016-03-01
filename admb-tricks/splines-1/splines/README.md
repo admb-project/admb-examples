@@ -1,6 +1,6 @@
 #  Splines I
 
-Filed under:  [Splines][1]
+Filed under:  [ADMB Tricks][6], [Splines][1]
 
 Notes and examples related to cubic splines
 
@@ -22,3 +22,4 @@ Notes and examples related to cubic splines
 [3]: spline_example.pdf
 [4]: splines.dat
 [5]: splines_code.R
+[6]: ./../../
