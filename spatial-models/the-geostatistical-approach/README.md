@@ -14,7 +14,7 @@ The random field is typically observed with measurement error (e). The observati
 
 <img src="./3.png" alt="LaTex equation" width="300" height="25">
 
-where β is the expectation value. Marginally (at each point) <img src="./4.png" alt="LaTex equation" width="120" height="25">, but note that we scale the field by a standard deviation σ. Further, we assume that e<sub>i</sub> ~ N(0,σ<sub>e</sub><sup>2</sup>), where σe is often called the "nugget" effect, so that in total <img src="./5.png" alt="LaTex equation" width="150" height="25">)
+where β is the expectation value. Marginally (at each point) u(x,y) ~ N(0,1), but note that we scale the field by a standard deviation σ. Further, we assume that <img src="./4.png" alt="LaTex equation" width="120" height="25">, where σe is often called the "nugget" effect, so that in total <img src="./5.png" alt="LaTex equation" width="150" height="25">)
 
  
 
