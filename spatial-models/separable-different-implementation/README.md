@@ -1,5 +1,7 @@
 #  Comparison of spatial approaches in ADMB
 
+Filed under: [Spatial Models][19]
+
 Three different implementations of the same model with separable spatial covariance function in a fully Gaussian situation: i) Plain ADMB (non-random effect) ii) Geostatistical formulation iii) Hybrid approach. The example helps the user understand the different spatial approaches available in ADMB.
 
 The separable covariance function requires that observations are made on a two-dimensional spatial grid (x- and y-directions). The separable assumption is: for locations separated by distances  _dx_  and  _dy_ the correlation is on a product form:
@@ -44,3 +46,4 @@ There need not be observations at every grid point, but the latent GMRF needs ne
 [2]: ./ar1ar1_dense.tpl
 [3]: ./ar1ar1_prior.tpl
 [4]: ./ar1ar1_sparse.tpl
+[19]: ./../
