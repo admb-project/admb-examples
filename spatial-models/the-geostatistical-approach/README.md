@@ -4,7 +4,7 @@ This is what most people think of when you say "spatial statistics". You explici
 
 ## Model description
 
-The key model component is a latent Gaussian random field u(x,y), where x and y are the spatial coordinates. We assume that the field is isotropic, i.e. that cor[u(x<sub>1</sub>,y<sub>1</sub>),u(x<sub>2</sub>,y<sub>2</sub>)] = ρ(r), where r = sqrt( (x<sub>1</sub>-x<sub>2</sub>)2 (y<sub>1</sub>-y<sub>2</sub>)2) is the Euclidean distance.
+The key model component is a latent Gaussian random field u(x,y), where x and y are the spatial coordinates. We assume that the field is isotropic, i.e. that cor[u(x<sub>1</sub>,y<sub>1</sub>),u(x<sub>2</sub>,y<sub>2</sub>)] = ρ(r), where r = sqrt( (x<sub>1</sub>-x<sub>2</sub><sup>2</sup> (y<sub>1</sub>-y<sub>2</sub><sup>2</sup>) is the Euclidean distance.
 
 ###   
 
@@ -14,11 +14,11 @@ The random field is typically observed with measurement error (e). The observati
 
  
 
-      y<sub>i</sub> = β σ*u(xi,yi) ei,            i = 1,...,n,
+      y<sub>i</sub> = β σ*u(x<sub>i</sub>,y<sub>i</sub>) e<sub>i</sub>,            i = 1,...,n,
 
  
 
-where β is the expectation value. Marginally (at each point) u(x,y) ~ N(0,1), but note that we scale the field by a standard deviation σ. Further, we assume that e<sub>i</sub> ~ N(0,σe2), where σe is often called the "nugget" effect, so that in total Y ~ N(β,σ2 σe2)
+where β is the expectation value. Marginally (at each point) u(x,y) ~ N(0,1), but note that we scale the field by a standard deviation σ. Further, we assume that e<sub>i</sub> ~ N(0,σ<sub>e</sub><sup>2</sup>), where σe is often called the "nugget" effect, so that in total Y ~ N(β,σ<sup>2</sup> + σ<sub>e</sub><sup>2</sup>)
 
  
 
@@ -30,15 +30,15 @@ The correlation matrix is denoted by _M_, and is defined elementwise as Mij = �
 
 There is a special setup in ADMB that makes computations in geostatistical models efficient
 
-    PARAMETER_SECTION
-      random_effects_vector u(1,n,2)
-      normal_prior M(u);
-
-    NORMAL_PRIOR_FUNCTION void get_M(const dvariable& _a)
-     / Function descript goes here ....
-
-    FUNCTION void evaluate_M(void)
-      get_M(a);
+>    PARAMETER_SECTION
+>      random_effects_vector u(1,n,2)
+>      normal_prior M(u);
+>
+>    NORMAL_PRIOR_FUNCTION void get_M(const dvariable& _a)
+>     / Function descript goes here ....
+>
+>    FUNCTION void evaluate_M(void)
+>      get_M(a);
 
 In the beginning it is easiest if you use this templates, but the advanced user may change the names according to the following rules:
 
@@ -54,7 +54,7 @@ In the beginning it is easiest if you use this templates, but the advanced user 
 
     * Define exactly 1 function of this type; called "get_M" in our case, but you can change the name
     * get_M() should end with an assignment to _M_
-    * get_M() can take more than more parameter, yielding more flex<sub>i</sub>ble correlation functions  
+    * get_M() can take more than more parameter, y<sub>i</sub>elding more flex<sub>i</sub>ble correlation functions  
 * evaluate_M()
     * There must **always** be a function with this name, i.e. you can not change its name even if you change the name of _M_
     * It should contain a call to get_M (or whatever you have called it).
@@ -63,7 +63,7 @@ In the beginning it is easiest if you use this templates, but the advanced user 
 
 ### Phases
 
-Each parameter to be estimated has an associated "phase" in ADMB. In latent variable models you should first estimate fixed effects (β) and measurement error (σ). In the second phase you estimate parameters associated with the latent random field (σe and a). In the first phase σe and a will be fixed to their initial values (whatever you set that to be).
+Each parameter to be estimated has an associated "phase" in ADMB. In latent variable models you should first estimate fixed effects (β) and measurement error (σ). In the second phase you estimate parameters associated with the latent random field (σ<sub>e</sub> and a). In the first phase σ<sub>e</sub> and a will be fixed to their initial values (whatever you set that to be).
 
  
 
@@ -71,16 +71,16 @@ Each parameter to be estimated has an associated "phase" in ADMB. In latent vari
 
 The code for the above model is given in "spatial_simple.tpl". You should try the following:
 
-* **Plot variograms **of Y. You can use the R library "geoR" (if you have this package install in R) using the command  
+* **Plot variograms** of Y. You can use the R library "geoR" (if you have this package install in R) using the command  
 
-     plot(variog(geodata=list(coords=Z,data=Y)))
+> plot(variog(geodata=list(coords=Z,data=Y)))
 
     Run the ADMB program (so that "spatial_simple.rep" containing residuals gets
 
     produced) and then use the R commands
 
-     r=scan("spatial_simple.rep")
-     plot(variog(geodata=list(coords=Z,data=r)))
+>     r=scan("spatial_simple.rep")
+>    plot(variog(geodata=list(coords=Z,data=r)))
 
      The residuals r should be close to uncorrelated, while the correlation in Y should
 
@@ -88,15 +88,15 @@ The code for the above model is given in "spatial_simple.tpl". You should try th
 
 * **Generating other datasets  **The R script "spatial_simple.R" generates the dat-file. Modify the script and run it using source("spatial_simple.R"), and see if the ADMB output changes accordingly. You also need to download "ADMButils.R").  
 * **Implement non-RE version.** Because this is a fully Gaussian model it is possible to implement the likelihood directly without using the random effects features of ADMB. The key point is to notice that the (marginal) covariance matrix of Y is σ2M σe2I, where I is the identity matrix (1's on the diagonal; 0's everywhere else). Either write your own tpl, or use "spatial_nonre.tpl". Compare results and run times.  
-* **Flexible correlation function** Use a half-normal correlation function ρ(d) = a<sub>1</sub>exp{-(a2)2}, where -a1 and a<sub>2</sub> are parameters that you estimate.
+* **Flexible correlation function** Use a half-normal correlation function ρ(d) = a<sub>1</sub>exp{-d/(a<sub>2</sub>)<sup>2</sup>}, where -a<sub>1</sub> and a<sub>2</sub> are parameters that you estimate.
 
-     tmpM(i,j)=a1*exp(-square(d(i,ja2));
+ >    tmpM(i,j)=a<sub1</sub>*exp(-square(d(i,ja2));
 
 * **Experiment with phases **and see if the use of phases affects run times. Go back to "spatial_simple.tpl" and use the command "time" in your operating system to measure the run time.
     * Try to activate all parameters in phase 1
     * Try to activate "a" in phase 3
 
-     time -est spatial_simple
+ >    time -est spatial_simple
 
 * **Linear predictor **As in ordinary multiple regression we let X be a design matrix (that is constructed externally, using for instance "design.matrix()" in R)  
 
@@ -120,7 +120,7 @@ The code for the above model is given in "spatial_simple.tpl". You should try th
 
      where Y|u denotes conditional probability (conditionally on u).
 
-* The expectation μ must be positive, so we use a log-link, i.e.  μ = exp{β σ*u(xi,yi)}
+* The expectation μ must be positive, so we use a log-link, i.e.  μ = exp{β σ*u(x<sub>i</sub>,y<sub>i</sub>)}
 * τ = Var(YE(Y) > 1 is the over dispersion.   
 
     * For τ=1 the negative binomial distribution collapses to the Poisson distribution and τ=10 is a large deviation from Poisson (try to plot the probability function for τ=10).
