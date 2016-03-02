@@ -10,7 +10,7 @@ Our data are 100 Poisson counts (y), each with parameter lambda. The datapoints 
 
 <img src="./1.png" alt="LaTex equation" width="300" height="25">
 
-where  _X<sub>i,j</sub>b_ is a linear predictor and ei,j are Gaussian random variables with covariance
+where  _X<sub>i,j</sub>b_ is a linear predictor and e<sub>i,j</sub> are Gaussian random variables with covariance
 
 <img src="./2.png" alt="LaTex equation" width="300" height="25">
 
