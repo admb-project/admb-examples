@@ -5,7 +5,9 @@ Three different implementations of the same model with separable spatial covaria
 The separable covariance function requires that observations are made on a two-dimensional spatial grid (x- and y-directions). The separable assumption is: for locations separated by distances  _dx_  and  _dy_ the correlation is on a product form:
 
 <img src="./1.png" alt="LaTex equation" width="300" height="25">
-<img src="./2.png" alt="LaTex equation" width="200" height="25">  
+
+<img src="./2.png" alt="LaTex equation" width="200" height="25"> 
+
 <img src="./3.png" alt="LaTex equation" width="200" height="25">
 
 You need to work through the example _Separable: Method explanation_ to fully understand separability and its relation to Kronecker products.
