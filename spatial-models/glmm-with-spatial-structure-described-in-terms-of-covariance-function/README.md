@@ -1,6 +1,6 @@
 #  Poisson GLMM
 
-# Filed under: [Spatial Models][19]
+Filed under: [Spatial Models][19]
 
 GLMM with spatial correlation, where the locations do not lie on a grid. Illustrates how you can parameterize a large correlation matrix in terms of an isotropic correlation function r(d), where "d" is the distiance between two locations.
 
