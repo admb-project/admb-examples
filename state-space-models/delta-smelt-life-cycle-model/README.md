@@ -8,7 +8,9 @@ This is the state-space approach reported in [Maunder and Deriso (2011)][5] to 
 
 [Notes on model implementation][6]
 
-[DeltaSmelt.tpl][7]
+###Files:
+* [DeltaSmeltPopModel.pdf][6]
+* [DeltaSmelt.tpl][7]
 
 [1]: ./../
 [2]: ./../../fisheries/
