@@ -25,20 +25,20 @@ _How to install the R package_:
 ###ADMB techniques: likelihood weighting
 This model uses a feature which currently is not part of ADMB: weighting. The weights are used to form a numerator (weight 1) denominator (weights -1) in the conditional probabilities described in the pdf. The part of the code that relates to the weighting is 
 
-DATA_SECTION
+>DATA_SECTION
 
-   vector w(1,2*n+2)
+>>   vector w(1,2*n+2)
 
-   !! w=1.0;
+>>   !! w=1.0;
 
-   !! w(2*n+2)=-n;
+>>   !! w(2*n+2)=-n;
 
  
 
-PARAMETER_SECTION 
+>PARAMETER_SECTION 
 
-   random_effects_vector u(1,n+1);
+>>   random_effects_vector u(1,n+1);
 
-   !!set_multinomial_weights(w);
+>>   !!set_multinomial_weights(w);'''
 
 When these features gets incorporated into ADMB in the future they will get better documented.
