@@ -1,5 +1,7 @@
 #  Geostatistical approach
 
+Filed under: [Spatial Models][19]
+
 This is what most people think of when you say "spatial statistics". You explicitly model the correlation matrix/function. Observations do not need to be on a grid; their correlation is typically determined by distance. This example takes you from simple examples with Gaussian observation noise to non-Gaussian response (GLMMs).
 
 ## Model description
@@ -140,4 +142,4 @@ The code for the above model is given in "spatial_simple.tpl". You should try th
 [4]: ./spatial_simple.R
 [5]: ./spatial_simple.dat
 [6]: ./spatial_simple.tpl
-
+[19]: ./../
