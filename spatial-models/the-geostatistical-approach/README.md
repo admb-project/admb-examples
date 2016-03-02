@@ -64,14 +64,14 @@ The code for the above model is given in "spatial_simple.tpl". You should try th
 
 * **Plot variograms** of Y. You can use the R library "geoR" (if you have this package install in R) using the command  
 
-> plot(variog(geodata=list(coords=Z,data=Y)))
+>plot(variog(geodata=list(coords=Z,data=Y)))
 
     Run the ADMB program (so that "spatial_simple.rep" containing residuals gets
 
     produced) and then use the R commands
 
->     r=scan("spatial_simple.rep")
->>    plot(variog(geodata=list(coords=Z,data=r)))
+>r=scan("spatial_simple.rep")
+>>plot(variog(geodata=list(coords=Z,data=r)))
 
      The residuals r should be close to uncorrelated, while the correlation in Y should
 
@@ -81,14 +81,14 @@ The code for the above model is given in "spatial_simple.tpl". You should try th
 * **Implement non-RE version.** Because this is a fully Gaussian model it is possible to implement the likelihood directly without using the random effects features of ADMB. The key point is to notice that the (marginal) covariance matrix of Y is σ<sup>2</sup>M +σ<sub>e</sub><sup>2</sup>I, where I is the identity matrix (1's on the diagonal; 0's everywhere else). Either write your own tpl, or use "spatial_nonre.tpl". Compare results and run times.  
 * **Flexible correlation function** Use a half-normal correlation function ρ(d) = a<sub>1</sub>exp{-d/(a<sub>2</sub>)<sup>2</sup>}, where -a<sub>1</sub> and a<sub>2</sub> are parameters that you estimate.
 
- >    tmpM(i,j)=a<sub1</sub>*exp(-square(d(i,j)/a2));
+>tmpM(i,j)=a<sub1</sub>*exp(-square(d(i,j)/a2));
 
 * **Experiment with phases **and see if the use of phases affects run times. Go back to "spatial_simple.tpl" and use the command "time" in your operating system to measure the run time.
     * Try to activate all parameters in phase 1
     * Try to activate "a" in phase 3
 
 
- >    time -est spatial_simple
+>time -est spatial_simple
 
 * **Linear predictor **As in ordinary multiple regression we let X be a design matrix (that is constructed externally, using for instance "design.matrix()" in R)  
 
@@ -96,12 +96,12 @@ The code for the above model is given in "spatial_simple.tpl". You should try th
     * Insert linear predictor in expectation value μ = X*beta+σ*u
     * Modify "spatial_simple.R" so that X is generated and written to the .dat file.
 
->    DATA_SECTION
->>      init_int p		// Number of fixed effects (b's)
->>      init_matrix X(1,n,1,p)// Covariate matrix
-
-    SEPARABLE_FUNCTION void normal_loglik()
-        dvariable mu = X(u)*beta + sigma*u_i;
+>DATA_SECTION
+>>init_int p		// Number of fixed effects (b's)
+>>init_matrix X(1,n,1,p)// Covariate matrix
+>
+>SEPARABLE_FUNCTION void normal_loglik()
+>>dvariable mu = X(u)*beta + sigma*u_i;
 
 * **Negative binomial response **Go back to "spatial_simple.tpl" and replace the Gaussian response with a negative binomial distribution. We now longer have an additive measurement error, but instead a GLMM, where it is natural to write the model in an hierarchical form
 
@@ -117,12 +117,12 @@ The code for the above model is given in "spatial_simple.tpl". You should try th
     * For τ=1 the negative binomial distribution collapses to the Poisson distribution and τ=10 is a large deviation from Poisson (try to plot the probability function for τ=10).
     * τ should be given phase 2, while parameters governing the latent field (σ and a) should be postponed to phase 3  
 
->    PARAMETER_SECTION
->>      init_bounded_number tau(1.0,10,2)            // Over dispersion
+>PARAMETER_SECTION
+>>init_bounded_number tau(1.0,10,2)            // Over dispersion
 
->    SEPARABLE_FUNCTION void negbin_loglik(...,const dvariable& tau)
->>        dvariable sigma = exp(log_sigma);
->>        dvariable mu = exp(beta + sigma*u_i);     // Mean of Y
->>        l -= log_negbinomial_density(Y(i),mu,tau);
+>SEPARABLE_FUNCTION void negbin_loglik(...,const dvariable& tau)
+>>dvariable sigma = exp(log_sigma);
+>>dvariable mu = exp(beta + sigma*u_i);     // Mean of Y
+>>l -= log_negbinomial_density(Y(i),mu,tau);
 
 * **Code** ADMB (spatial_negbin.tpl) and R code for (spatial_negbin.R) are provided.  
