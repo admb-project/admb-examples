@@ -15,3 +15,20 @@ The example "Comparison of approaches" illustrates the differences between these
 ## A note on modeling philosophy
 
 All the methods discussed here view the spatial surface as a Gaussian random field. This field is implemented using the random effects module ADMB-RE.
+
+###Examples
+* [Geostatistical Approach][1]
+
+* [Poisson GLMM][2]
+
+* [MGRF: sipmle CAR model][3]
+
+* [Separable: Method Explanation][4]
+
+* [Comparison of Approaches][5]
+
+[1]: ./the-geostatistical-approach
+[2]: ./glmm-with-spatial-structure-described-in-terms-of-covariance-function
+[3]: ./mgrf-car-model-for-the-scottish-lip-cancer-data
+[4]: ./separable-different-implementation
+[5]: ./separable-different-implementation
