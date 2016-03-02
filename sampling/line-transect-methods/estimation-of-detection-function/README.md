@@ -1,6 +1,6 @@
 #  Estimation of detection function
 
-Filed under:  [Ecology][1]
+Filed under:  [Ecology][1], [Sampling][2]
 
 Illustrates the likelihood based estimation of the detection function (perpendicular distance) in line transect surveys
 
@@ -13,3 +13,4 @@ https://github.com/jlaake/ADMB-Examples/tree/master/Fixed%20Effect%20Line%20Tran
  
 
 [1]: ./../../../by-field-of-application/ecology/
+[2]: ./../../
