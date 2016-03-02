@@ -1,4 +1,4 @@
-#  Mark-recapture
+#  Mark Recapture
 
 Filed under: [Ecology][3], [Mark Recapture][4]
 
