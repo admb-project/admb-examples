@@ -58,16 +58,21 @@ The par-files contain estimated parameters and volatilities.
 >
 > [sdv_t_skw.par][7]
 
- 
 
- 
 
+###Files
+* [sdv_plain.tpl][2]
+* [sdv_plain.par][5]
+* [sdv_t.tpl][3]
+* [sdv_t_skw.tpl][4]
+* [sdv_t.par][6]
+* [sdv_t_skw.par][7]
   
   
-[2]: sdv_plain.tpl "sdv_plain.tpl"
-[3]: sdv_t.tpl "sdv_t.tpl"
-[4]: sdv_t_skw.tpl "sdv_t_skw.tpl"
-[5]: sdv_plain.par "sdv_plain.par"
-[6]: sdv_t.par "sdv_t.par"
-[7]: sdv_t_skw.par "sdv_t_skw.par"
+[2]: ./sdv_plain.tpl
+[3]: ./sdv_t.tpl
+[4]: ./sdv_t_skw.tpl
+[5]: ./sdv_plain.par
+[6]: ./sdv_t.par
+[7]: ./sdv_t_skw.par
 [10]: ./../
