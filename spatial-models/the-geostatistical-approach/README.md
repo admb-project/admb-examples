@@ -4,7 +4,7 @@ This is what most people think of when you say "spatial statistics". You explici
 
 ## Model description
 
-The key model component is a latent Gaussian random field u(x,y), where x and y are the spatial coordinates. We assume that the field is isotropic, i.e. that cor[u(x1,y1),u(x2,y2)] = ρ(r), where r = sqrt( (x1-x2)2 (y1-y2)2) is the Euclidean distance.
+The key model component is a latent Gaussian random field u(x,y), where x and y are the spatial coordinates. We assume that the field is isotropic, i.e. that cor[u(x<sub>1</sub>,y<sub>1</sub>),u(x<sub>2</sub>,y<sub>2</sub>)] = ρ(r), where r = sqrt( (x<sub>1</sub>-x<sub>2</sub>)2 (y<sub>1</sub>-y<sub>2</sub>)2) is the Euclidean distance.
 
 ###   
 
@@ -14,11 +14,11 @@ The random field is typically observed with measurement error (e). The observati
 
  
 
-      Yi = β σ*u(xi,yi) ei,            i = 1,...,n,
+      y<sub>i</sub> = β σ*u(xi,yi) ei,            i = 1,...,n,
 
  
 
-where β is the expectation value. Marginally (at each point) u(x,y) ~ N(0,1), but note that we scale the field by a standard deviation σ. Further, we assume that ei ~ N(0,σe2), where σe is often called the "nugget" effect, so that in total Y ~ N(β,σ2 σe2)
+where β is the expectation value. Marginally (at each point) u(x,y) ~ N(0,1), but note that we scale the field by a standard deviation σ. Further, we assume that e<sub>i</sub> ~ N(0,σe2), where σe is often called the "nugget" effect, so that in total Y ~ N(β,σ2 σe2)
 
  
 
@@ -54,7 +54,7 @@ In the beginning it is easiest if you use this templates, but the advanced user 
 
     * Define exactly 1 function of this type; called "get_M" in our case, but you can change the name
     * get_M() should end with an assignment to _M_
-    * get_M() can take more than more parameter, yielding more flexible correlation functions  
+    * get_M() can take more than more parameter, yielding more flex<sub>i</sub>ble correlation functions  
 * evaluate_M()
     * There must **always** be a function with this name, i.e. you can not change its name even if you change the name of _M_
     * It should contain a call to get_M (or whatever you have called it).
@@ -88,7 +88,7 @@ The code for the above model is given in "spatial_simple.tpl". You should try th
 
 * **Generating other datasets  **The R script "spatial_simple.R" generates the dat-file. Modify the script and run it using source("spatial_simple.R"), and see if the ADMB output changes accordingly. You also need to download "ADMButils.R").  
 * **Implement non-RE version.** Because this is a fully Gaussian model it is possible to implement the likelihood directly without using the random effects features of ADMB. The key point is to notice that the (marginal) covariance matrix of Y is σ2M σe2I, where I is the identity matrix (1's on the diagonal; 0's everywhere else). Either write your own tpl, or use "spatial_nonre.tpl". Compare results and run times.  
-* **Flexible correlation function** Use a half-normal correlation function ρ(d) = a1exp{-(a2)2}, where -a1 and a2 are parameters that you estimate.
+* **Flexible correlation function** Use a half-normal correlation function ρ(d) = a<sub>1</sub>exp{-(a2)2}, where -a1 and a<sub>2</sub> are parameters that you estimate.
 
      tmpM(i,j)=a1*exp(-square(d(i,ja2));
 
