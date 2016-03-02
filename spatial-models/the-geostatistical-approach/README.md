@@ -4,20 +4,17 @@ This is what most people think of when you say "spatial statistics". You explici
 
 ## Model description
 
-The key model component is a latent Gaussian random field u(x,y), where x and y are the spatial coordinates. We assume that the field is isotropic, i.e. that cor[u(x<sub>1</sub>,y<sub>1</sub>),u(x<sub>2</sub>,y<sub>2</sub>)] = ρ(r), where r = sqrt((x<sub>1</sub>-x<sub>2</sub>)<sup>2</sup> + (y<sub>1</sub>-y<sub>2</sub><sup>2</sup>)) is the Euclidean distance.
+The key model component is a latent Gaussian random field u(x,y), where x and y are the spatial coordinates. We assume that the field is isotropic, i.e. that <img src="./1.png" alt="LaTex equation" width="300" height="25">
+, where <img src="./2.png" alt="LaTex equation" width="300" height="25"> is the Euclidean distance.
 
 
 ### Gaussian measurement error  
 
 The random field is typically observed with measurement error (e). The observations (Y) are:
 
- 
+<img src="./3.png" alt="LaTex equation" width="300" height="25">
 
-      y<sub>i</sub> = β + σ*u(x<sub>i</sub>,y<sub>i</sub>) + e<sub>i</sub>,            i = 1,...,n,
-
- 
-
-where β is the expectation value. Marginally (at each point) u(x,y) ~ N(0,1), but note that we scale the field by a standard deviation σ. Further, we assume that e<sub>i</sub> ~ N(0,σ<sub>e</sub><sup>2</sup>), where σe is often called the "nugget" effect, so that in total Y ~ N(β,σ<sup>2</sup> + σ<sub>e</sub><sup>2</sup>)
+where β is the expectation value. Marginally (at each point) <img src="./4.png" alt="LaTex equation" width="120" height="25">, but note that we scale the field by a standard deviation σ. Further, we assume that e<sub>i</sub> ~ N(0,σ<sub>e</sub><sup>2</sup>), where σe is often called the "nugget" effect, so that in total <img src="./5.png" alt="LaTex equation" width="150" height="25">)
 
  
 
@@ -79,8 +76,8 @@ The code for the above model is given in "spatial_simple.tpl". You should try th
      correspond to the correlation function (exponential) you have used to generate data.
 
 * **Generating other datasets  **The R script "spatial_simple.R" generates the dat-file. Modify the script and run it using source("spatial_simple.R"), and see if the ADMB output changes accordingly. You also need to download "ADMButils.R").  
-* **Implement non-RE version.** Because this is a fully Gaussian model it is possible to implement the likelihood directly without using the random effects features of ADMB. The key point is to notice that the (marginal) covariance matrix of Y is σ<sup>2</sup>M +σ<sub>e</sub><sup>2</sup>I, where I is the identity matrix (1's on the diagonal; 0's everywhere else). Either write your own tpl, or use "spatial_nonre.tpl". Compare results and run times.  
-* **Flexible correlation function** Use a half-normal correlation function ρ(d) = a<sub>1</sub>exp{-d/(a<sub>2</sub>)<sup>2</sup>}, where -a<sub>1</sub> and a<sub>2</sub> are parameters that you estimate.
+* **Implement non-RE version.** Because this is a fully Gaussian model it is possible to implement the likelihood directly without using the random effects features of ADMB. The key point is to notice that the (marginal) covariance matrix of Y is <img src="./6.png" alt="LaTex equation" width="120" height="25">, where I is the identity matrix (1's on the diagonal; 0's everywhere else). Either write your own tpl, or use "spatial_nonre.tpl". Compare results and run times.  
+* **Flexible correlation function** Use a half-normal correlation function <img src="./7exp.png" alt="LaTex equation" width="300" height="25">, where -a<sub>1</sub> and a<sub>2</sub> are parameters that you estimate.
 
 >tmpM(i,j)=a<sub1</sub>*exp(-square(d(i,j)/a2));
 
@@ -94,7 +91,7 @@ The code for the above model is given in "spatial_simple.tpl". You should try th
 * **Linear predictor **As in ordinary multiple regression we let X be a design matrix (that is constructed externally, using for instance "design.matrix()" in R)  
 
     * Let β be a vector; read in covariate (design) matrix X 
-    * Insert linear predictor in expectation value μ = X*beta+σ*u
+    * Insert linear predictor in expectation value  <img src="./8.png" alt="LaTex equation" width="180" height="25">
     * Modify "spatial_simple.R" so that X is generated and written to the .dat file.
 
 >DATA_SECTION
@@ -106,13 +103,13 @@ The code for the above model is given in "spatial_simple.tpl". You should try th
 
 * **Negative binomial response **Go back to "spatial_simple.tpl" and replace the Gaussian response with a negative binomial distribution. We now longer have an additive measurement error, but instead a GLMM, where it is natural to write the model in an hierarchical form
 
-        Y | u = Neg. bin (μ,κ)
+<img src="./9.png" alt="LaTex equation" width="250" height="25">
 
-        log(μ) = β + σ*u(x,y)
+<img src="./10.png" alt="LaTex equation" width="280" height="25">
 
      where Y|u denotes conditional probability (conditionally on u).
 
-* The expectation μ must be positive, so we use a log-link, i.e.  μ = exp{β + σ*u(x<sub>i</sub>,y<sub>i</sub>)}
+* The expectation μ must be positive, so we use a log-link, i.e.  <img src="./11.png" alt="LaTex equation" width="300" height="25">
 * τ = Var(Y)/E(Y) > 1 is the over dispersion.   
 
     * For τ=1 the negative binomial distribution collapses to the Poisson distribution and τ=10 is a large deviation from Poisson (try to plot the probability function for τ=10).
