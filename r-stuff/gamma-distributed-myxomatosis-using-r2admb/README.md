@@ -2,21 +2,17 @@
 
 Filed under:  [Bolker (2008)][1]
 
-![File][2] [Description][3]
-![File][4] [myxomatosis.R][5]
-![File texx-perl][4] [myxomatosis.tpl][6]
-![File chemicax-mopac-input][7] [myxomatosis.dat][8]
+### Description
+[Description][3]
 
-Document Actions
+### Files:
+* [myxomatosis.R][5]
+* [myxomatosis.tpl][6]
+* [myxomatosis.dat][8]
 
-* [RSS feed][9]
 
-[1]: http/www.admb-project.or@@search?Subject:list=Bolker (2008)
-[2]: http/www.admb-project.orpdf.png
-[3]: description-view.html
-[4]: http/www.admb-project.orapplication.png
-[5]: myxomatosis.view.html
-[6]: myxomatosis.tpview.html
-[7]: http/www.admb-project.orunknown.png
-[8]: myxomatosis.daview.html
-[9]: RSS ""
+[1]: https://github.com/admb-project/examples/search?utf8=%E2%9C%93&q=Bolker+%282008%29&type=Code
+[3]: ./myx.pdf
+[5]: ./myxomatosis.R
+[6]: ./myxomatosis.dat
+[8]: ./myxomatosis.tpl
