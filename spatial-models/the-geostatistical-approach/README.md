@@ -4,7 +4,7 @@ This is what most people think of when you say "spatial statistics". You explici
 
 ## Model description
 
-The key model component is a latent Gaussian random field u(x,y), where x and y are the spatial coordinates. We assume that the field is isotropic, i.e. that cor[u(x<sub>1</sub>,y<sub>1</sub>),u(x<sub>2</sub>,y<sub>2</sub>)] = ρ(r), where r = sqrt( (x<sub>1</sub>-x<sub>2</sub>)<sup>2</sup> (y<sub>1</sub>-y<sub>2</sub><sup>2</sup>)) is the Euclidean distance.
+The key model component is a latent Gaussian random field u(x,y), where x and y are the spatial coordinates. We assume that the field is isotropic, i.e. that cor[u(x<sub>1</sub>,y<sub>1</sub>),u(x<sub>2</sub>,y<sub>2</sub>)] = ρ(r), where r = sqrt( (x<sub>1</sub>-x<sub>2</sub>)<sup>2</sup> + (y<sub>1</sub>-y<sub>2</sub><sup>2</sup>)) is the Euclidean distance.
 
 
 ### Gaussian measurement error  
@@ -47,10 +47,8 @@ In the beginning it is easiest if you use this templates, but the advanced user 
     * The only use of _M_ you should make is to assign a value to it inside NORMAL_PRIOR_FUNCTION (see examples).  
 * NORMAL_PRIOR_FUNCTION
     * Purpose:   
-
         * Evaluate _M_
         * Add contribution from u to objective function : -0.5*logdet(_M_) -0.5*_u_*inv(_M_)*_u_  
-
     * Define exactly 1 function of this type; called "get_M" in our case, but you can change the name
     * get_M() should end with an assignment to _M_
     * get_M() can take more than more parameter, y<sub>i</sub>elding more flex<sub>i</sub>ble correlation functions  
@@ -61,13 +59,9 @@ In the beginning it is easiest if you use this templates, but the advanced user 
  
 
 ### Phases
-
 Each parameter to be estimated has an associated "phase" in ADMB. In latent variable models you should first estimate fixed effects (β) and measurement error (σ). In the second phase you estimate parameters associated with the latent random field (σ<sub>e</sub> and a). In the first phase σ<sub>e</sub> and a will be fixed to their initial values (whatever you set that to be).
 
- 
-
 ## Exercises: Modify the model  
-
 The code for the above model is given in "spatial_simple.tpl". You should try the following:
 
 * **Plot variograms** of Y. You can use the R library "geoR" (if you have this package install in R) using the command  
@@ -100,7 +94,7 @@ The code for the above model is given in "spatial_simple.tpl". You should try th
 * **Linear predictor **As in ordinary multiple regression we let X be a design matrix (that is constructed externally, using for instance "design.matrix()" in R)  
 
     * Let β be a vector; read in covariate (design) matrix X 
-    * Insert linear predictor in expectation value μ = X*beta σ*u
+    * Insert linear predictor in expectation value μ = X*beta+σ*u
     * Modify "spatial_simple.R" so that X is generated and written to the .dat file.
 
 >    DATA_SECTION
@@ -108,29 +102,29 @@ The code for the above model is given in "spatial_simple.tpl". You should try th
 >>      init_matrix X(1,n,1,p)// Covariate matrix
 
     SEPARABLE_FUNCTION void normal_loglik()
-        dvariable mu = X(u)*beta   sigma*u_i;
+        dvariable mu = X(u)*beta + sigma*u_i;
 
 * **Negative binomial response **Go back to "spatial_simple.tpl" and replace the Gaussian response with a negative binomial distribution. We now longer have an additive measurement error, but instead a GLMM, where it is natural to write the model in an hierarchical form
 
         Y | u = Neg. bin (μ,κ)
 
-        log(μ) = β σ*u(x,y)
+        log(μ) = β + σ*u(x,y)
 
      where Y|u denotes conditional probability (conditionally on u).
 
-* The expectation μ must be positive, so we use a log-link, i.e.  μ = exp{β σ*u(x<sub>i</sub>,y<sub>i</sub>)}
+* The expectation μ must be positive, so we use a log-link, i.e.  μ = exp{β + σ*u(x<sub>i</sub>,y<sub>i</sub>)}
 * τ = Var(Y)/E(Y) > 1 is the over dispersion.   
 
     * For τ=1 the negative binomial distribution collapses to the Poisson distribution and τ=10 is a large deviation from Poisson (try to plot the probability function for τ=10).
     * τ should be given phase 2, while parameters governing the latent field (σ and a) should be postponed to phase 3  
 
-    PARAMETER_SECTION
-      init_bounded_number tau(1.0,10,2)            // Over dispersion
+>    PARAMETER_SECTION
+>>      init_bounded_number tau(1.0,10,2)            // Over dispersion
 
-    SEPARABLE_FUNCTION void negbin_loglik(...,const dvariable& tau)
-        dvariable sigma = exp(log_sigma);
-        dvariable mu = exp(beta   sigma*u_i);     // Mean of Y
-        l -= log_negbinomial_density(Y(i),mu,tau);
+>    SEPARABLE_FUNCTION void negbin_loglik(...,const dvariable& tau)
+>>        dvariable sigma = exp(log_sigma);
+>>        dvariable mu = exp(beta + sigma*u_i);     // Mean of Y
+>>        l -= log_negbinomial_density(Y(i),mu,tau);
 
 * **Code **ADMB (spatial_negbin.tpl) and R code for (spatial_negbin.R) are provided.  
 
