@@ -1,6 +1,6 @@
 #  Theta-logistic population growth model
 
-Filed under:  [Ecology][1]
+Filed under:  [Ecology][1], [State Space Models][5]
 
 **This example is part of the [NCEAS non-linear modelling project][2]**
 
@@ -13,6 +13,7 @@ The example is a theta-logistic nonlinear state-space population model. The popu
 [Source code][4]
 
 [1]: ./../../by-field-of-application/ecology/
-[2]: https/groups.nceas.ucsb.ednon-linear-modelinprojects
-[3]: https/groups.nceas.ucsb.ednon-linear-modelinprojectthetWRITEUtheta.pdf
-[4]: https/groups.nceas.ucsb.ednon-linear-modelinprojecttheta
+[2]: https://groups.nceas.ucsb.edu/non-linear-modeling/projects
+[3]: https://groups.nceas.ucsb.edu/non-linear-modeling/projects/theta/WRITEUP/theta.pdf
+[4]: https://groups.nceas.ucsb.edu/non-linear-modeling/projects/theta
+[5]: ./../
