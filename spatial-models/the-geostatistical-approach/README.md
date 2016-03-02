@@ -4,7 +4,7 @@ This is what most people think of when you say "spatial statistics". You explici
 
 ## Model description
 
-The key model component is a latent Gaussian random field u(x,y), where x and y are the spatial coordinates. We assume that the field is isotropic, i.e. that cor[u(x<sub>1</sub>,y<sub>1</sub>),u(x<sub>2</sub>,y<sub>2</sub>)] = ρ(r), where r = sqrt( (x<sub>1</sub>-x<sub>2</sub>)<sup>2</sup> + (y<sub>1</sub>-y<sub>2</sub><sup>2</sup>)) is the Euclidean distance.
+The key model component is a latent Gaussian random field u(x,y), where x and y are the spatial coordinates. We assume that the field is isotropic, i.e. that cor[u(x<sub>1</sub>,y<sub>1</sub>),u(x<sub>2</sub>,y<sub>2</sub>)] = ρ(r), where r = sqrt((x<sub>1</sub>-x<sub>2</sub>)<sup>2</sup> + (y<sub>1</sub>-y<sub>2</sub><sup>2</sup>)) is the Euclidean distance.
 
 
 ### Gaussian measurement error  
@@ -42,7 +42,6 @@ There is a special setup in ADMB that makes computations in geostatistical model
 In the beginning it is easiest if you use this templates, but the advanced user may change the names according to the following rules:
 
 * The "normal_prior" associates _M_ with the vector _u_ of random effects
-
     * You are free to name the correlation matrix anything you want; we use _M_
     * The only use of _M_ you should make is to assign a value to it inside NORMAL_PRIOR_FUNCTION (see examples).  
 * NORMAL_PRIOR_FUNCTION
@@ -56,7 +55,6 @@ In the beginning it is easiest if you use this templates, but the advanced user 
     * There must **always** be a function with this name, i.e. you can not change its name even if you change the name of _M_
     * It should contain a call to get_M (or whatever you have called it).
 
- 
 
 ### Phases
 Each parameter to be estimated has an associated "phase" in ADMB. In latent variable models you should first estimate fixed effects (β) and measurement error (σ). In the second phase you estimate parameters associated with the latent random field (σ<sub>e</sub> and a). In the first phase σ<sub>e</sub> and a will be fixed to their initial values (whatever you set that to be).
@@ -73,7 +71,7 @@ The code for the above model is given in "spatial_simple.tpl". You should try th
     produced) and then use the R commands
 
 >     r=scan("spatial_simple.rep")
->    plot(variog(geodata=list(coords=Z,data=r)))
+>>    plot(variog(geodata=list(coords=Z,data=r)))
 
      The residuals r should be close to uncorrelated, while the correlation in Y should
 
@@ -88,6 +86,7 @@ The code for the above model is given in "spatial_simple.tpl". You should try th
 * **Experiment with phases **and see if the use of phases affects run times. Go back to "spatial_simple.tpl" and use the command "time" in your operating system to measure the run time.
     * Try to activate all parameters in phase 1
     * Try to activate "a" in phase 3
+
 
  >    time -est spatial_simple
 
@@ -126,10 +125,4 @@ The code for the above model is given in "spatial_simple.tpl". You should try th
 >>        dvariable mu = exp(beta + sigma*u_i);     // Mean of Y
 >>        l -= log_negbinomial_density(Y(i),mu,tau);
 
-* **Code **ADMB (spatial_negbin.tpl) and R code for (spatial_negbin.R) are provided.  
-
- 
-
-  
-
-Α α Β β Γ γ Δ δ Ε ε Ζ ζ Η η Θ θ Ι ι Κ κ Λ λ Μ μ Ν ν Ξ ξ Ο ο Π π Ρ ρ Σ σ ς Τ τ Υ υ Φ φ Χ χ Ψ ψ Ω ω
+* **Code** ADMB (spatial_negbin.tpl) and R code for (spatial_negbin.R) are provided.  
