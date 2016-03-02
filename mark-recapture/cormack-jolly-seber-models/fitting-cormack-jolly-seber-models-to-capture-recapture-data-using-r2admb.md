@@ -13,6 +13,6 @@ https://github.com/jlaake/ADMB-Examples/blob/master/CJSFixedEffects.pdf
  
  https://github.com/jlaake/ADMB-Examples/tree/master/Fixed%20Effect%20CJS
  
- [1]: 
+ [1]: https://github.com/admb-project/examples/search?utf8=%E2%9C%93&q=Mark+Software&type=Code
  [2]: ./
  [3]: ./../
