@@ -16,7 +16,7 @@ Different uses of ADMB in fisheries stock assessments or other fisheries work
 [Pella-Tomlinson from ADMB manual][5]
 :  Pella-Tomlinson example by Dave Fournier from the ADMB manual. Demonstrates several innovative modelling approaches: 6 month time step, time-varying K and q.
 
-[Skate mortality: Bayesian state-space model Bayesian state-space model example from the NCEAS non-linear modelling working group][6]
+[Skate mortality][6]: Bayesian state-space model Bayesian state-space model example from the NCEAS non-linear modelling working group
 
 [1]: ./
 [2]: http://otter-rsch.com/admbre/examples/caest/caest.html
