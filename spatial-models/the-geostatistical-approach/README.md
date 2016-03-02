@@ -29,15 +29,15 @@ The correlation matrix is denoted by _M_, and is defined elementwise as M<sub>ij
 
 There is a special setup in ADMB that makes computations in geostatistical models efficient
 
->    PARAMETER_SECTION
->>      random_effects_vector u(1,n,2)
->>      normal_prior M(u);
+>PARAMETER_SECTION
+>>random_effects_vector u(1,n,2)
+>>normal_prior M(u);
 >
->    NORMAL_PRIOR_FUNCTION void get_M(const dvariable& _a)
->>     // Function descript goes here ....
+>NORMAL_PRIOR_FUNCTION void get_M(const dvariable& _a)
+>>// Function descript goes here ....
 >
->    FUNCTION void evaluate_M(void)
->>      get_M(a);
+>FUNCTION void evaluate_M(void)
+>>get_M(a);
 
 In the beginning it is easiest if you use this templates, but the advanced user may change the names according to the following rules:
 
