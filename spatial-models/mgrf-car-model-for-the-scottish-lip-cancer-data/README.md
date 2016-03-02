@@ -1,5 +1,7 @@
 #  GMRF: CAR model for the Scottish Lip Cancer Data
 
+Filed under: [Spatial Models][19]
+
 Example of conditionally autoregressive (CAR) model applied to 56 geographical Scottish regions.
 
 If you google "Scottish Lip Cancer Data" you will find that these data are used in many textbooks on spatial modelling, also as examples for statistical software (e.g. Winbugs). We use the notation from <http/www.biostat.umn.ed~ph744pubh744slideLips.pdf>
@@ -46,3 +48,4 @@ CAR models should be run with the -shess" command line option. For this small ex
 [1]: ./car_scottish.dat
 [2]: ./car_scottish.tpl
 [3]: ./scotlandgraph.dat
+[19]: ./../
