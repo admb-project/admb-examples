@@ -127,3 +127,20 @@ The code for the above model is given in "spatial_simple.tpl". You should try th
 >>l -= log_negbinomial_density(Y(i),mu,tau);
 
 * **Code** ADMB (spatial_negbin.tpl) and R code for (spatial_negbin.R) are provided.  
+
+###Files
+* [spatial_negbin.R][1]
+* [spatial_negbin.tpl][2]
+* [spatial_nonre.tpl][3]
+* [spatial_simple.R][4]
+* [spatial_simple.dat][5]
+* [spatial_simple.tpl][6]
+
+
+[1]: ./spatial_negbin.R
+[2]: ./spatial_negbin.tpl
+[3]: ./spatial_nonre.tpl
+[4]: ./spatial_simple.R
+[5]: ./spatial_simple.dat
+[6]: ./spatial_simple.tpl
+
