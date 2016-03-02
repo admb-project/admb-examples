@@ -1,21 +1,22 @@
-#  Skate mortality: Bayesian state-space model
+# State-space models
 
-Filed under:  [Fisheries][1], [State space model][2]
+* [A discrete valued time series model; Polio data][1]
+Illustrate how a time series of count data can be modelled as a GLMM with a Poisson response
 
-**This example is part of the [NCEAS non-linear modelling project][3]**
+* [Stochastic volatility models for financial time series][2]
+Stochastic volatility models are used in mathematical finance to describe the evolution of asset returns, which typically exhibit changing variances over time.
 
-**Authors: Trevor Davies and Steve Martell**
+* [Delta smelt life cycle model][3]
+A state-space multistage model to evaluate population impacts in the presence of density dependence.
 
-The goal of the model was to obtain decadal mortality estimates of three different size classes of winter skates (_Leucoraja ocellata_) on the eastern Scotian Shelf. The time series are largely non-informative for several of the model parameters (catchability, recruitment rate, and stage transition probability), so informative Bayesian priors are used.
+* [Skate mortality: Bayesian state-space model][4]
+Bayesian state-space model example from the NCEAS non-linear modelling working group
 
-The model described here is a Bayesian state-space model implemented in both JAGS and AD Model Builder. The model description and alternative model formulations are fully described in Swain et al. (2009).
+* [Theta-logistic population growth model][5]
+State-space model from the NCEAS non-linear modelling working group
 
-[Documentation][4]
-
-[Source code][5]
-
-[1]: ./../fisheries/
-[2]: ./
-[3]: https/groups.nceas.ucsb.ednon-linear-modelinprojects
-[4]: https/groups.nceas.ucsb.ednon-linear-modelinprojectskatWRITEUskate.pdf
-[5]: https/groups.nceas.ucsb.ednon-linear-modelinprojectskate
+[1]: ./a-discrete-valued-time-series-model
+[2]: ./stochastic-volatility-models-for-financial-time-series
+[3]: ./delta-smelt-life-cycle-model
+[4]: ./skate-mortality-bayesian-state-space-model
+[5]: ./theta-logistic-population-growth-model
