@@ -39,6 +39,6 @@ This model uses a feature which currently is not part of ADMB: weighting. The we
 
 >>   random_effects_vector u(1,n+1);
 
->>   !!set_multinomial_weights(w);'''
+>>   !!set_multinomial_weights(w);
 
 When these features gets incorporated into ADMB in the future they will get better documented.
