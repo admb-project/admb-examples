@@ -71,6 +71,7 @@ The code for the above model is given in "spatial_simple.tpl". You should try th
     produced) and then use the R commands
 
 >r=scan("spatial_simple.rep")
+
 >plot(variog(geodata=list(coords=Z,data=r)))
 
      The residuals r should be close to uncorrelated, while the correlation in Y should
