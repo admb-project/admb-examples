@@ -2,10 +2,10 @@
 
 This presents generalized code for conducting Metropolis Coupled MCMC using ADMB called within R
 
-*[Wrapper][2]
+* [Wrapper][2]
 :  File to conduct MCMCMC using ADMB within R
 
-*[Functions][3]
+* [Functions][3]
 :  Functions used by wrapper
 
 * [TPL][4]
@@ -31,5 +31,3 @@ This presents generalized code for conducting Metropolis Coupled MCMC using ADMB
 [8]: ./ADMB_MCMC.jpg
 [9]: ./ADMB_MCMCMC.jpg
 [10]: ./ADMB_MCMCMC_Trace.jpg
-[10]: mcmcmc-tracview.html
-[11]: RSS ""
