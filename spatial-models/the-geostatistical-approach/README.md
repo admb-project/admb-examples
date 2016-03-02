@@ -1,12 +1,11 @@
 #  Geostatistical approach
 
-This is what most people think of when you say "spatial statistics". You explicitly model the correlation matrifunction. Observations do not need to be on a grid; their correlation is typically determined by distance. This example takes you from simple examples with Gaussian observation noise to non-Gaussian response (GLMMs).
+This is what most people think of when you say "spatial statistics". You explicitly model the correlation matrix/function. Observations do not need to be on a grid; their correlation is typically determined by distance. This example takes you from simple examples with Gaussian observation noise to non-Gaussian response (GLMMs).
 
 ## Model description
 
-The key model component is a latent Gaussian random field u(x,y), where x and y are the spatial coordinates. We assume that the field is isotropic, i.e. that cor[u(x<sub>1</sub>,y<sub>1</sub>),u(x<sub>2</sub>,y<sub>2</sub>)] = ρ(r), where r = sqrt( (x<sub>1</sub>-x<sub>2</sub><sup>2</sup> (y<sub>1</sub>-y<sub>2</sub><sup>2</sup>) is the Euclidean distance.
+The key model component is a latent Gaussian random field u(x,y), where x and y are the spatial coordinates. We assume that the field is isotropic, i.e. that cor[u(x<sub>1</sub>,y<sub>1</sub>),u(x<sub>2</sub>,y<sub>2</sub>)] = ρ(r), where r = sqrt( (x<sub>1</sub>-x<sub>2</sub>)<sup>2</sup> (y<sub>1</sub>-y<sub>2</sub><sup>2</sup>)) is the Euclidean distance.
 
-###   
 
 ### Gaussian measurement error  
 
@@ -14,7 +13,7 @@ The random field is typically observed with measurement error (e). The observati
 
  
 
-      y<sub>i</sub> = β σ*u(x<sub>i</sub>,y<sub>i</sub>) e<sub>i</sub>,            i = 1,...,n,
+      y<sub>i</sub> = β + σ*u(x<sub>i</sub>,y<sub>i</sub>) + e<sub>i</sub>,            i = 1,...,n,
 
  
 
@@ -24,21 +23,21 @@ where β is the expectation value. Marginally (at each point) u(x,y) ~ N(0,1), b
 
 ### Specification of the covariance matrix  
 
-The correlation matrix is denoted by _M_, and is defined elementwise as Mij = ρ(dij), where _d_ij is the distance between observation i and j. In this example we use an exponential correlation function ρ(_d_) = exp(-_a*d_), where a is a parameter (to be estimated) that controls how quickly the correlation drops off.
+The correlation matrix is denoted by _M_, and is defined elementwise as M<sub>ij</sub> = ρ(d<sub>ij</sub>), where _d<sub>ij</sub>_ is the distance between observation i and j. In this example we use an exponential correlation function ρ(_d_) = exp(-_a*d_), where a is a parameter (to be estimated) that controls how quickly the correlation drops off.
 
  
 
 There is a special setup in ADMB that makes computations in geostatistical models efficient
 
 >    PARAMETER_SECTION
->      random_effects_vector u(1,n,2)
->      normal_prior M(u);
+>>      random_effects_vector u(1,n,2)
+>>      normal_prior M(u);
 >
 >    NORMAL_PRIOR_FUNCTION void get_M(const dvariable& _a)
->     / Function descript goes here ....
+>>     // Function descript goes here ....
 >
 >    FUNCTION void evaluate_M(void)
->      get_M(a);
+>>      get_M(a);
 
 In the beginning it is easiest if you use this templates, but the advanced user may change the names according to the following rules:
 
@@ -87,10 +86,10 @@ The code for the above model is given in "spatial_simple.tpl". You should try th
      correspond to the correlation function (exponential) you have used to generate data.
 
 * **Generating other datasets  **The R script "spatial_simple.R" generates the dat-file. Modify the script and run it using source("spatial_simple.R"), and see if the ADMB output changes accordingly. You also need to download "ADMButils.R").  
-* **Implement non-RE version.** Because this is a fully Gaussian model it is possible to implement the likelihood directly without using the random effects features of ADMB. The key point is to notice that the (marginal) covariance matrix of Y is σ2M σe2I, where I is the identity matrix (1's on the diagonal; 0's everywhere else). Either write your own tpl, or use "spatial_nonre.tpl". Compare results and run times.  
+* **Implement non-RE version.** Because this is a fully Gaussian model it is possible to implement the likelihood directly without using the random effects features of ADMB. The key point is to notice that the (marginal) covariance matrix of Y is σ<sup>2</sup>M +σ<sub>e</sub><sup>2</sup>I, where I is the identity matrix (1's on the diagonal; 0's everywhere else). Either write your own tpl, or use "spatial_nonre.tpl". Compare results and run times.  
 * **Flexible correlation function** Use a half-normal correlation function ρ(d) = a<sub>1</sub>exp{-d/(a<sub>2</sub>)<sup>2</sup>}, where -a<sub>1</sub> and a<sub>2</sub> are parameters that you estimate.
 
- >    tmpM(i,j)=a<sub1</sub>*exp(-square(d(i,ja2));
+ >    tmpM(i,j)=a<sub1</sub>*exp(-square(d(i,j/a2));
 
 * **Experiment with phases **and see if the use of phases affects run times. Go back to "spatial_simple.tpl" and use the command "time" in your operating system to measure the run time.
     * Try to activate all parameters in phase 1
@@ -106,8 +105,8 @@ The code for the above model is given in "spatial_simple.tpl". You should try th
     * Modify "spatial_simple.R" so that X is generated and written to the .dat file.
 
     DATA_SECTION
-      init_int p		/ Number of fixed effects (b's)
-      init_matrix X(1,n,1,p)/ Covariate matrix
+      init_int p		// Number of fixed effects (b's)
+      init_matrix X(1,n,1,p)// Covariate matrix
 
     SEPARABLE_FUNCTION void normal_loglik()
         dvariable mu = X(u)*beta   sigma*u_i;
@@ -121,17 +120,17 @@ The code for the above model is given in "spatial_simple.tpl". You should try th
      where Y|u denotes conditional probability (conditionally on u).
 
 * The expectation μ must be positive, so we use a log-link, i.e.  μ = exp{β σ*u(x<sub>i</sub>,y<sub>i</sub>)}
-* τ = Var(YE(Y) > 1 is the over dispersion.   
+* τ = Var(Y)/E(Y) > 1 is the over dispersion.   
 
     * For τ=1 the negative binomial distribution collapses to the Poisson distribution and τ=10 is a large deviation from Poisson (try to plot the probability function for τ=10).
     * τ should be given phase 2, while parameters governing the latent field (σ and a) should be postponed to phase 3  
 
     PARAMETER_SECTION
-      init_bounded_number tau(1.0,10,2)            / Over dispersion
+      init_bounded_number tau(1.0,10,2)            // Over dispersion
 
     SEPARABLE_FUNCTION void negbin_loglik(...,const dvariable& tau)
         dvariable sigma = exp(log_sigma);
-        dvariable mu = exp(beta   sigma*u_i);      / Mean of Y
+        dvariable mu = exp(beta   sigma*u_i);     // Mean of Y
         l -= log_negbinomial_density(Y(i),mu,tau);
 
 * **Code **ADMB (spatial_negbin.tpl) and R code for (spatial_negbin.R) are provided.  
