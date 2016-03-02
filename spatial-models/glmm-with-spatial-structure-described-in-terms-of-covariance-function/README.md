@@ -8,22 +8,13 @@ GLMM with spatial correlation, where the locations do not lie on a grid. Illustr
 
 Our data are 100 Poisson counts (y), each with parameter lambda. The datapoints are index by i and j (_i,j_=1,...,10). It is assumed that 
 
- 
-
-log(lambdai,j) = X_i,j_b e_i,j_.
-
- 
+<img src="./1.png" alt="LaTex equation" width="300" height="25">
 
 where  _Xi,j_b is a linear predictor and ei,j are Gaussian random variables with covariance
 
-  
-cov(e_i1,j1_,e_i2,j2_) = s2 exp(a-1 _d_),
-
- 
+<img src="./2.png" alt="LaTex equation" width="300" height="25">
 
 Here _d_ is the Euclidean distance between the two positions.
-
- 
 
 ### Orthogonalization
 
@@ -57,8 +48,14 @@ This example shows a mathematical trick that is useful in all sorts of regressio
      
      
 ###Files:
-* [spatial.dat][
-* [spatial.tpl][
-* [spatial.par][
-* [spatial.pin][
+* [spatial.dat][1]
+* [spatial.tpl][2]
+* [spatial.par][3]
+* [spatial.pin][4]
+
+
+[1]: ./spatial.dat
+[2]: ./spatial.tpl
+[3]: ./spatial.par
+[4]: ./spatial.pin
 [19]: ./../
