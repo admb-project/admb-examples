@@ -14,7 +14,7 @@
 :  Explains how to set up a general mixed model interface between R and ADMB used for instance in glmmADMB
 
 
-[1]: ./glmmadmb/
+[1]: ./glmmadmb.md
 [2]: ./lmer-comparison/
 [3]: ./gamma-distributed-myxomatosis-using-r2admb/
 [4]: ./mcmcmc/
