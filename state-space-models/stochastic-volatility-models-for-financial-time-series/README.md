@@ -5,18 +5,18 @@ Filed under:  [Finance][1]
 Stochastic volatility models are used in mathematical finance to describe the evolution of asset returns, which typically exhibit changing variances over time.
 
 ### Model description
-The dataset is  previously analyzed by [Harvey et al. (1994)][2], and later by several other authors. The data consist of a time series of daily poundollar exchange rates {_zt_} from the period 0181 to 285. The series of interest are the daily mean-corrected returns {_yt_}, given by the transformation
+The dataset is  previously analyzed by [Harvey et al. (1994)][2], and later by several other authors. The data consist of a time series of daily poundollar exchange rates {_z<sub>t</sub>_} from the period 0181 to 285. The series of interest are the daily mean-corrected returns {_y<sub>t</sub>_}, given by the transformation
 
-<img src="./1.png" alt="LaTex equation" width="300" height="25">
+<img src="./1.png" alt="LaTex equation" width="500" height="25">
 
-The stochastic volatility model allows the variance of _yt_ to vary smoothly with time. This is achieved by assuming that 
-<img src="./2.png" alt="LaTex equation" width="300" height="25">, 
+The stochastic volatility model allows the variance of _y<sub>t</sub>_ to vary smoothly with time. This is achieved by assuming that 
+<img src="./2.png" alt="LaTex equation" width="150" height="25">, 
 
 where 
 
-<img src="./3.png" alt="LaTex equation" width="300" height="25">. 
+<img src="./3.png" alt="LaTex equation" width="250" height="25">. 
 
-Here, the smoothly varying component _xt_ is assumed to be an autoregression.
+Here, the smoothly varying component _x<sub>t</sub>_ is assumed to be an autoregression.
 
 
 ### Details
