@@ -6,8 +6,15 @@ This is what most people think of when you say "spatial statistics". You explici
 
 ## Model description
 
-The key model component is a latent Gaussian random field u(x,y), where x and y are the spatial coordinates. We assume that the field is isotropic, i.e. that <img src="./1.png" alt="LaTex equation" width="300" height="25">
-, where <img src="./2.png" alt="LaTex equation" width="300" height="25"> is the Euclidean distance.
+The key model component is a latent Gaussian random field u(x,y), where x and y are the spatial coordinates. We assume that the field is isotropic, i.e. that
+
+<img src="./1.png" alt="LaTex equation" width="300" height="25">
+
+, where 
+
+<img src="./2.png" alt="LaTex equation" width="300" height="25"> 
+
+is the Euclidean distance.
 
 
 ### Gaussian measurement error  
