@@ -12,5 +12,5 @@ Line transect methods are commonly used to estimate animal abundance, and is a s
 
 
 [1]: ./estimation-of-detection-function/
-[2]: ./random-scale/
+[2]: ./random-scale.md
 [3]: ./../
