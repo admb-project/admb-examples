@@ -69,9 +69,6 @@ All examples currently available in the website
 [Estimation of detection function ][23]
 :  Illustrates the likelihood based estimation of the detection function (perpendicular distance)
 
-[Examples][24]
-:  Under construction
-
 [Extension: correlated RE's][25]
 :  Add random effects to all 3 phi's, and attempt to estimate correlations
 
@@ -213,9 +210,6 @@ All examples currently available in the website
 [Stochastic volatility models for financial time series][74]
 :  Stochastic volatility models are used in mathematical finance to describe the evolution of asset returns, which typically exhibit changing variances over time.
 
-[Storage][75]
-:  Physical storage of individual examples with guarantied permanent URL
-
 [Survival analysis][76]
 :  Lifetime data and survival analysis
 
@@ -251,8 +245,8 @@ All examples currently available in the website
 [1]: text-books/maximum-likelihood-estimation-and-inference-by-russell-millar
 [2]: glmm-generalized-linear-mixed-models/count-data/a-discrete-valued-time-series-model
 [3]: state-space-models/a-discrete-valued-time-series-model
-[4]: fisheries/a-fisheries-model-with-random-effects-1
-[5]: mark-recapture/cormack-jolly-seber-models/fitting-cormack-jolly-seber-models-to-capture-recapture-data-using-r2admb
+[4]: http://otter-rsch.com/admbre/examples/caest/caest.html
+[5]: mark-recapture/cormack-jolly-seber-models/fitting-cormack-jolly-seber-models-to-capture-recapture-data-using-r2admb.md
 [6]: admb-tricks/adjoint-code-1
 [7]: fisheries/a-fisheries-model-solving-the-baranov-catch-equation-using-adjoint-code
 [8]: glmm-generalized-linear-mixed-models/gaussian-models/bcb-bowheads
@@ -271,7 +265,6 @@ All examples currently available in the website
 [21]: differential-equations
 [22]: glmm-generalized-linear-mixed-models/gams-as-mixed-models/generalized-additive-models
 [23]: sampling/line-transect-methods/estimation-of-detection-function
-[24]: http://www.admb-project.org/examples
 [25]: growth-models/orange-trees/extension-correlated-res
 [26]: growth-models/orange-trees/extension-crossed-res
 [27]: fisheries
@@ -282,7 +275,7 @@ All examples currently available in the website
 [32]: glmm-generalized-linear-mixed-models/gaussian-models
 [33]: spatial-models/the-geostatistical-approach
 [34]: glmm-generalized-linear-mixed-models
-[35]: r-stuff/glmmadmb
+[35]: r-stuff/glmmadmb.md
 [36]: growth-models
 [37]: categorical-data/item-response-theory-irt-and-the-multilevel-rasch-model-1
 [38]: sampling/line-transect-methods
@@ -292,7 +285,7 @@ All examples currently available in the website
 [42]: r-stuff/mcmcmc
 [43]: glmm-generalized-linear-mixed-models/gams-as-mixed-models/mean-and-variance
 [44]: spatial-models/mgrf-car-model-for-the-scottish-lip-cancer-data
-[45]: differential-equations/mineralization-of-terbuthylazine
+[45]: differential-equations/mineralization-of-terbuthylazine.md
 [46]: miscellaneous
 [47]: glmm-generalized-linear-mixed-models/mixed-response
 [48]: glmm-generalized-linear-mixed-models/count-data/negative-binomial-fir-fecundity-1
@@ -302,15 +295,16 @@ All examples currently available in the website
 [52]: differential-equations/pk-dk/one-compartment-open-model
 [53]: growth-models/orange-trees
 [54]: categorical-data/ordered-categorical-responses
-[55]: glmm-generalized-linear-mixed-models/count-data/owl-nestling-negotiation
+[55]: glmm-generalized-linear-mixed-models/count-data/owl-nesting-negotiation.md
 [56]: function-minimization/parameter-scaling
 [57]: admb-tricks/parameterization
 [58]: fisheries/pella
 [59]: fisheries/pella-t
+[60]: differential-equations/pk-dk
 [61]: spatial-models/glmm-with-spatial-structure-described-in-terms-of-covariance-function
 [62]: r-stuff/a-general-r-admb-interface-for-mixed-models
 [63]: r-stuff
-[64]: sampling/line-transect-methods/random-scale
+[64]: sampling/line-transect-methods/random-scale.md
 [65]: sampling
 [66]: spatial-models/glmm2019s-on-large-spatial-grids
 [67]: simple-examples
@@ -321,16 +315,15 @@ All examples currently available in the website
 [72]: state-space-models
 [73]: by-field-of-application/stochastic-volatility-collection
 [74]: state-space-models/stochastic-volatility-models-for-financial-time-series
-[75]: storage
 [76]: survival-analysis
 [77]: by-field-of-application/stochastic-volatility-collection/sv-models-with-leverage-effect
-[78]: simple-examples/tadpole-mortality-as-a-function-of-size
+[78]: simple-examples/tadpole-mortality-as-a-function-of-size.md
 [79]: text-books
 [80]: by-field-of-application/stochastic-volatility-collection/the-basic-sv-model-and-simple-extensions-1
 [81]: state-space-models/theta-logistic-population-growth-model
 [82]: admb-tricks/variance-calculations
 [83]: survival-analysis/weibull-regression-with-censoring
-[84]: glmm-generalized-linear-mixed-models/non-gaussian-random-effects/wildflowers
+[84]: glmm-generalized-linear-mixed-models/non-gaussian-random-effects/wildflowers.md
 [85]: winbugs
 [86]: glmm-generalized-linear-mixed-models/gams-as-mixed-models/wood-2006-parameterization
   
