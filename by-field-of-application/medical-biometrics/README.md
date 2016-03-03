@@ -1,4 +1,4 @@
-#  MedicaBiometrics
+#  Medical/Biometrics
 
 [A discrete valued time series model; Polio data][1]
 :  Illustrate how a time series of count data can be modelled as a GLMM with a Poisson response

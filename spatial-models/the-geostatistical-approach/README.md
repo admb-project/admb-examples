@@ -34,17 +34,17 @@ The correlation matrix is denoted by _M_, and is defined elementwise as M<sub>ij
  
 
 There is a special setup in ADMB that makes computations in geostatistical models efficient
+```
+PARAMETER_SECTION
+    random_effects_vector u(1,n,2)
+    normal_prior M(u);
 
->PARAMETER_SECTION
->>random_effects_vector u(1,n,2)
->>normal_prior M(u);
->
->NORMAL_PRIOR_FUNCTION void get_M(const dvariable& _a)
->>// Function descript goes here ....
->
->FUNCTION void evaluate_M(void)
->>get_M(a);
+NORMAL_PRIOR_FUNCTION void get_M(const dvariable& _a)
+    // Function descript goes here ....
 
+FUNCTION void evaluate_M(void)
+    get_M(a);
+```
 In the beginning it is easiest if you use this templates, but the advanced user may change the names according to the following rules:
 
 * The "normal_prior" associates _M_ with the vector _u_ of random effects
@@ -69,47 +69,44 @@ Each parameter to be estimated has an associated "phase" in ADMB. In latent vari
 The code for the above model is given in "spatial_simple.tpl". You should try the following:
 
 * **Plot variograms** of Y. You can use the R library "geoR" (if you have this package install in R) using the command  
-
->plot(variog(geodata=list(coords=Z,data=Y)))
-
+```
+plot(variog(geodata=list(coords=Z,data=Y)))
     Run the ADMB program (so that "spatial_simple.rep" containing residuals gets
-
     produced) and then use the R commands
+    r=scan("spatial_simple.rep")
 
->r=scan("spatial_simple.rep")
-
->plot(variog(geodata=list(coords=Z,data=r)))
-
+plot(variog(geodata=list(coords=Z,data=r)))
      The residuals r should be close to uncorrelated, while the correlation in Y should
-
      correspond to the correlation function (exponential) you have used to generate data.
+```
 
 * **Generating other datasets  **The R script "spatial_simple.R" generates the dat-file. Modify the script and run it using source("spatial_simple.R"), and see if the ADMB output changes accordingly. You also need to download "ADMButils.R").  
 * **Implement non-RE version.** Because this is a fully Gaussian model it is possible to implement the likelihood directly without using the random effects features of ADMB. The key point is to notice that the (marginal) covariance matrix of Y is <img src="./6.png" alt="LaTex equation" width="120" height="25">, where I is the identity matrix (1's on the diagonal; 0's everywhere else). Either write your own tpl, or use "spatial_nonre.tpl". Compare results and run times.  
 * **Flexible correlation function** Use a half-normal correlation function <img src="./7exp.png" alt="LaTex equation" width="300" height="25">, where -a<sub>1</sub> and a<sub>2</sub> are parameters that you estimate.
-
->tmpM(i,j)=a<sub1</sub>*exp(-square(d(i,j)/a2));
-
+```
+tmpM(i,j)=a<sub1</sub>*exp(-square(d(i,j)/a2));
+```
 * **Experiment with phases **and see if the use of phases affects run times. Go back to "spatial_simple.tpl" and use the command "time" in your operating system to measure the run time.
     * Try to activate all parameters in phase 1
     * Try to activate "a" in phase 3
+```
 
-
->time -est spatial_simple
-
+time -est spatial_simple
+```
 * **Linear predictor **As in ordinary multiple regression we let X be a design matrix (that is constructed externally, using for instance "design.matrix()" in R)  
 
     * Let β be a vector; read in covariate (design) matrix X 
     * Insert linear predictor in expectation value  <img src="./8.png" alt="LaTex equation" width="180" height="25">
     * Modify "spatial_simple.R" so that X is generated and written to the .dat file.
-
+'''
+```
 >DATA_SECTION
->>init_int p		// Number of fixed effects (b's)
->>init_matrix X(1,n,1,p)// Covariate matrix
->
->SEPARABLE_FUNCTION void normal_loglik()
->>dvariable mu = X(u)*beta + sigma*u_i;
+init_int p		// Number of fixed effects (b's)
+init_matrix X(1,n,1,p)// Covariate matrix
 
+SEPARABLE_FUNCTION void normal_loglik()
+dvariable mu = X(u)*beta + sigma*u_i;
+```
 * **Negative binomial response **Go back to "spatial_simple.tpl" and replace the Gaussian response with a negative binomial distribution. We now longer have an additive measurement error, but instead a GLMM, where it is natural to write the model in an hierarchical form
 
 <img src="./9.png" alt="LaTex equation" width="250" height="25">
@@ -123,15 +120,15 @@ The code for the above model is given in "spatial_simple.tpl". You should try th
 
     * For τ=1 the negative binomial distribution collapses to the Poisson distribution and τ=10 is a large deviation from Poisson (try to plot the probability function for τ=10).
     * τ should be given phase 2, while parameters governing the latent field (σ and a) should be postponed to phase 3  
+```
+ PARAMETER_SECTION
+  init_bounded_number tau(1.0,10,2)            // Over dispersion
 
->PARAMETER_SECTION
->>init_bounded_number tau(1.0,10,2)            // Over dispersion
-
->SEPARABLE_FUNCTION void negbin_loglik(...,const dvariable& tau)
->>dvariable sigma = exp(log_sigma);
->>dvariable mu = exp(beta + sigma*u_i);     // Mean of Y
->>l -= log_negbinomial_density(Y(i),mu,tau);
-
+ SEPARABLE_FUNCTION void negbin_loglik(...,const dvariable& tau)
+  dvariable sigma = exp(log_sigma);
+  dvariable mu = exp(beta + sigma*u_i);     // Mean of Y
+  l -= log_negbinomial_density(Y(i),mu,tau);
+```
 * **Code** ADMB (spatial_negbin.tpl) and R code for (spatial_negbin.R) are provided.  
 
 ###Files

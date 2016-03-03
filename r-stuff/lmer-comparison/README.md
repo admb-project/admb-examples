@@ -46,7 +46,7 @@ This is the bash shell script (found on linux) used to run the R simulations.
 
     for i in {1..1000}
     do
-     R CMD BATCH bolker-par.r
+     R CMD BATCH ./bolker-par.r
     done
 
 where the R script [_bolker-par.r_][1] must be located in the current directory.
