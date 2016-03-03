@@ -123,14 +123,14 @@ the model may be written as:
 ###<strong>Leverage models with heavier tails and/or skewness</strong>
  
  The moments of returns in the Gaussian leverage model are the same as in the basic SV model. In order to model both leverage effect and heavier tails and/or skewness, the following specification is used: 
- <img src="./g16.png" alt="LaTex equation" width="250" height="25">, 
-<img src="./g17.png" alt="LaTex equation" width="400" height="25">, 
+ 
+<img src="./g16.png" alt="LaTex equation" width="250" height="25">, 
+ 
+<img src="./g17.png" alt="LaTex equation" width="450" height="25">, 
  
  where
  
- <img src="./g18.png" alt="LaTex equation" width="100" height="25">
- 
- )and ε<sub>t</sub> has some standardized continuous distribution. This looks like the formulation used to set up sdv_lev2, but here ε<sub>t</sub> is not necessarily normally distributed. In the SV_lev_t model a standardized t-distribution is used for ε<sub>t</sub>. This not only gives heavier tails in the returns, but also some tail thickness in the volatility process. This might actually be a favorable property. In SV_lev_st  ε<sub>t </sub>follows a skewed t-distribution, which captures skewness in returns, but also gives skewness in the volatility process. If ε<sub>t </sub>has negative skewness and ρ also is negative, which is the usual case, then there is positive skewness in the volatility process. This seems like a reasonable property, since big positive “jumps” in volatility are more likely to occur than large negative ones.   
+ <img src="./g18.png" alt="LaTex equation" width="100" height="20"> and ε<sub>t</sub> has some standardized continuous distribution. This looks like the formulation used to set up sdv_lev2, but here ε<sub>t</sub> is not necessarily normally distributed. In the SV_lev_t model a standardized t-distribution is used for ε<sub>t</sub>. This not only gives heavier tails in the returns, but also some tail thickness in the volatility process. This might actually be a favorable property. In SV_lev_st  ε<sub>t </sub>follows a skewed t-distribution, which captures skewness in returns, but also gives skewness in the volatility process. If ε<sub>t </sub>has negative skewness and ρ also is negative, which is the usual case, then there is positive skewness in the volatility process. This seems like a reasonable property, since big positive “jumps” in volatility are more likely to occur than large negative ones.   
  
  For models on this form <img src="./g19.png" alt="LaTex equation" width="700" height="25"> no matter which distribution we choose for ε<sub>t</sub>. When ε<sub>t</sub>  is not normally distributed, the distribution of h<sub>1</sub>|θ is unknown, so strictly speaking we cannot find an exact expression for p(<strong>X</strong>,<strong>h</strong>|θ) here. However it is still the case that E[h<sub>1</sub>] = 0 and <img src="./g20.png" alt="LaTex equation" width="200" height="25">, and by assuming that <img src="./g21.png" alt="LaTex equation" width="200" height="25">, we find an approximate expression for the joint density. Since p(h<sub>1</sub>|θ) is only a minor contributor to p(<strong>X</strong>,<strong>h</strong>|θ), the error is small. The distribution of X<sub>t</sub>|h<sub>t</sub> depends on the distribution used for ε<sub>t</sub>, as can be seen in the tpl-files, [sdv_t_lev.tpl][8] and [sdv_st_lev][9]. 
 
