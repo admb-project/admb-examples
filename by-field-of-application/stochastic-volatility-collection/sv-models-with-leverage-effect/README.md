@@ -102,15 +102,17 @@ the model may be written as:
  
 <img src="./g12.png" alt="LaTex equation" width="300" height="25">,
  
-<img src="./g13.png" alt="LaTex equation" width="300" height="25">, 
+<img src="./g13.png" alt="LaTex equation" width="600" height="25">, 
  
  where ε<sub>t</sub> and v<sub>t</sub> are iid N(0,1) by assumption.  
  
- Here it is seen that <img src="./g14.png" alt="LaTex equation" width="400" height="25">
+ Here it is seen that 
+ 
+ <img src="./g14.png" alt="LaTex equation" width="600" height="25">
  
  and
  
- <img src="./g15.png" alt="LaTex equation" width="600" height="25">), so we can easily find an expression for log p(<strong>X</strong>, <strong>h</strong>|θ), see [sdv_lev_2.tpl][5] for how this can be done.  
+ <img src="./g15.png" alt="LaTex equation" width="400" height="25">), so we can easily find an expression for log p(<strong>X</strong>, <strong>h</strong>|θ), see [sdv_lev_2.tpl][5] for how this can be done.  
  
  The two specifications for the Gaussian leverage model should give the same results. Comparing the par files [sdv_lev_1.par][6] and [sdv_lev_2.par][4], we see that the results are practically identical, as they should. However, it seems that sdv_lev_1 runs somewhat faster and that the difference in run time is increasing in the size of the data set. This suggests that it might be preferable to use the parametrization given in sdv_lev_1, at least for large data sets. This version may be less intuitive than the other and is less commonly used, but it might actually be preferable because of the run time issue.   
  
