@@ -60,16 +60,21 @@ All paths to  X<sub>t</sub> and h<sub>t+1</sub> goes via/through h<sub>t</sub>, 
  
  and we can write 
  
-  <img src="./g2.png" alt="LaTex equation" width="200" height="25">
+  <img src="./g2.png" alt="LaTex equation" width="150" height="25">
   
   where w<sub>t</sub> is standard normal and η<sub>t</sub> and w<sub>t</sub> are independent. Noting that 
+  
     <img src="./g3.png" alt="LaTex equation" width="200" height="25">,
     
-    the model can be written as: 
+   the model can be written as: 
  
- X<sub>t</sub> = σ<sub>X</sub> exp(h<sub>t</sub>/2)ρ(h<sub>t+1</sub> – ϕh<sub>t</sub>)/σ + σ<sub>X</sub> exp(h<sub>t</sub>/2) sqrt(1-ρ<sup>2</sup>)w<sub>t</sub>, 
+  <img src="./g4.png" alt="LaTex equation" width="600" height="25">, 
  
- h<sub>t+1</sub> = ϕh<sub>t</sub> + ση<sub>t</sub>, where w<sub>t</sub> and η<sub>t</sub> are iid N(0,1).   On this form we may use the formulation a) for the joint density function, and we see that  h<sub>1</sub> ̴ N(0,σ<sup>2</sup>/(1-ϕ<sup>2</sup>)), 
+  <img src="./g5.png" alt="LaTex equation" width="150" height="25">, 
+  
+  where w<sub>t</sub> and η<sub>t</sub> are iid N(0,1).   On this form we may use the formulation a) for the joint density function, and we see that   
+  
+  <img src="./g6.png" alt="LaTex equation" width="300" height="25">), 
  
  h<sub>t+1</sub>|h<sub>t</sub> ̴ N(ϕh<sub>t</sub>, σ<sup>2</sup>) and  X<sub>t</sub>|h<sub>t+1</sub>, h<sub>t</sub> ̴ N(σ<sub>X</sub>ρ exp(h<sub>t</sub>/2) (h<sub>t+1</sub> – ϕh<sub>t</sub>)/σ,
 
