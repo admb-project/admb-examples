@@ -72,13 +72,15 @@ All paths to  X<sub>t</sub> and h<sub>t+1</sub> goes via/through h<sub>t</sub>, 
  
   <img src="./g5.png" alt="LaTex equation" width="150" height="25">, 
   
-  where w<sub>t</sub> and η<sub>t</sub> are iid N(0,1).   On this form we may use the formulation a) for the joint density function, and we see that   
+  where w<sub>t</sub> and η<sub>t</sub> are iid N(0,1).   
+  
+  On this form we may use the formulation a) for the joint density function, and we see that   
   
   <img src="./g6.png" alt="LaTex equation" width="250" height="45">, 
   
   and
   
-  <img src="./g8.png" alt="LaTex equation" width="600" height="25">. 
+  <img src="./g7.png" alt="LaTex equation" width="600" height="25">. 
  
  Thus it is easy to find an expression for log p(<strong>X</strong>, <strong>h</strong>|θ) here. See [sdv_lev_1.tpl][4] for how this can be done.   
  
@@ -88,13 +90,19 @@ All paths to  X<sub>t</sub> and h<sub>t+1</sub> goes via/through h<sub>t</sub>, 
  
  we may write
  
- <img src="./g9.png" alt="LaTex equation" width="400" height="25">, 
+ <img src="./g9.png" alt="LaTex equation" width="200" height="25">, 
  
- where v<sub>t</sub> ̴ N(0,1) and vt is independent of ε<sub>t</sub>. Then, using that   ε<sub>t</sub> = Xt exp(-h<sub>t</sub>/2)/σ<sub>X</sub>, the model may be written as: 
+ where 
  
- X<sub>t</sub> = σ<sub>X</sub> exp(h<sub>t</sub>/2)ε<sub>t</sub> ,  
+<img src="./g10.png" alt="LaTex equation" width="100" height="25">,) and v<sub>t</sub> is independent of ε<sub>t</sub>. Then, using that
+
+<img src="./g11.png" alt="LaTex equation" width="300" height="25">,
+
+the model may be written as: 
  
- h<sub>t+1</sub> = ϕh<sub>t</sub> + σρX<sub>t</sub> exp(-h<sub>t</sub>/2)/σ<sub>X</sub> + σ sqrt(1-ρ2) v<sub>t</sub> , 
+<img src="./g12.png" alt="LaTex equation" width="300" height="25">
+ 
+<img src="./g13.png" alt="LaTex equation" width="300" height="25">, 
  
  where ε<sub>t</sub> and v<sub>t</sub> are iid N(0,1) by assumption.  
  
