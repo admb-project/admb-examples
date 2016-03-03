@@ -56,14 +56,14 @@ All paths to  X<sub>t</sub> and h<sub>t+1</sub> goes via/through h<sub>t</sub>, 
 ###<strong>The Gaussian leverage model</strong>
  In the Gaussian leverage model it is assumed that the pairs (ε<sub>t</sub>, η<sub>t</sub>) are iid bi-variate normally distributed, with standard normal marginals. This is the most popular leverage model and it is a discrete time version of models used in option pricing. 
  
- Then   <img src="./g1.png" alt="LaTex equation" width="400" height="25">) 
+ Then   <img src="./g1.png" alt="LaTex equation" width="200" height="25">
  
  and we can write 
  
-  <img src="./g2.png" alt="LaTex equation" width="400" height="25">
+  <img src="./g2.png" alt="LaTex equation" width="200" height="25">
   
   where w<sub>t</sub> is standard normal and η<sub>t</sub> and w<sub>t</sub> are independent. Noting that 
-    <img src="./g2.png" alt="LaTex equation" width="400" height="25">,
+    <img src="./g3.png" alt="LaTex equation" width="200" height="25">,
     
     the model can be written as: 
  
