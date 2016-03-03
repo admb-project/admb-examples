@@ -56,7 +56,16 @@ All paths to  X<sub>t</sub> and h<sub>t+1</sub> goes via/through h<sub>t</sub>, 
 ###<strong>The Gaussian leverage model</strong>
  In the Gaussian leverage model it is assumed that the pairs (ε<sub>t</sub>, η<sub>t</sub>) are iid bi-variate normally distributed, with standard normal marginals. This is the most popular leverage model and it is a discrete time version of models used in option pricing. 
  
- Then  ε<sub>t</sub>|η<sub>t</sub> ̴ N(ρη<sub>t</sub>, 1-ρ<sup>2</sup>) and we can write ε<sub>t</sub> =  ρη<sub>t</sub> + sqrt(1-ρ<sup>2</sup>)w<sub>t</sub>  where w<sub>t</sub> is standard normal and η<sub>t</sub> and w<sub>t</sub> are independent. Noting that η<sub>t</sub> = (h<sub>t+1</sub> – ϕh<sub>t</sub>)/σ, the model can be written as: 
+ Then   <img src="./g1.png" alt="LaTex equation" width="400" height="25">) 
+ 
+ and we can write 
+ 
+  <img src="./g2.png" alt="LaTex equation" width="400" height="25">
+  
+  where w<sub>t</sub> is standard normal and η<sub>t</sub> and w<sub>t</sub> are independent. Noting that 
+    <img src="./g2.png" alt="LaTex equation" width="400" height="25">,
+    
+    the model can be written as: 
  
  X<sub>t</sub> = σ<sub>X</sub> exp(h<sub>t</sub>/2)ρ(h<sub>t+1</sub> – ϕh<sub>t</sub>)/σ + σ<sub>X</sub> exp(h<sub>t</sub>/2) sqrt(1-ρ<sup>2</sup>)w<sub>t</sub>, 
  
