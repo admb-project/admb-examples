@@ -64,7 +64,7 @@ All paths to  X<sub>t</sub> and h<sub>t+1</sub> goes via/through h<sub>t</sub>, 
   
   where w<sub>t</sub> is standard normal and η<sub>t</sub> and w<sub>t</sub> are independent. Noting that 
   
-    <img src="./g3.png" alt="LaTex equation" width="200" height="25">,
+  <img src="./g3.png" alt="LaTex equation" width="200" height="25">,
     
    the model can be written as: 
  
@@ -74,11 +74,13 @@ All paths to  X<sub>t</sub> and h<sub>t+1</sub> goes via/through h<sub>t</sub>, 
   
   where w<sub>t</sub> and η<sub>t</sub> are iid N(0,1).   On this form we may use the formulation a) for the joint density function, and we see that   
   
-  <img src="./g6.png" alt="LaTex equation" width="300" height="25">), 
+  <img src="./g6.png" alt="LaTex equation" width="250" height="45">, 
  
- h<sub>t+1</sub>|h<sub>t</sub> ̴ N(ϕh<sub>t</sub>, σ<sup>2</sup>) and  X<sub>t</sub>|h<sub>t+1</sub>, h<sub>t</sub> ̴ N(σ<sub>X</sub>ρ exp(h<sub>t</sub>/2) (h<sub>t+1</sub> – ϕh<sub>t</sub>)/σ,
-
- σ<sub>X</sub><sup>2</sup> exp(h<sub>t</sub>) (1-ρ<sup>2</sup>)). 
+  <img src="./g7.png" alt="LaTex equation" width="600" height="25">,
+  
+  and
+  
+  <img src="./g8.png" alt="LaTex equation" width="200" height="25">. 
  
  Thus it is easy to find an expression for log p(<strong>X</strong>, <strong>h</strong>|θ) here. See [sdv_lev_1.tpl][1] for how this can be done.   
  
