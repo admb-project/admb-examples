@@ -19,18 +19,38 @@ Filed under: [Stochastic Volatility Collection][10]
 All paths to  X<sub>t</sub> and h<sub>t+1</sub> goes via/through h<sub>t</sub>, so the pair (X<sub>t</sub>, h<sub>t+1</sub>) is conditionally independent of previous variables given h<sub>t</sub>. 
    
   This leads to the following expression for the joint density: 
+  
  <img src="./probability1.png" alt="" width="380" height="25">
  
- This expression may be further simplified by factorizing  <img src="./probability2.png" alt="" width="130" height="20">. This can be done in two ways: 
+ This expression may be further simplified by factorizing  
  
- a. We can use that  <img src="./probability3.png" alt="" width="600" height="25"> and write the joint density as  <img src="./probability4.png" alt="" width="600" height="25"> This is represented in the folowing graph  
+ <img src="./probability2.png" alt="" width="130" height="20">.
+ 
+ This can be done in two ways: 
+ 
+ a. We can use that
+ 
+ <img src="./probability3.png" alt="" width="600" height="25">
+ 
+ and write the joint density as
+ 
+ <img src="./probability4.png" alt="" width="600" height="25"> 
+ 
+ This is represented in the folowing graph  
    ![Fig_2][2] 
   
-  b. Alternatively we can use <img src="./probability5.png" alt="" width="600" height="25">, which gives the following expression <img src="./probability6.png" alt="" width="600" height="25">. 
+  b. Alternatively we can use
+  
+  <img src="./probability5.png" alt="" width="600" height="25">, 
+  
+  which gives the following expression 
+  
+  <img src="./probability6.png" alt="" width="600" height="25">. 
   
   The graphical representation for this form is given by 
   
  ![Fig_3][3]
+ 
  The two forms should be equivalent, so it should in principle be possible to use both. However, as we shall see, it might be reasons to prefer one over the other.    
  
 ###<strong>The Gaussian leverage model</strong>
