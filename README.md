@@ -317,7 +317,7 @@ All examples currently available in the website
 [74]: state-space-models/stochastic-volatility-models-for-financial-time-series
 [76]: survival-analysis
 [77]: by-field-of-application/stochastic-volatility-collection/sv-models-with-leverage-effect
-[78]: simple-examples/tadpole-mortality-as-a-function-of-size.md
+[78]: simple-examples/tadpole-mortality
 [79]: text-books
 [80]: by-field-of-application/stochastic-volatility-collection/the-basic-sv-model-and-simple-extensions-1
 [81]: state-space-models/theta-logistic-population-growth-model
