@@ -75,16 +75,22 @@ All paths to  X<sub>t</sub> and h<sub>t+1</sub> goes via/through h<sub>t</sub>, 
   where w<sub>t</sub> and η<sub>t</sub> are iid N(0,1).   On this form we may use the formulation a) for the joint density function, and we see that   
   
   <img src="./g6.png" alt="LaTex equation" width="250" height="45">, 
- 
-  <img src="./g7.png" alt="LaTex equation" width="600" height="25">,
   
   and
   
-  <img src="./g8.png" alt="LaTex equation" width="200" height="25">. 
+  <img src="./g8.png" alt="LaTex equation" width="600" height="25">. 
  
- Thus it is easy to find an expression for log p(<strong>X</strong>, <strong>h</strong>|θ) here. See [sdv_lev_1.tpl][1] for how this can be done.   
+ Thus it is easy to find an expression for log p(<strong>X</strong>, <strong>h</strong>|θ) here. See [sdv_lev_1.tpl][4] for how this can be done.   
  
- Alternatively we may use the other version. Noting that η<sub>t</sub>|ε<sub>t</sub> ̴ N(ρε<sub>t</sub>, 1-ρ<sup>2</sup>), we may write η<sub>t</sub> =  ρε<sub>t</sub> + sqrt(1-ρ<sup>2</sup>) v<sub>t</sub>, where v<sub>t</sub> ̴ N(0,1) and vt is independent of ε<sub>t</sub>. Then, using that   ε<sub>t</sub> = Xt exp(-h<sub>t</sub>/2)/σ<sub>X</sub>, the model may be written as: 
+ Alternatively we may use the other version. Noting that
+ 
+ <img src="./g8.png" alt="LaTex equation" width="200" height="25">,
+ 
+ we may write
+ 
+ <img src="./g9.png" alt="LaTex equation" width="400" height="25">, 
+ 
+ where v<sub>t</sub> ̴ N(0,1) and vt is independent of ε<sub>t</sub>. Then, using that   ε<sub>t</sub> = Xt exp(-h<sub>t</sub>/2)/σ<sub>X</sub>, the model may be written as: 
  
  X<sub>t</sub> = σ<sub>X</sub> exp(h<sub>t</sub>/2)ε<sub>t</sub> ,  
  
@@ -92,9 +98,9 @@ All paths to  X<sub>t</sub> and h<sub>t+1</sub> goes via/through h<sub>t</sub>, 
  
  where ε<sub>t</sub> and v<sub>t</sub> are iid N(0,1) by assumption.  
  
- Here it is seen that h<sub>t+1</sub>|(X<sub>t</sub>, h<sub>t</sub>, θ) ̴ N(ϕh<sub>t</sub> + σρX<sub>t</sub> exp(-h<sub>t</sub>/2)/σX, σ2(1 - ρ2)) and  X<sub>t</sub>|(h<sub>t</sub>,θ) ̴ N(0, σ<sub>X</sub><sup>2</sup> exp(h<sub>t</sub>)), so we can easily find an expression for log p(<strong>X</strong>, <strong>h</strong>|θ), see [sdv_lev_2.tpl][2] for how this can be done.  
+ Here it is seen that h<sub>t+1</sub>|(X<sub>t</sub>, h<sub>t</sub>, θ) ̴ N(ϕh<sub>t</sub> + σρX<sub>t</sub> exp(-h<sub>t</sub>/2)/σX, σ2(1 - ρ2)) and  X<sub>t</sub>|(h<sub>t</sub>,θ) ̴ N(0, σ<sub>X</sub><sup>2</sup> exp(h<sub>t</sub>)), so we can easily find an expression for log p(<strong>X</strong>, <strong>h</strong>|θ), see [sdv_lev_2.tpl][5] for how this can be done.  
  
- The two specifications for the Gaussian leverage model should give the same results. Comparing the par files [sdv_lev_1.par][3] and [sdv_lev_2.par][4], we see that the results are practically identical, as they should. However, it seems that sdv_lev_1 runs somewhat faster and that the difference in run time is increasing in the size of the data set. This suggests that it might be preferable to use the parametrization given in sdv_lev_1, at least for large data sets. This version may be less intuitive than the other and is less commonly used, but it might actually be preferable because of the run time issue.   
+ The two specifications for the Gaussian leverage model should give the same results. Comparing the par files [sdv_lev_1.par][6] and [sdv_lev_2.par][4], we see that the results are practically identical, as they should. However, it seems that sdv_lev_1 runs somewhat faster and that the difference in run time is increasing in the size of the data set. This suggests that it might be preferable to use the parametrization given in sdv_lev_1, at least for large data sets. This version may be less intuitive than the other and is less commonly used, but it might actually be preferable because of the run time issue.   
  
 ###<strong>Leverage models with heavier tails and/or skewness</strong>
  
@@ -103,7 +109,7 @@ All paths to  X<sub>t</sub> and h<sub>t+1</sub> goes via/through h<sub>t</sub>, 
  
  where v<sub>t</sub> ̴ N(0, 1)and ε<sub>t</sub> has some standardized continuous distribution. This looks like the formulation used to set up sdv_lev2, but here ε<sub>t</sub> is not necessarily normally distributed. In the SV_lev_t model a standardized t-distribution is used for ε<sub>t</sub>. This not only gives heavier tails in the returns, but also some tail thickness in the volatility process. This might actually be a favorable property. In SV_lev_st  ε<sub>t </sub>follows a skewed t-distribution, which captures skewness in returns, but also gives skewness in the volatility process. If ε<sub>t </sub>has negative skewness and ρ also is negative, which is the usual case, then there is positive skewness in the volatility process. This seems like a reasonable property, since big positive “jumps” in volatility are more likely to occur than large negative ones.   
  
- For models on this form h<sub>t+1</sub>|(X<sub>t</sub>, h<sub>t</sub>, θ) ̴ N(ϕh<sub>t</sub> + σρX<sub>t</sub> exp(-h<sub>t</sub>/2)/σ<sub>X</sub>, σ<sup>2</sup>(1 – ρ<sup>2</sup>)) no matter which distribution we choose for ε<sub>t</sub>. When ε<sub>t</sub>  is not normally distributed, the distribution of h<sub>1</sub>|θ is unknown, so strictly speaking we cannot find an exact expression for p(<strong>X</strong>,<strong>h</strong>|θ) here. However it is still the case that E[h<sub>1</sub>] = 0 and Var(h<sub>1</sub>) = σ<sup>2</sup>/(1-ϕ<sup>2</sup>), and by assuming that h<sub>1</sub>|θ ̴ N(0,σ<sup>2</sup>/(1-ϕ<sup>2</sup>)), we find an approximate expression for the joint density. Since p(h<sub>1</sub>|θ) is only a minor contributor to p(<strong>X</strong>,<strong>h</strong>|θ), the error is small. The distribution of X<sub>t</sub>|h<sub>t</sub> depends on the distribution used for ε<sub>t</sub>, as can be seen in the tpl-files, [sdv_t_lev.tpl][5] and [sdv_st_lev][6]. 
+ For models on this form h<sub>t+1</sub>|(X<sub>t</sub>, h<sub>t</sub>, θ) ̴ N(ϕh<sub>t</sub> + σρX<sub>t</sub> exp(-h<sub>t</sub>/2)/σ<sub>X</sub>, σ<sup>2</sup>(1 – ρ<sup>2</sup>)) no matter which distribution we choose for ε<sub>t</sub>. When ε<sub>t</sub>  is not normally distributed, the distribution of h<sub>1</sub>|θ is unknown, so strictly speaking we cannot find an exact expression for p(<strong>X</strong>,<strong>h</strong>|θ) here. However it is still the case that E[h<sub>1</sub>] = 0 and Var(h<sub>1</sub>) = σ<sup>2</sup>/(1-ϕ<sup>2</sup>), and by assuming that h<sub>1</sub>|θ ̴ N(0,σ<sup>2</sup>/(1-ϕ<sup>2</sup>)), we find an approximate expression for the joint density. Since p(h<sub>1</sub>|θ) is only a minor contributor to p(<strong>X</strong>,<strong>h</strong>|θ), the error is small. The distribution of X<sub>t</sub>|h<sub>t</sub> depends on the distribution used for ε<sub>t</sub>, as can be seen in the tpl-files, [sdv_t_lev.tpl][8] and [sdv_st_lev][9]. 
 
 
 [1]: Figure-2.jpeg "Fig_1"
