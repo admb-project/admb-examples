@@ -94,7 +94,9 @@ All paths to  X<sub>t</sub> and h<sub>t+1</sub> goes via/through h<sub>t</sub>, 
  
  where 
  
-<img src="./g10.png" alt="LaTex equation" width="100" height="25">,) and v<sub>t</sub> is independent of ε<sub>t</sub>. Then, using that
+<img src="./g10.png" alt="LaTex equation" width="100" height="25">
+
+and v<sub>t</sub> is independent of ε<sub>t</sub>. Then, using that
 
 <img src="./g11.png" alt="LaTex equation" width="300" height="25">,
 
@@ -102,7 +104,7 @@ the model may be written as:
  
 <img src="./g12.png" alt="LaTex equation" width="300" height="25">,
  
-<img src="./g13.png" alt="LaTex equation" width="600" height="25">, 
+<img src="./g13.png" alt="LaTex equation" width="550" height="25">, 
  
  where ε<sub>t</sub> and v<sub>t</sub> are iid N(0,1) by assumption.  
  
@@ -112,19 +114,25 @@ the model may be written as:
  
  and
  
- <img src="./g15.png" alt="LaTex equation" width="400" height="25">), so we can easily find an expression for log p(<strong>X</strong>, <strong>h</strong>|θ), see [sdv_lev_2.tpl][5] for how this can be done.  
+ <img src="./g15.png" alt="LaTex equation" width="350" height="25">),
+ 
+ so we can easily find an expression for log p(<strong>X</strong>, <strong>h</strong>|θ), see [sdv_lev_2.tpl][5] for how this can be done.  
  
  The two specifications for the Gaussian leverage model should give the same results. Comparing the par files [sdv_lev_1.par][6] and [sdv_lev_2.par][4], we see that the results are practically identical, as they should. However, it seems that sdv_lev_1 runs somewhat faster and that the difference in run time is increasing in the size of the data set. This suggests that it might be preferable to use the parametrization given in sdv_lev_1, at least for large data sets. This version may be less intuitive than the other and is less commonly used, but it might actually be preferable because of the run time issue.   
  
 ###<strong>Leverage models with heavier tails and/or skewness</strong>
  
  The moments of returns in the Gaussian leverage model are the same as in the basic SV model. In order to model both leverage effect and heavier tails and/or skewness, the following specification is used: 
- <img src="./g16.png" alt="LaTex equation" width="300" height="25">, 
+ <img src="./g16.png" alt="LaTex equation" width="250" height="25">, 
 <img src="./g17.png" alt="LaTex equation" width="600" height="25">, 
  
- where v<sub>t</sub> ̴ N(0, 1)and ε<sub>t</sub> has some standardized continuous distribution. This looks like the formulation used to set up sdv_lev2, but here ε<sub>t</sub> is not necessarily normally distributed. In the SV_lev_t model a standardized t-distribution is used for ε<sub>t</sub>. This not only gives heavier tails in the returns, but also some tail thickness in the volatility process. This might actually be a favorable property. In SV_lev_st  ε<sub>t </sub>follows a skewed t-distribution, which captures skewness in returns, but also gives skewness in the volatility process. If ε<sub>t </sub>has negative skewness and ρ also is negative, which is the usual case, then there is positive skewness in the volatility process. This seems like a reasonable property, since big positive “jumps” in volatility are more likely to occur than large negative ones.   
+ where
  
- For models on this form h<sub>t+1</sub>|(X<sub>t</sub>, h<sub>t</sub>, θ) ̴ N(ϕh<sub>t</sub> + σρX<sub>t</sub> exp(-h<sub>t</sub>/2)/σ<sub>X</sub>, σ<sup>2</sup>(1 – ρ<sup>2</sup>)) no matter which distribution we choose for ε<sub>t</sub>. When ε<sub>t</sub>  is not normally distributed, the distribution of h<sub>1</sub>|θ is unknown, so strictly speaking we cannot find an exact expression for p(<strong>X</strong>,<strong>h</strong>|θ) here. However it is still the case that E[h<sub>1</sub>] = 0 and Var(h<sub>1</sub>) = σ<sup>2</sup>/(1-ϕ<sup>2</sup>), and by assuming that h<sub>1</sub>|θ ̴ N(0,σ<sup>2</sup>/(1-ϕ<sup>2</sup>)), we find an approximate expression for the joint density. Since p(h<sub>1</sub>|θ) is only a minor contributor to p(<strong>X</strong>,<strong>h</strong>|θ), the error is small. The distribution of X<sub>t</sub>|h<sub>t</sub> depends on the distribution used for ε<sub>t</sub>, as can be seen in the tpl-files, [sdv_t_lev.tpl][8] and [sdv_st_lev][9]. 
+ <img src="./g18.png" alt="LaTex equation" width="200" height="25">
+ 
+ )and ε<sub>t</sub> has some standardized continuous distribution. This looks like the formulation used to set up sdv_lev2, but here ε<sub>t</sub> is not necessarily normally distributed. In the SV_lev_t model a standardized t-distribution is used for ε<sub>t</sub>. This not only gives heavier tails in the returns, but also some tail thickness in the volatility process. This might actually be a favorable property. In SV_lev_st  ε<sub>t </sub>follows a skewed t-distribution, which captures skewness in returns, but also gives skewness in the volatility process. If ε<sub>t </sub>has negative skewness and ρ also is negative, which is the usual case, then there is positive skewness in the volatility process. This seems like a reasonable property, since big positive “jumps” in volatility are more likely to occur than large negative ones.   
+ 
+ For models on this form <img src="./g19.png" alt="LaTex equation" width="700" height="25"> no matter which distribution we choose for ε<sub>t</sub>. When ε<sub>t</sub>  is not normally distributed, the distribution of h<sub>1</sub>|θ is unknown, so strictly speaking we cannot find an exact expression for p(<strong>X</strong>,<strong>h</strong>|θ) here. However it is still the case that E[h<sub>1</sub>] = 0 and Var(h<sub>1</sub>) = σ<sup>2</sup>/(1-ϕ<sup>2</sup>), and by assuming that <img src="./g21.png" alt="LaTex equation" width="200" height="25">, we find an approximate expression for the joint density. Since p(h<sub>1</sub>|θ) is only a minor contributor to p(<strong>X</strong>,<strong>h</strong>|θ), the error is small. The distribution of X<sub>t</sub>|h<sub>t</sub> depends on the distribution used for ε<sub>t</sub>, as can be seen in the tpl-files, [sdv_t_lev.tpl][8] and [sdv_st_lev][9]. 
 
 
 [1]: Figure-2.jpeg "Fig_1"
