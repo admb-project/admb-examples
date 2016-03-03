@@ -68,9 +68,9 @@ All paths to  X<sub>t</sub> and h<sub>t+1</sub> goes via/through h<sub>t</sub>, 
     
    the model can be written as: 
  
-  <img src="./g4.png" alt="LaTex equation" width="600" height="25">, 
+  <img src="./g4.png" alt="LaTex equation" width="400" height="25">, 
  
-  <img src="./g5.png" alt="LaTex equation" width="150" height="25">, 
+  <img src="./g5.png" alt="LaTex equation" width="500" height="25">, 
   
   where w<sub>t</sub> and η<sub>t</sub> are iid N(0,1).   
   
