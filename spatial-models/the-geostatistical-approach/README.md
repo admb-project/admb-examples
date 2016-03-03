@@ -102,14 +102,14 @@ The code for the above model is given in "spatial_simple.tpl". You should try th
     * Let β be a vector; read in covariate (design) matrix X 
     * Insert linear predictor in expectation value  <img src="./8.png" alt="LaTex equation" width="180" height="25">
     * Modify "spatial_simple.R" so that X is generated and written to the .dat file.
-
+'''
 >DATA_SECTION
 >>init_int p		// Number of fixed effects (b's)
 >>init_matrix X(1,n,1,p)// Covariate matrix
 >
 >SEPARABLE_FUNCTION void normal_loglik()
 >>dvariable mu = X(u)*beta + sigma*u_i;
-
+'''
 * **Negative binomial response **Go back to "spatial_simple.tpl" and replace the Gaussian response with a negative binomial distribution. We now longer have an additive measurement error, but instead a GLMM, where it is natural to write the model in an hierarchical form
 
 <img src="./9.png" alt="LaTex equation" width="250" height="25">
@@ -124,13 +124,13 @@ The code for the above model is given in "spatial_simple.tpl". You should try th
     * For τ=1 the negative binomial distribution collapses to the Poisson distribution and τ=10 is a large deviation from Poisson (try to plot the probability function for τ=10).
     * τ should be given phase 2, while parameters governing the latent field (σ and a) should be postponed to phase 3  
 
->PARAMETER_SECTION
->>init_bounded_number tau(1.0,10,2)            // Over dispersion
+ PARAMETER_SECTION
+  init_bounded_number tau(1.0,10,2)            // Over dispersion
 
->SEPARABLE_FUNCTION void negbin_loglik(...,const dvariable& tau)
->>dvariable sigma = exp(log_sigma);
->>dvariable mu = exp(beta + sigma*u_i);     // Mean of Y
->>l -= log_negbinomial_density(Y(i),mu,tau);
+ SEPARABLE_FUNCTION void negbin_loglik(...,const dvariable& tau)
+  dvariable sigma = exp(log_sigma);
+  dvariable mu = exp(beta + sigma*u_i);     // Mean of Y
+  l -= log_negbinomial_density(Y(i),mu,tau);
 
 * **Code** ADMB (spatial_negbin.tpl) and R code for (spatial_negbin.R) are provided.  
 
