@@ -1,0 +1,21 @@
+ADMB Video Release Information
+This is the November 2011 release. 
+ 
+Six videos were updated on July 29, 2011 from the original July 15 release.  Those videos are:
+
+ADMB - Downloading Video
+Quick Overview
+ADMB 1 - Data           
+ADMB 2                 
+ADMB 3
+ADMB 4 - Modeling       
+
+Three additional videos have been changed since the July 29, 2011 release.  Those videos are:
+
+Bounds
+Default Convergence Criterion
+Starting Values
+
+In addition to revising three videos since the July 29, 2011 release, 
+those revised videos are now accompanied with printable handouts of the slides 
+and script of the audio used for those videos.
